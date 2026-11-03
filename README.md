@@ -1,16 +1,3 @@
----
-titulo: README do Vault
-aliases:
-  - Guia
-  - Guia geral
-tipo: guia
-nivel: todos
-criado: 2026-10-25
-tags:
-  - guia
-  - moc
----
-
 # Guia dos Materiais
 
 > [!abstract] Como usar
