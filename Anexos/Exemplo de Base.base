@@ -1,0 +1,25 @@
+filters:
+  and:
+    - file.inFolder("Obsidian-Vault/06 - Plugins Core")
+formulas:
+  rotulo: 'tipo + " / " + nivel'
+properties:
+  nivel:
+    displayName: "Nível"
+  formula.rotulo:
+    displayName: "Rótulo"
+views:
+  - type: table
+    name: "Plugins core"
+    order:
+      - file.name
+      - nivel
+      - formula.rotulo
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: cards
+    name: "Cartões"
+    order:
+      - file.name
+      - nivel

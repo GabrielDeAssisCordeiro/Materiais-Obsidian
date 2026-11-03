@@ -1,0 +1,579 @@
+{
+  "nodes": [
+    {
+      "id": "t0",
+      "type": "text",
+      "text": "**1. Fundamentos**",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 50,
+      "color": "1"
+    },
+    {
+      "id": "f0",
+      "type": "file",
+      "file": "Cpp-Vault/01 - Fundamentos/MOC - Fundamentos - Cpp.md",
+      "x": 0,
+      "y": 60,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v0",
+      "fromNode": "t0",
+      "fromSide": "bottom",
+      "toNode": "f0",
+      "toSide": "top"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "text": "**2. Básico**",
+      "x": 420,
+      "y": 0,
+      "width": 300,
+      "height": 50,
+      "color": "2"
+    },
+    {
+      "id": "f1",
+      "type": "file",
+      "file": "Cpp-Vault/02 - Básico da Linguagem/MOC - Básico da Linguagem - Cpp.md",
+      "x": 420,
+      "y": 60,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v1",
+      "fromNode": "t1",
+      "fromSide": "bottom",
+      "toNode": "f1",
+      "toSide": "top"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "text": "**3. Memória**",
+      "x": 840,
+      "y": 0,
+      "width": 300,
+      "height": 50,
+      "color": "3"
+    },
+    {
+      "id": "f2",
+      "type": "file",
+      "file": "Cpp-Vault/03 - Ponteiros e Memória/MOC - Ponteiros e Memória.md",
+      "x": 840,
+      "y": 60,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v2",
+      "fromNode": "t2",
+      "fromSide": "bottom",
+      "toNode": "f2",
+      "toSide": "top"
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "text": "**4. POO**",
+      "x": 1260,
+      "y": 0,
+      "width": 300,
+      "height": 50,
+      "color": "4"
+    },
+    {
+      "id": "f3",
+      "type": "file",
+      "file": "Cpp-Vault/04 - Classes e POO/MOC - Classes e POO.md",
+      "x": 1260,
+      "y": 60,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v3",
+      "fromNode": "t3",
+      "fromSide": "bottom",
+      "toNode": "f3",
+      "toSide": "top"
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "text": "**5. RAII e Move**",
+      "x": 1260,
+      "y": 260,
+      "width": 300,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "f4",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/MOC - RAII e Move.md",
+      "x": 1260,
+      "y": 320,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v4",
+      "fromNode": "t4",
+      "fromSide": "bottom",
+      "toNode": "f4",
+      "toSide": "top"
+    },
+    {
+      "id": "t5",
+      "type": "text",
+      "text": "**6. STL e Ranges**",
+      "x": 840,
+      "y": 260,
+      "width": 300,
+      "height": 50,
+      "color": "6"
+    },
+    {
+      "id": "f5",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/MOC - STL e Ranges.md",
+      "x": 840,
+      "y": 320,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v5",
+      "fromNode": "t5",
+      "fromSide": "bottom",
+      "toNode": "f5",
+      "toSide": "top"
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "text": "**7. Templates**",
+      "x": 420,
+      "y": 260,
+      "width": 300,
+      "height": 50,
+      "color": "1"
+    },
+    {
+      "id": "f6",
+      "type": "file",
+      "file": "Cpp-Vault/06 - Templates e Concepts/MOC - Templates e Concepts.md",
+      "x": 420,
+      "y": 320,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v6",
+      "fromNode": "t6",
+      "fromSide": "bottom",
+      "toNode": "f6",
+      "toSide": "top"
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "text": "**8. Erros**",
+      "x": 0,
+      "y": 260,
+      "width": 300,
+      "height": 50,
+      "color": "2"
+    },
+    {
+      "id": "f7",
+      "type": "file",
+      "file": "Cpp-Vault/08 - Erros e Exceções/MOC - Erros e Exceções.md",
+      "x": 0,
+      "y": 320,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v7",
+      "fromNode": "t7",
+      "fromSide": "bottom",
+      "toNode": "f7",
+      "toSide": "top"
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "text": "**8b. Strings e IO**",
+      "x": 0,
+      "y": 520,
+      "width": 300,
+      "height": 50,
+      "color": "3"
+    },
+    {
+      "id": "f8",
+      "type": "file",
+      "file": "Cpp-Vault/09 - Strings e IO/MOC - Strings e IO.md",
+      "x": 0,
+      "y": 580,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v8",
+      "fromNode": "t8",
+      "fromSide": "bottom",
+      "toNode": "f8",
+      "toSide": "top"
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "text": "**9. Organização**",
+      "x": 420,
+      "y": 520,
+      "width": 300,
+      "height": 50,
+      "color": "4"
+    },
+    {
+      "id": "f9",
+      "type": "file",
+      "file": "Cpp-Vault/11 - Módulos e Organização/MOC - Módulos e Organização.md",
+      "x": 420,
+      "y": 580,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v9",
+      "fromNode": "t9",
+      "fromSide": "bottom",
+      "toNode": "f9",
+      "toSide": "top"
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "text": "**9b. Build**",
+      "x": 840,
+      "y": 520,
+      "width": 300,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "f10",
+      "type": "file",
+      "file": "Cpp-Vault/12 - Build e Ferramentas/MOC - Build e Ferramentas.md",
+      "x": 840,
+      "y": 580,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v10",
+      "fromNode": "t10",
+      "fromSide": "bottom",
+      "toNode": "f10",
+      "toSide": "top"
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "text": "**10. Testes**",
+      "x": 1260,
+      "y": 520,
+      "width": 300,
+      "height": 50,
+      "color": "6"
+    },
+    {
+      "id": "f11",
+      "type": "file",
+      "file": "Cpp-Vault/13 - Testes e Qualidade/MOC - Testes e Qualidade - Cpp.md",
+      "x": 1260,
+      "y": 580,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v11",
+      "fromNode": "t11",
+      "fromSide": "bottom",
+      "toNode": "f11",
+      "toSide": "top"
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "text": "**11. Concorrência**",
+      "x": 1260,
+      "y": 780,
+      "width": 300,
+      "height": 50,
+      "color": "1"
+    },
+    {
+      "id": "f12",
+      "type": "file",
+      "file": "Cpp-Vault/10 - Concorrência e Corrotinas/MOC - Concorrência e Corrotinas.md",
+      "x": 1260,
+      "y": 840,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v12",
+      "fromNode": "t12",
+      "fromSide": "bottom",
+      "toNode": "f12",
+      "toSide": "top"
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "text": "**12. Avançado**",
+      "x": 840,
+      "y": 780,
+      "width": 300,
+      "height": 50,
+      "color": "2"
+    },
+    {
+      "id": "f13",
+      "type": "file",
+      "file": "Cpp-Vault/16 - Avançado e Performance/MOC - Avançado e Performance - Cpp.md",
+      "x": 840,
+      "y": 840,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v13",
+      "fromNode": "t13",
+      "fromSide": "bottom",
+      "toNode": "f13",
+      "toSide": "top"
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "text": "**12b. Bibliotecas**",
+      "x": 420,
+      "y": 780,
+      "width": 300,
+      "height": 50,
+      "color": "3"
+    },
+    {
+      "id": "f14",
+      "type": "file",
+      "file": "Cpp-Vault/14 - Bibliotecas/MOC - Bibliotecas.md",
+      "x": 420,
+      "y": 840,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v14",
+      "fromNode": "t14",
+      "fromSide": "bottom",
+      "toNode": "f14",
+      "toSide": "top"
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "text": "**12c. Áreas**",
+      "x": 0,
+      "y": 780,
+      "width": 300,
+      "height": 50,
+      "color": "4"
+    },
+    {
+      "id": "f15",
+      "type": "file",
+      "file": "Cpp-Vault/15 - Áreas de Aplicação/MOC - Áreas de Aplicação - Cpp.md",
+      "x": 0,
+      "y": 840,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v15",
+      "fromNode": "t15",
+      "fromSide": "bottom",
+      "toNode": "f15",
+      "toSide": "top"
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "text": "**Projetos**",
+      "x": 0,
+      "y": 1040,
+      "width": 300,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "f16",
+      "type": "file",
+      "file": "Cpp-Vault/17 - Projetos/MOC - Projetos - Cpp.md",
+      "x": 0,
+      "y": 1100,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "v16",
+      "fromNode": "t16",
+      "fromSide": "bottom",
+      "toNode": "f16",
+      "toSide": "top"
+    },
+    {
+      "id": "note",
+      "type": "text",
+      "text": "Marcos: ao fim de cada fase, faça a lista de exercícios de [[MOC - Exercícios]] e um projeto de [[MOC - Projetos]].",
+      "x": 0,
+      "y": 1320,
+      "width": 700,
+      "height": 80,
+      "color": "6"
+    },
+    {
+      "id": "tr",
+      "type": "file",
+      "file": "Cpp-Vault/00 - Início/Trilha de Estudos - Cpp.md",
+      "x": 780,
+      "y": 1320,
+      "width": 300,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "p0",
+      "fromNode": "f0",
+      "fromSide": "right",
+      "toNode": "t1",
+      "toSide": "left"
+    },
+    {
+      "id": "p1",
+      "fromNode": "f1",
+      "fromSide": "right",
+      "toNode": "t2",
+      "toSide": "left"
+    },
+    {
+      "id": "p2",
+      "fromNode": "f2",
+      "fromSide": "right",
+      "toNode": "t3",
+      "toSide": "left"
+    },
+    {
+      "id": "p3",
+      "fromNode": "f3",
+      "fromSide": "bottom",
+      "toNode": "t4",
+      "toSide": "top"
+    },
+    {
+      "id": "p4",
+      "fromNode": "f4",
+      "fromSide": "left",
+      "toNode": "t5",
+      "toSide": "right"
+    },
+    {
+      "id": "p5",
+      "fromNode": "f5",
+      "fromSide": "left",
+      "toNode": "t6",
+      "toSide": "right"
+    },
+    {
+      "id": "p6",
+      "fromNode": "f6",
+      "fromSide": "left",
+      "toNode": "t7",
+      "toSide": "right"
+    },
+    {
+      "id": "p7",
+      "fromNode": "f7",
+      "fromSide": "bottom",
+      "toNode": "t8",
+      "toSide": "top"
+    },
+    {
+      "id": "p8",
+      "fromNode": "f8",
+      "fromSide": "right",
+      "toNode": "t9",
+      "toSide": "left"
+    },
+    {
+      "id": "p9",
+      "fromNode": "f9",
+      "fromSide": "right",
+      "toNode": "t10",
+      "toSide": "left"
+    },
+    {
+      "id": "p10",
+      "fromNode": "f10",
+      "fromSide": "right",
+      "toNode": "t11",
+      "toSide": "left"
+    },
+    {
+      "id": "p11",
+      "fromNode": "f11",
+      "fromSide": "bottom",
+      "toNode": "t12",
+      "toSide": "top"
+    },
+    {
+      "id": "p12",
+      "fromNode": "f12",
+      "fromSide": "left",
+      "toNode": "t13",
+      "toSide": "right"
+    },
+    {
+      "id": "p13",
+      "fromNode": "f13",
+      "fromSide": "left",
+      "toNode": "t14",
+      "toSide": "right"
+    },
+    {
+      "id": "p14",
+      "fromNode": "f14",
+      "fromSide": "left",
+      "toNode": "t15",
+      "toSide": "right"
+    },
+    {
+      "id": "p15",
+      "fromNode": "f15",
+      "fromSide": "bottom",
+      "toNode": "t16",
+      "toSide": "top"
+    }
+  ]
+}

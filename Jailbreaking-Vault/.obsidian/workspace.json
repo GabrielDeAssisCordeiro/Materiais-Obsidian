@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "25a689d7e10b0ad1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3a2e770d42b6ed6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19a689a08f7452a9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b15e9510b2f0471",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7dc2f01d675547b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a452eac9c0ee51b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "909b52bb072279de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "8f73e8e6c66faa36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e34509c5321f1513",
+    "type": "split",
+    "children": [
+      {
+        "id": "bda7c2f0cd095020",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60b2b649e1519275",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "284acb037a82e72a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "bf525630cc516e3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4e37c4be2225549a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "66d03ad74d57385d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "19a689a08f7452a9",
+  "lastOpenFiles": [
+    "00 - Início Aqui/Plano de Estudos.md",
+    "09 - Exercícios e Avaliações/Desafios Práticos.md",
+    "09 - Exercícios e Avaliações/Questionário de Fundamentos.md",
+    "09 - Exercícios e Avaliações/Projeto Final.md",
+    "Templates/Template de Vulnerabilidade.md",
+    "Templates/Template de Laboratório.md",
+    "Templates/Template de Estudo.md",
+    "08 - Pesquisa e Referências/OWASP para Aplicações de LLM.md",
+    "08 - Pesquisa e Referências/MITRE ATLAS.md",
+    "08 - Pesquisa e Referências/Glossário.md",
+    "08 - Pesquisa e Referências/Artigos Científicos.md",
+    "07 - Defesa e Mitigação/Validação de Entradas e Saídas.md",
+    "07 - Defesa e Mitigação/Segurança de Agentes.md",
+    "07 - Defesa e Mitigação/Monitoramento e Resposta.md",
+    "07 - Defesa e Mitigação/Defesa em Camadas.md",
+    "06 - Laboratórios/README - Kit de Laboratório.md",
+    "06 - Laboratórios/Laboratório 05 - Avaliação Comparativa.md",
+    "06 - Laboratórios/Laboratório 04 - Defesa em Camadas.md",
+    "06 - Laboratórios/Laboratório 03 - Prompt Injection.md",
+    "06 - Laboratórios/Laboratório 02 - Robustez a Instruções.md",
+    "06 - Laboratórios/Laboratório 01 - Comportamento de Recusa.md",
+    "05 - Red Teaming/Relatório de Vulnerabilidades.md",
+    "05 - Red Teaming/Planejamento de Avaliações.md",
+    "05 - Red Teaming/Métricas e Critérios de Sucesso.md",
+    "05 - Red Teaming/Metodologia de Testes.md",
+    "04 - Prompt Injection/Injeção Indireta.md"
+  ]
+}

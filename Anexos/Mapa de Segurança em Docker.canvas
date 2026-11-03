@@ -1,0 +1,304 @@
+{
+  "nodes": [
+    {
+      "id": "0000000000000001",
+      "type": "text",
+      "text": "# Menor privilégio\nCamadas de defesa em Docker",
+      "x": -160,
+      "y": -60,
+      "width": 320,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "0000000000000064",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Containers não-root.md",
+      "x": 470,
+      "y": -50,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000065",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Sistema de arquivos somente leitura.md",
+      "x": 432,
+      "y": 162,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000066",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Capabilities Linux.md",
+      "x": 324,
+      "y": 348,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000067",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Opções security-opt e no-new-privileges.md",
+      "x": 160,
+      "y": 486,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000068",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Seccomp - Docker.md",
+      "x": -43,
+      "y": 560,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000069",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/AppArmor e SELinux.md",
+      "x": -257,
+      "y": 560,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "000000000000006a",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/User namespaces e userns-remap.md",
+      "x": -459,
+      "y": 486,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "000000000000006b",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Gerenciamento de segredos.md",
+      "x": -624,
+      "y": 348,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "000000000000006c",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Varredura de vulnerabilidades com Trivy e Grype.md",
+      "x": -732,
+      "y": 162,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "000000000000006d",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Docker Scout.md",
+      "x": -770,
+      "y": -50,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "000000000000006e",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Assinatura de imagens com Cosign e Content Trust.md",
+      "x": -732,
+      "y": -262,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "000000000000006f",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Superfície de ataque e imagens mínimas.md",
+      "x": -624,
+      "y": -448,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000070",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Proteção do docker.sock.md",
+      "x": -460,
+      "y": -586,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000071",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Riscos do --privileged.md",
+      "x": -257,
+      "y": -660,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000072",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Escape de container.md",
+      "x": -43,
+      "y": -660,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000073",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/CIS Docker Benchmark e Docker Bench for Security.md",
+      "x": 159,
+      "y": -586,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000074",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Hardening do host Docker.md",
+      "x": 324,
+      "y": -448,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "0000000000000075",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/Checklist de segurança de containers.md",
+      "x": 432,
+      "y": -262,
+      "width": 300,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000000003e8",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "0000000000000064",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003e9",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "0000000000000065",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003ea",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "0000000000000066",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003eb",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "0000000000000067",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003ec",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "0000000000000068",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003ed",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "0000000000000069",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003ee",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "000000000000006a",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003ef",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "000000000000006b",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003f0",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "000000000000006c",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003f1",
+      "fromNode": "0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "000000000000006d",
+      "toSide": "top"
+    },
+    {
+      "id": "00000000000003f2",
+      "fromNode": "0000000000000001",
+      "fromSide": "top",
+      "toNode": "000000000000006e",
+      "toSide": "bottom"
+    },
+    {
+      "id": "00000000000003f3",
+      "fromNode": "0000000000000001",
+      "fromSide": "top",
+      "toNode": "000000000000006f",
+      "toSide": "bottom"
+    },
+    {
+      "id": "00000000000003f4",
+      "fromNode": "0000000000000001",
+      "fromSide": "top",
+      "toNode": "0000000000000070",
+      "toSide": "bottom"
+    },
+    {
+      "id": "00000000000003f5",
+      "fromNode": "0000000000000001",
+      "fromSide": "top",
+      "toNode": "0000000000000071",
+      "toSide": "bottom"
+    },
+    {
+      "id": "00000000000003f6",
+      "fromNode": "0000000000000001",
+      "fromSide": "top",
+      "toNode": "0000000000000072",
+      "toSide": "bottom"
+    },
+    {
+      "id": "00000000000003f7",
+      "fromNode": "0000000000000001",
+      "fromSide": "top",
+      "toNode": "0000000000000073",
+      "toSide": "bottom"
+    },
+    {
+      "id": "00000000000003f8",
+      "fromNode": "0000000000000001",
+      "fromSide": "top",
+      "toNode": "0000000000000074",
+      "toSide": "bottom"
+    },
+    {
+      "id": "00000000000003f9",
+      "fromNode": "0000000000000001",
+      "fromSide": "top",
+      "toNode": "0000000000000075",
+      "toSide": "bottom"
+    }
+  ]
+}

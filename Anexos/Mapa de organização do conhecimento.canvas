@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "cap",
+      "type": "text",
+      "text": "## Captura\nGuardar rápido",
+      "x": -600,
+      "y": -45,
+      "width": 240,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "pro",
+      "type": "text",
+      "text": "## Processamento\nReescrever e atomizar",
+      "x": -250,
+      "y": -45,
+      "width": 240,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "con",
+      "type": "text",
+      "text": "## Conexão\nLinks, MOCs e grafo",
+      "x": 100,
+      "y": -45,
+      "width": 240,
+      "height": 90,
+      "color": "3"
+    },
+    {
+      "id": "sai",
+      "type": "text",
+      "text": "## Saída\nTextos, projetos, decisões",
+      "x": 450,
+      "y": -45,
+      "width": 240,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "f1",
+      "type": "file",
+      "file": "Obsidian-Vault/11 - Fluxos de Trabalho/Captura, processamento, conexão e saída.md",
+      "x": -170,
+      "y": -300,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "f2",
+      "type": "file",
+      "file": "Obsidian-Vault/03 - Links e Organização/Zettelkasten.md",
+      "x": -600,
+      "y": 150,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f3",
+      "type": "file",
+      "file": "Obsidian-Vault/03 - Links e Organização/Notas atômicas.md",
+      "x": -250,
+      "y": 150,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f4",
+      "type": "file",
+      "file": "Obsidian-Vault/03 - Links e Organização/MOCs.md",
+      "x": 100,
+      "y": 150,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f5",
+      "type": "file",
+      "file": "Obsidian-Vault/04 - Funções/Graph view.md",
+      "x": 100,
+      "y": 300,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f6",
+      "type": "file",
+      "file": "Obsidian-Vault/03 - Links e Organização/Método PARA.md",
+      "x": 450,
+      "y": 150,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f7",
+      "type": "file",
+      "file": "Obsidian-Vault/03 - Links e Organização/Pastas, tags ou links.md",
+      "x": 450,
+      "y": 300,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "f8",
+      "type": "file",
+      "file": "Obsidian-Vault/04 - Funções/Notas diárias.md",
+      "x": -600,
+      "y": 300,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f9",
+      "type": "file",
+      "file": "Obsidian-Vault/03 - Links e Organização/Properties.md",
+      "x": -250,
+      "y": 300,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "cap",
+      "toNode": "pro",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "passa a"
+    },
+    {
+      "id": "e2",
+      "fromNode": "pro",
+      "toNode": "con",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "vira"
+    },
+    {
+      "id": "e3",
+      "fromNode": "con",
+      "toNode": "sai",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "alimenta"
+    },
+    {
+      "id": "e4",
+      "fromNode": "f1",
+      "toNode": "pro"
+    },
+    {
+      "id": "e5",
+      "fromNode": "cap",
+      "toNode": "f8"
+    },
+    {
+      "id": "e6",
+      "fromNode": "pro",
+      "toNode": "f3"
+    },
+    {
+      "id": "e7",
+      "fromNode": "pro",
+      "toNode": "f9"
+    },
+    {
+      "id": "e8",
+      "fromNode": "cap",
+      "toNode": "f2"
+    },
+    {
+      "id": "e9",
+      "fromNode": "con",
+      "toNode": "f4"
+    },
+    {
+      "id": "e10",
+      "fromNode": "con",
+      "toNode": "f5"
+    },
+    {
+      "id": "e11",
+      "fromNode": "sai",
+      "toNode": "f6"
+    },
+    {
+      "id": "e12",
+      "fromNode": "sai",
+      "toNode": "f7"
+    }
+  ]
+}

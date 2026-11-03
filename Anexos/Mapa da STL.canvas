@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "c",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/Visão Geral da STL.md",
+      "x": -130,
+      "y": 0,
+      "width": 300,
+      "height": 70,
+      "color": "4"
+    },
+    {
+      "id": "g0",
+      "type": "text",
+      "text": "**Contêineres**",
+      "x": -700,
+      "y": -400,
+      "width": 300,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "i0_0",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/vector.md",
+      "x": -700,
+      "y": -300,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i0_1",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/deque.md",
+      "x": -360,
+      "y": -300,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i0_2",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/list e forward_list.md",
+      "x": -700,
+      "y": -220,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i0_3",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/map e set.md",
+      "x": -360,
+      "y": -220,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i0_4",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/unordered_map e unordered_set.md",
+      "x": -700,
+      "y": -140,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i0_5",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/Adaptadores de Contêiner.md",
+      "x": -360,
+      "y": -140,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i0_6",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/Escolhendo um Contêiner.md",
+      "x": -700,
+      "y": -60,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "text",
+      "text": "**Algoritmos e iteração**",
+      "x": 300,
+      "y": -400,
+      "width": 300,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "i1_0",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/Iteradores e Categorias.md",
+      "x": 300,
+      "y": -300,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i1_1",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/Algoritmos da STL.md",
+      "x": 640,
+      "y": -300,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i1_2",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/Lambdas e Captura.md",
+      "x": 300,
+      "y": -220,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i1_3",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/Ranges e Views.md",
+      "x": 640,
+      "y": -220,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i1_4",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/Complexidade e Invalidação de Iteradores.md",
+      "x": 300,
+      "y": -140,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "text": "**Tipos de vocabulário**",
+      "x": -130,
+      "y": 200,
+      "width": 300,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "i2_0",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/optional.md",
+      "x": -130,
+      "y": 300,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i2_1",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/variant.md",
+      "x": 210,
+      "y": 300,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i2_2",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/expected.md",
+      "x": -130,
+      "y": 380,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i2_3",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/tuple e pair.md",
+      "x": 210,
+      "y": 380,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i2_4",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/std any.md",
+      "x": -130,
+      "y": 460,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i2_5",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/span.md",
+      "x": 210,
+      "y": 460,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i2_6",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/std function e Functors.md",
+      "x": -130,
+      "y": 540,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "i2_7",
+      "type": "file",
+      "file": "Cpp-Vault/07 - STL e Ranges/bitset.md",
+      "x": 210,
+      "y": 540,
+      "width": 300,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "ge0",
+      "fromNode": "c",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "right"
+    },
+    {
+      "id": "ge1",
+      "fromNode": "c",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "left"
+    },
+    {
+      "id": "ge2",
+      "fromNode": "c",
+      "fromSide": "bottom",
+      "toNode": "g2",
+      "toSide": "top"
+    }
+  ]
+}

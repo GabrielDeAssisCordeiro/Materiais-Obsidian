@@ -1,0 +1,313 @@
+{
+  "nodes": [
+    {
+      "id": "rec",
+      "type": "text",
+      "text": "**Recurso**\nmemória, arquivo, socket, lock",
+      "x": -130,
+      "y": -420,
+      "width": 300,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "raii",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/RAII.md",
+      "x": -130,
+      "y": -250,
+      "width": 300,
+      "height": 70,
+      "color": "4"
+    },
+    {
+      "id": "r035",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/Regra do 0, 3 e 5.md",
+      "x": -130,
+      "y": -100,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "cop",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/Construtores de Cópia e Atribuição.md",
+      "x": -560,
+      "y": -100,
+      "width": 330,
+      "height": 60
+    },
+    {
+      "id": "mov",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/Semântica de Movimento.md",
+      "x": -130,
+      "y": 60,
+      "width": 300,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "smv",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/std move e std forward.md",
+      "x": -560,
+      "y": 60,
+      "width": 330,
+      "height": 60
+    },
+    {
+      "id": "rvo",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/Copy Elision e RVO.md",
+      "x": 300,
+      "y": 60,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "noex",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/noexcept e Movimento.md",
+      "x": -130,
+      "y": 200,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "fwd",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/Referências Universais e Perfect Forwarding.md",
+      "x": -640,
+      "y": 200,
+      "width": 420,
+      "height": 60
+    },
+    {
+      "id": "uni",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/unique_ptr.md",
+      "x": -560,
+      "y": -250,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "sha",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/shared_ptr.md",
+      "x": 300,
+      "y": -250,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "wea",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/weak_ptr.md",
+      "x": 620,
+      "y": -250,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "mk",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/make_unique e make_shared.md",
+      "x": 620,
+      "y": -100,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "del",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/Deleters Customizados.md",
+      "x": -560,
+      "y": -420,
+      "width": 300,
+      "height": 60
+    },
+    {
+      "id": "cic",
+      "type": "file",
+      "file": "Cpp-Vault/05 - RAII e Move/Ciclos de Referência.md",
+      "x": 620,
+      "y": -420,
+      "width": 300,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "new",
+      "type": "file",
+      "file": "Cpp-Vault/03 - Ponteiros e Memória/new e delete.md",
+      "x": -1000,
+      "y": -250,
+      "width": 300,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "vaz",
+      "type": "file",
+      "file": "Cpp-Vault/03 - Ponteiros e Memória/Vazamentos e Dangling Pointers.md",
+      "x": -1000,
+      "y": -100,
+      "width": 340,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "exc",
+      "type": "file",
+      "file": "Cpp-Vault/08 - Erros e Exceções/Segurança de Exceções.md",
+      "x": 300,
+      "y": 200,
+      "width": 300,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "rec",
+      "fromSide": "bottom",
+      "toNode": "raii",
+      "toSide": "top",
+      "label": "adquire/libera"
+    },
+    {
+      "id": "e1",
+      "fromNode": "raii",
+      "fromSide": "bottom",
+      "toNode": "r035",
+      "toSide": "top",
+      "label": "regras"
+    },
+    {
+      "id": "e2",
+      "fromNode": "r035",
+      "fromSide": "left",
+      "toNode": "cop",
+      "toSide": "right",
+      "label": "0/3/5"
+    },
+    {
+      "id": "e3",
+      "fromNode": "r035",
+      "fromSide": "bottom",
+      "toNode": "mov",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "mov",
+      "fromSide": "left",
+      "toNode": "smv",
+      "toSide": "right"
+    },
+    {
+      "id": "e5",
+      "fromNode": "mov",
+      "fromSide": "right",
+      "toNode": "rvo",
+      "toSide": "left"
+    },
+    {
+      "id": "e6",
+      "fromNode": "mov",
+      "fromSide": "bottom",
+      "toNode": "noex",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "smv",
+      "fromSide": "bottom",
+      "toNode": "fwd",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "raii",
+      "fromSide": "left",
+      "toNode": "uni",
+      "toSide": "right",
+      "label": "posse exclusiva"
+    },
+    {
+      "id": "e9",
+      "fromNode": "raii",
+      "fromSide": "right",
+      "toNode": "sha",
+      "toSide": "left",
+      "label": "posse compartilhada"
+    },
+    {
+      "id": "e10",
+      "fromNode": "sha",
+      "fromSide": "right",
+      "toNode": "wea",
+      "toSide": "left",
+      "label": "observa"
+    },
+    {
+      "id": "e11",
+      "fromNode": "sha",
+      "fromSide": "top",
+      "toNode": "cic",
+      "toSide": "bottom",
+      "label": "risco"
+    },
+    {
+      "id": "e12",
+      "fromNode": "wea",
+      "fromSide": "top",
+      "toNode": "cic",
+      "toSide": "bottom",
+      "label": "quebra"
+    },
+    {
+      "id": "e13",
+      "fromNode": "uni",
+      "fromSide": "top",
+      "toNode": "del",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e14",
+      "fromNode": "sha",
+      "fromSide": "bottom",
+      "toNode": "mk",
+      "toSide": "top"
+    },
+    {
+      "id": "e15",
+      "fromNode": "new",
+      "fromSide": "bottom",
+      "toNode": "vaz",
+      "toSide": "top",
+      "label": "causa"
+    },
+    {
+      "id": "e16",
+      "fromNode": "raii",
+      "fromSide": "left",
+      "toNode": "new",
+      "toSide": "right",
+      "label": "substitui"
+    },
+    {
+      "id": "e17",
+      "fromNode": "raii",
+      "fromSide": "right",
+      "toNode": "exc",
+      "toSide": "top",
+      "label": "garante"
+    }
+  ]
+}

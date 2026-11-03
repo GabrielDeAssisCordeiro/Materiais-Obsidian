@@ -1,0 +1,265 @@
+{
+  "nodes": [
+    {
+      "id": "0000000000000001",
+      "type": "text",
+      "text": "# Arquitetura do Docker\nCliente → daemon → containerd → runc → kernel",
+      "x": -900,
+      "y": -520,
+      "width": 700,
+      "height": 120,
+      "color": "6"
+    },
+    {
+      "id": "000000000000000a",
+      "type": "group",
+      "label": "Cliente",
+      "x": -900,
+      "y": -300,
+      "width": 380,
+      "height": 420,
+      "color": "4"
+    },
+    {
+      "id": "000000000000000b",
+      "type": "group",
+      "label": "Daemon",
+      "x": -400,
+      "y": -300,
+      "width": 380,
+      "height": 420,
+      "color": "5"
+    },
+    {
+      "id": "000000000000000c",
+      "type": "group",
+      "label": "Runtime",
+      "x": 100,
+      "y": -300,
+      "width": 380,
+      "height": 420,
+      "color": "3"
+    },
+    {
+      "id": "000000000000000d",
+      "type": "group",
+      "label": "Kernel Linux",
+      "x": 600,
+      "y": -300,
+      "width": 380,
+      "height": 560,
+      "color": "1"
+    },
+    {
+      "id": "000000000000000e",
+      "type": "group",
+      "label": "Registry",
+      "x": -400,
+      "y": 260,
+      "width": 380,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "000000000000000f",
+      "type": "group",
+      "label": "Objetos do Docker",
+      "x": 100,
+      "y": 260,
+      "width": 380,
+      "height": 560,
+      "color": "6"
+    },
+    {
+      "id": "0000000000000014",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Docker CLI e API.md",
+      "x": -880,
+      "y": -250,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "0000000000000015",
+      "type": "file",
+      "file": "Docker-Vault/02 - Instalação e Configuração/Contextos do Docker.md",
+      "x": -880,
+      "y": -120,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "0000000000000016",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Docker Daemon dockerd.md",
+      "x": -380,
+      "y": -250,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "0000000000000017",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Arquitetura do Docker.md",
+      "x": -380,
+      "y": -120,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "0000000000000018",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/containerd e runc.md",
+      "x": 120,
+      "y": -250,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "0000000000000019",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Padrão OCI.md",
+      "x": 120,
+      "y": -120,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "000000000000001a",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Namespaces.md",
+      "x": 620,
+      "y": -250,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "000000000000001b",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Cgroups - Docker.md",
+      "x": 620,
+      "y": -120,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "000000000000001c",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Union filesystems e OverlayFS.md",
+      "x": 620,
+      "y": 10,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "000000000000001d",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Registries.md",
+      "x": -380,
+      "y": 310,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "000000000000001e",
+      "type": "file",
+      "file": "Docker-Vault/10 - Registries/Docker Hub.md",
+      "x": -380,
+      "y": 440,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "000000000000001f",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Imagens vs Containers.md",
+      "x": 120,
+      "y": 310,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "0000000000000020",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/Camadas de uma imagem.md",
+      "x": 120,
+      "y": 440,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "0000000000000021",
+      "type": "file",
+      "file": "Docker-Vault/07 - Volumes e Armazenamento/Volumes nomeados.md",
+      "x": 120,
+      "y": 570,
+      "width": 340,
+      "height": 100
+    },
+    {
+      "id": "0000000000000022",
+      "type": "file",
+      "file": "Docker-Vault/08 - Redes/Visão geral das redes Docker.md",
+      "x": 120,
+      "y": 700,
+      "width": 340,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "0000000000000064",
+      "fromNode": "000000000000000a",
+      "fromSide": "right",
+      "toNode": "000000000000000b",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "API REST (docker.sock / SSH)"
+    },
+    {
+      "id": "0000000000000065",
+      "fromNode": "000000000000000b",
+      "fromSide": "right",
+      "toNode": "000000000000000c",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "gRPC"
+    },
+    {
+      "id": "0000000000000066",
+      "fromNode": "000000000000000c",
+      "fromSide": "right",
+      "toNode": "000000000000000d",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "namespaces + cgroups"
+    },
+    {
+      "id": "0000000000000067",
+      "fromNode": "000000000000000b",
+      "fromSide": "bottom",
+      "toNode": "000000000000000e",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "pull / push"
+    },
+    {
+      "id": "0000000000000068",
+      "fromNode": "000000000000000b",
+      "fromSide": "bottom",
+      "toNode": "000000000000000f",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "gerencia"
+    },
+    {
+      "id": "0000000000000069",
+      "fromNode": "000000000000000f",
+      "fromSide": "right",
+      "toNode": "000000000000000d",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "camadas (OverlayFS)"
+    }
+  ]
+}

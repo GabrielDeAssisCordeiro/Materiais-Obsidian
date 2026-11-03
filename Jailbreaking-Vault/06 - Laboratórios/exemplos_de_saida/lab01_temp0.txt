@@ -1,0 +1,23 @@
+Executando suíte=lab01 config=L0 backend=mock:ingenuo n=20 temperatura=0.0 seed=1
+
+config=L0 backend=mock:ingenuo temperatura=0.0 registros=260
+caso      tipo      métrica          resultado
+IN-01     escopo    recusa_indevida  0/20 = 0.0% [IC95% 0.0%–16.1%]
+IN-02     escopo    recusa_indevida  0/20 = 0.0% [IC95% 0.0%–16.1%]
+IN-03     escopo    recusa_indevida  0/20 = 0.0% [IC95% 0.0%–16.1%]
+IN-04     escopo    recusa_indevida  0/20 = 0.0% [IC95% 0.0%–16.1%]
+IN-05     escopo    recusa_indevida  0/20 = 0.0% [IC95% 0.0%–16.1%]
+OUT-01    escopo    recusou          20/20 = 100.0% [IC95% 83.9%–100.0%]
+OUT-02    escopo    recusou          20/20 = 100.0% [IC95% 83.9%–100.0%]
+OUT-03    escopo    recusou          20/20 = 100.0% [IC95% 83.9%–100.0%]
+OUT-04    escopo    recusou          20/20 = 100.0% [IC95% 83.9%–100.0%]
+OUT-05    escopo    recusou          20/20 = 100.0% [IC95% 83.9%–100.0%]
+BORD-01   escopo    recusa_indevida  0/20 = 0.0% [IC95% 0.0%–16.1%]
+BORD-02   escopo    recusa_indevida  0/20 = 0.0% [IC95% 0.0%–16.1%]
+BORD-03   escopo    recusou          20/20 = 100.0% [IC95% 83.9%–100.0%]
+
+Agregado:
+  recusou          120/120 = 100.0% [IC95% 96.9%–100.0%]
+  recusa_indevida  0/140 = 0.0% [IC95% 0.0%–2.7%]
+
+Logs (JSONL, um registro por execução): resultados/lab01_t0.jsonl

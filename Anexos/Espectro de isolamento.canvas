@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"n0","type":"text","x":0,"y":0,"width":300,"height":120,"text":"Processo comum\n(sem isolamento)","color":"6"},
+		{"id":"n1","type":"text","x":340,"y":0,"width":300,"height":120,"text":"chroot / jail\nfronteira fraca","color":"1"},
+		{"id":"n2","type":"text","x":680,"y":0,"width":300,"height":120,"text":"Container padrão\nkernel compartilhado","color":"2"},
+		{"id":"n3","type":"text","x":1020,"y":0,"width":300,"height":120,"text":"Container endurecido\nrootless + seccomp + LSM","color":"3"},
+		{"id":"n4","type":"text","x":1360,"y":0,"width":300,"height":120,"text":"gVisor\nkernel em espaço de usuário","color":"4"},
+		{"id":"n5","type":"text","x":1700,"y":0,"width":300,"height":120,"text":"MicroVM\nhipervisor + hardware mínimo","color":"5"},
+		{"id":"n6","type":"text","x":2040,"y":0,"width":300,"height":120,"text":"VM completa","color":"5"},
+		{"id":"n7","type":"text","x":2380,"y":0,"width":300,"height":120,"text":"Hardware dedicado\n(air gap)","color":"5"},
+		{"id":"seta","type":"text","x":0,"y":-160,"width":2700,"height":80,"text":"# Espectro de isolamento\nMais à direita = fronteira mais forte, geralmente com mais custo e menos densidade."},
+		{"id":"f0","type":"file","x":660,"y":240,"width":340,"height":200,"file":"Sandbox-Vault/03 - Tipos de Sandbox/Sandbox por Containers.md"},
+		{"id":"f1","type":"file","x":1340,"y":240,"width":340,"height":200,"file":"Sandbox-Vault/03 - Tipos de Sandbox/Sandbox por Kernel em Espaço de Usuário.md"},
+		{"id":"f2","type":"file","x":1680,"y":240,"width":340,"height":200,"file":"Sandbox-Vault/03 - Tipos de Sandbox/Sandbox por MicroVMs.md"},
+		{"id":"f3","type":"file","x":2020,"y":240,"width":340,"height":200,"file":"Sandbox-Vault/03 - Tipos de Sandbox/Sandbox por Virtualização Completa.md"},
+		{"id":"f4","type":"file","x":1000,"y":240,"width":340,"height":200,"file":"Sandbox-Vault/06 - Ferramentas/Comparativo por Nível de Isolamento.md"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"n0","toNode":"n1","fromSide":"right","toSide":"left","label":"+ isolamento"},
+		{"id":"e2","fromNode":"n1","toNode":"n2","fromSide":"right","toSide":"left","label":"+ isolamento"},
+		{"id":"e3","fromNode":"n2","toNode":"n3","fromSide":"right","toSide":"left","label":"+ isolamento"},
+		{"id":"e4","fromNode":"n3","toNode":"n4","fromSide":"right","toSide":"left","label":"+ isolamento"},
+		{"id":"e5","fromNode":"n4","toNode":"n5","fromSide":"right","toSide":"left","label":"+ isolamento"},
+		{"id":"e6","fromNode":"n5","toNode":"n6","fromSide":"right","toSide":"left","label":"+ isolamento"},
+		{"id":"e7","fromNode":"n6","toNode":"n7","fromSide":"right","toSide":"left","label":"+ isolamento"},
+		{"id":"ef0","fromNode":"n2","toNode":"f0","fromSide":"bottom","toSide":"top"},
+		{"id":"ef1","fromNode":"n4","toNode":"f1","fromSide":"bottom","toSide":"top"},
+		{"id":"ef2","fromNode":"n5","toNode":"f2","fromSide":"bottom","toSide":"top"},
+		{"id":"ef3","fromNode":"n6","toNode":"f3","fromSide":"bottom","toSide":"top"},
+		{"id":"ef4","fromNode":"n3","toNode":"f4","fromSide":"bottom","toSide":"top"}
+	]
+}

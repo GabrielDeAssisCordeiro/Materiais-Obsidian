@@ -1,0 +1,428 @@
+{
+  "nodes": [
+    {
+      "id": "0000000000000001",
+      "type": "text",
+      "text": "# Trilha de Aprendizado em Docker\n12 semanas · Iniciante → Avançado",
+      "x": 0,
+      "y": -260,
+      "width": 760,
+      "height": 120,
+      "color": "6"
+    },
+    {
+      "id": "000000000000000a",
+      "type": "group",
+      "label": "Iniciante (semanas 1 a 3)",
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 420,
+      "color": "4"
+    },
+    {
+      "id": "0000000000000065",
+      "type": "file",
+      "file": "Docker-Vault/01 - Fundamentos/MOC - Fundamentos - Docker.md",
+      "x": 30,
+      "y": 60,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000066",
+      "type": "file",
+      "file": "Docker-Vault/02 - Instalação e Configuração/MOC - Instalação e Configuração.md",
+      "x": 370,
+      "y": 60,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000067",
+      "type": "file",
+      "file": "Docker-Vault/03 - Containers/MOC - Containers.md",
+      "x": 710,
+      "y": 60,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000068",
+      "type": "file",
+      "file": "Docker-Vault/04 - Imagens/MOC - Imagens.md",
+      "x": 30,
+      "y": 220,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000069",
+      "type": "file",
+      "file": "Docker-Vault/18 - Projetos/Projeto 01 - Site estático com Nginx.md",
+      "x": 370,
+      "y": 220,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000000b",
+      "type": "group",
+      "label": "Intermediário (semanas 4 a 7)",
+      "x": 0,
+      "y": 500,
+      "width": 1080,
+      "height": 420,
+      "color": "5"
+    },
+    {
+      "id": "000000000000006a",
+      "type": "file",
+      "file": "Docker-Vault/05 - Dockerfile/MOC - Dockerfile.md",
+      "x": 30,
+      "y": 560,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000006b",
+      "type": "file",
+      "file": "Docker-Vault/07 - Volumes e Armazenamento/MOC - Volumes e Armazenamento.md",
+      "x": 370,
+      "y": 560,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000006c",
+      "type": "file",
+      "file": "Docker-Vault/08 - Redes/MOC - Redes.md",
+      "x": 710,
+      "y": 560,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000006d",
+      "type": "file",
+      "file": "Docker-Vault/09 - Docker Compose/MOC - Docker Compose.md",
+      "x": 30,
+      "y": 720,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000006e",
+      "type": "file",
+      "file": "Docker-Vault/10 - Registries/MOC - Registries.md",
+      "x": 370,
+      "y": 720,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000006f",
+      "type": "file",
+      "file": "Docker-Vault/18 - Projetos/Projeto 04 - Stack com Postgres, API e frontend.md",
+      "x": 710,
+      "y": 720,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000000c",
+      "type": "group",
+      "label": "Avançado (semanas 8 a 11)",
+      "x": 0,
+      "y": 1000,
+      "width": 1080,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "0000000000000070",
+      "type": "file",
+      "file": "Docker-Vault/06 - Build Avançado/MOC - Build Avançado.md",
+      "x": 30,
+      "y": 1060,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000071",
+      "type": "file",
+      "file": "Docker-Vault/11 - Segurança/MOC - Segurança.md",
+      "x": 370,
+      "y": 1060,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000072",
+      "type": "file",
+      "file": "Docker-Vault/12 - Swarm e Orquestração/MOC - Swarm e Orquestração.md",
+      "x": 710,
+      "y": 1060,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000073",
+      "type": "file",
+      "file": "Docker-Vault/13 - Observabilidade e Depuração/MOC - Observabilidade e Depuração.md",
+      "x": 30,
+      "y": 1220,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000074",
+      "type": "file",
+      "file": "Docker-Vault/15 - CI-CD e DevOps/MOC - CI-CD e DevOps.md",
+      "x": 370,
+      "y": 1220,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000075",
+      "type": "file",
+      "file": "Docker-Vault/16 - Produção/MOC - Produção.md",
+      "x": 710,
+      "y": 1220,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000000d",
+      "type": "group",
+      "label": "Especialização (semana 12 em diante)",
+      "x": 0,
+      "y": 1500,
+      "width": 1080,
+      "height": 420,
+      "color": "3"
+    },
+    {
+      "id": "0000000000000076",
+      "type": "file",
+      "file": "Docker-Vault/14 - Desenvolvimento/MOC - Desenvolvimento.md",
+      "x": 30,
+      "y": 1560,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000077",
+      "type": "file",
+      "file": "Docker-Vault/17 - IA e Novidades/MOC - IA e Novidades.md",
+      "x": 370,
+      "y": 1560,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000078",
+      "type": "file",
+      "file": "Docker-Vault/18 - Projetos/Projeto 07 - Pipeline CI-CD completo.md",
+      "x": 710,
+      "y": 1560,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "0000000000000079",
+      "type": "file",
+      "file": "Docker-Vault/20 - Exercícios/MOC - Exercícios - Docker.md",
+      "x": 30,
+      "y": 1720,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "000000000000007a",
+      "type": "file",
+      "file": "Docker-Vault/19 - Referência/MOC - Referência - Docker.md",
+      "x": 370,
+      "y": 1720,
+      "width": 300,
+      "height": 120
+    }
+  ],
+  "edges": [
+    {
+      "id": "0000000000000840",
+      "fromNode": "0000000000000065",
+      "fromSide": "right",
+      "toNode": "0000000000000066",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "000000000000084b",
+      "fromNode": "0000000000000066",
+      "fromSide": "right",
+      "toNode": "0000000000000067",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0000000000000856",
+      "fromNode": "0000000000000067",
+      "fromSide": "bottom",
+      "toNode": "0000000000000068",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0000000000000861",
+      "fromNode": "0000000000000068",
+      "fromSide": "right",
+      "toNode": "0000000000000069",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0000000000000877",
+      "fromNode": "000000000000006a",
+      "fromSide": "right",
+      "toNode": "000000000000006b",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0000000000000882",
+      "fromNode": "000000000000006b",
+      "fromSide": "right",
+      "toNode": "000000000000006c",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "000000000000088d",
+      "fromNode": "000000000000006c",
+      "fromSide": "bottom",
+      "toNode": "000000000000006d",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0000000000000898",
+      "fromNode": "000000000000006d",
+      "fromSide": "right",
+      "toNode": "000000000000006e",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "00000000000008a3",
+      "fromNode": "000000000000006e",
+      "fromSide": "right",
+      "toNode": "000000000000006f",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "00000000000013f2",
+      "fromNode": "0000000000000069",
+      "fromSide": "bottom",
+      "toNode": "000000000000006a",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "próximo nível",
+      "color": "6"
+    },
+    {
+      "id": "00000000000008b9",
+      "fromNode": "0000000000000070",
+      "fromSide": "right",
+      "toNode": "0000000000000071",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "00000000000008c4",
+      "fromNode": "0000000000000071",
+      "fromSide": "right",
+      "toNode": "0000000000000072",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "00000000000008cf",
+      "fromNode": "0000000000000072",
+      "fromSide": "bottom",
+      "toNode": "0000000000000073",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "00000000000008da",
+      "fromNode": "0000000000000073",
+      "fromSide": "right",
+      "toNode": "0000000000000074",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "00000000000008e5",
+      "fromNode": "0000000000000074",
+      "fromSide": "right",
+      "toNode": "0000000000000075",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "00000000000013f8",
+      "fromNode": "000000000000006f",
+      "fromSide": "bottom",
+      "toNode": "0000000000000070",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "próximo nível",
+      "color": "6"
+    },
+    {
+      "id": "00000000000008fb",
+      "fromNode": "0000000000000076",
+      "fromSide": "right",
+      "toNode": "0000000000000077",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0000000000000906",
+      "fromNode": "0000000000000077",
+      "fromSide": "right",
+      "toNode": "0000000000000078",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0000000000000911",
+      "fromNode": "0000000000000078",
+      "fromSide": "bottom",
+      "toNode": "0000000000000079",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "000000000000091c",
+      "fromNode": "0000000000000079",
+      "fromSide": "right",
+      "toNode": "000000000000007a",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "00000000000013fe",
+      "fromNode": "0000000000000075",
+      "fromSide": "bottom",
+      "toNode": "0000000000000076",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "próximo nível",
+      "color": "6"
+    }
+  ]
+}

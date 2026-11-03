@@ -1,0 +1,336 @@
+{
+  "nodes": [
+    {
+      "id": "own",
+      "type": "file",
+      "x": -160,
+      "y": -60,
+      "width": 320,
+      "height": 160,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Ownership e regras.md",
+      "color": "4"
+    },
+    {
+      "id": "mov",
+      "type": "file",
+      "x": -700,
+      "y": -100,
+      "width": 300,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Move, Copy e Clone.md",
+      "color": "1"
+    },
+    {
+      "id": "regras",
+      "type": "text",
+      "x": -700,
+      "y": 120,
+      "width": 300,
+      "height": 190,
+      "text": "## As 3 regras\n1. Todo valor tem **um dono**\n2. Dono sai de escopo → valor é liberado (`Drop`)\n3. Ou vários `&T`, ou um `&mut T`",
+      "color": "5"
+    },
+    {
+      "id": "bor",
+      "type": "file",
+      "x": 400,
+      "y": -300,
+      "width": 300,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Borrowing e referências.md",
+      "color": "3"
+    },
+    {
+      "id": "bck",
+      "type": "file",
+      "x": 400,
+      "y": -60,
+      "width": 300,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Regras do borrow checker.md",
+      "color": "3"
+    },
+    {
+      "id": "nll",
+      "type": "file",
+      "x": 400,
+      "y": 180,
+      "width": 300,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/NLL.md",
+      "color": "3"
+    },
+    {
+      "id": "err",
+      "type": "file",
+      "x": 800,
+      "y": -60,
+      "width": 300,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Erros comuns do borrow checker.md",
+      "color": "1"
+    },
+    {
+      "id": "lt",
+      "type": "file",
+      "x": -160,
+      "y": 420,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Lifetimes.md",
+      "color": "6"
+    },
+    {
+      "id": "eli",
+      "type": "file",
+      "x": -620,
+      "y": 600,
+      "width": 300,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Elisão de lifetimes.md",
+      "color": "6"
+    },
+    {
+      "id": "lst",
+      "type": "file",
+      "x": -160,
+      "y": 640,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Lifetimes em structs.md",
+      "color": "6"
+    },
+    {
+      "id": "sta",
+      "type": "file",
+      "x": 300,
+      "y": 600,
+      "width": 300,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/Lifetime static.md",
+      "color": "6"
+    },
+    {
+      "id": "ptr",
+      "type": "text",
+      "x": -160,
+      "y": -420,
+      "width": 320,
+      "height": 150,
+      "text": "## Quando a regra atrapalha\nPonteiros inteligentes ampliam o modelo: vários donos, mutabilidade interior, ciclos",
+      "color": "2"
+    },
+    {
+      "id": "box",
+      "type": "file",
+      "x": -900,
+      "y": -640,
+      "width": 260,
+      "height": 100,
+      "file": "Rust-Vault/09 - Memória e Ponteiros/Box.md",
+      "color": "2"
+    },
+    {
+      "id": "rc",
+      "type": "file",
+      "x": -580,
+      "y": -640,
+      "width": 260,
+      "height": 100,
+      "file": "Rust-Vault/09 - Memória e Ponteiros/Rc.md",
+      "color": "2"
+    },
+    {
+      "id": "arc",
+      "type": "file",
+      "x": -260,
+      "y": -640,
+      "width": 260,
+      "height": 100,
+      "file": "Rust-Vault/09 - Memória e Ponteiros/Arc.md",
+      "color": "2"
+    },
+    {
+      "id": "cel",
+      "type": "file",
+      "x": 60,
+      "y": -640,
+      "width": 260,
+      "height": 100,
+      "file": "Rust-Vault/09 - Memória e Ponteiros/Cell e RefCell.md",
+      "color": "2"
+    },
+    {
+      "id": "wk",
+      "type": "file",
+      "x": 380,
+      "y": -640,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/09 - Memória e Ponteiros/Weak e ciclos de referência.md",
+      "color": "2"
+    },
+    {
+      "id": "cs",
+      "type": "file",
+      "x": -1100,
+      "y": 400,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/19 - Referência/Cheat sheet de ownership.md"
+    },
+    {
+      "id": "ex",
+      "type": "file",
+      "x": -1100,
+      "y": 560,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/20 - Exercícios/Exercícios de ownership.md"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "own",
+      "fromSide": "left",
+      "toNode": "mov",
+      "toSide": "right",
+      "label": "transfere (move)"
+    },
+    {
+      "id": "e1",
+      "fromNode": "own",
+      "fromSide": "right",
+      "toNode": "bor",
+      "toSide": "left",
+      "label": "empresta"
+    },
+    {
+      "id": "e2",
+      "fromNode": "bor",
+      "fromSide": "bottom",
+      "toNode": "bck",
+      "toSide": "top",
+      "label": "regido por"
+    },
+    {
+      "id": "e3",
+      "fromNode": "bck",
+      "fromSide": "bottom",
+      "toNode": "nll",
+      "toSide": "top",
+      "label": "termina no último uso"
+    },
+    {
+      "id": "e4",
+      "fromNode": "bck",
+      "fromSide": "right",
+      "toNode": "err",
+      "toSide": "left",
+      "label": "erros"
+    },
+    {
+      "id": "e5",
+      "fromNode": "bor",
+      "fromSide": "bottom",
+      "toNode": "lt",
+      "toSide": "top",
+      "label": "referências válidas"
+    },
+    {
+      "id": "e6",
+      "fromNode": "own",
+      "fromSide": "bottom",
+      "toNode": "lt",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "lt",
+      "fromSide": "left",
+      "toNode": "eli",
+      "toSide": "right"
+    },
+    {
+      "id": "e8",
+      "fromNode": "lt",
+      "fromSide": "bottom",
+      "toNode": "lst",
+      "toSide": "top"
+    },
+    {
+      "id": "e9",
+      "fromNode": "lt",
+      "fromSide": "right",
+      "toNode": "sta",
+      "toSide": "left"
+    },
+    {
+      "id": "e10",
+      "fromNode": "own",
+      "fromSide": "top",
+      "toNode": "ptr",
+      "toSide": "bottom",
+      "label": "estende"
+    },
+    {
+      "id": "e11",
+      "fromNode": "ptr",
+      "fromSide": "left",
+      "toNode": "box",
+      "toSide": "right"
+    },
+    {
+      "id": "e12",
+      "fromNode": "ptr",
+      "fromSide": "left",
+      "toNode": "rc",
+      "toSide": "right"
+    },
+    {
+      "id": "e13",
+      "fromNode": "ptr",
+      "fromSide": "top",
+      "toNode": "arc",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e14",
+      "fromNode": "ptr",
+      "fromSide": "top",
+      "toNode": "cel",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e15",
+      "fromNode": "ptr",
+      "fromSide": "right",
+      "toNode": "wk",
+      "toSide": "left"
+    },
+    {
+      "id": "e16",
+      "fromNode": "mov",
+      "fromSide": "bottom",
+      "toNode": "regras",
+      "toSide": "top"
+    },
+    {
+      "id": "e17",
+      "fromNode": "cs",
+      "fromSide": "right",
+      "toNode": "regras",
+      "toSide": "left",
+      "label": "resumo"
+    },
+    {
+      "id": "e18",
+      "fromNode": "ex",
+      "fromSide": "top",
+      "toNode": "cs",
+      "toSide": "bottom",
+      "label": "pratique"
+    }
+  ]
+}

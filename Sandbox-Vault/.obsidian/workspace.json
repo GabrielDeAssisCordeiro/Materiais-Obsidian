@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "d3618900c035f83c",
+    "type": "split",
+    "children": [
+      {
+        "id": "fdec3962a5fef764",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9541a8ab9629a77f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17fff7f8fb59cd97",
+    "type": "split",
+    "children": [
+      {
+        "id": "87b8a5ebe9581dbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c062e50f03c17f81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "63ab0920243059bc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "7dae4f90b96558f0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d42707c89ee015df",
+    "type": "split",
+    "children": [
+      {
+        "id": "d995ac68386acd72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75625dcdaf634e04",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "3b726d179d8dc15e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "9069b2cd728870fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "e595e8da76c1b721",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "3aaed789a9ede2ae",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "templates:Inserir modelo": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "9541a8ab9629a77f",
+  "lastOpenFiles": [
+    "00 - Início/Índice Geral - Sandbox.md",
+    "00 - Início/Home.md",
+    "06 - Ferramentas/Comparativo de Ferramentas.md",
+    "04 - Como Criar/Criar Sandbox com Windows Sandbox.md",
+    "04 - Como Criar/Criar Sandbox com Firecracker.md",
+    "04 - Como Criar/Criar Sandbox com Firejail.md",
+    "04 - Como Criar/Criar Sandbox com gVisor.md",
+    "04 - Como Criar/Criar Sandbox com Docker.md",
+    "01 - Fundamentos/Superfície de Ataque.md",
+    "01 - Fundamentos/Sandbox vs VM vs Container vs Jail vs chroot.md",
+    "01 - Fundamentos/Princípio do Menor Privilégio.md",
+    "01 - Fundamentos/O que é um Ambiente Sandbox.md",
+    "01 - Fundamentos/Namespaces do Linux.md",
+    "01 - Fundamentos/MOC - Fundamentos.md",
+    "01 - Fundamentos/Isolamento e Contenção.md",
+    "01 - Fundamentos/História e Evolução das Sandboxes.md",
+    "01 - Fundamentos/Cgroups.md",
+    "01 - Fundamentos/Capabilities do Linux.md",
+    "02 - Casos de Uso/Caso - Desenvolvimento Seguro.md",
+    "02 - Casos de Uso/Caso - CI e CD.md",
+    "02 - Casos de Uso/Caso - Análise de Malware.md",
+    "02 - Casos de Uso/Caso - Agentes de IA e Código de LLM.md",
+    "02 - Casos de Uso/Caso - Abertura de Arquivos e Navegação Suspeitos.md"
+  ]
+}

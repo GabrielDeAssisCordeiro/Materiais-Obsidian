@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "Anexos",
+  "newFileLocation": "current",
+  "showLineNumber": true,
+  "spellcheck": true,
+  "promptDelete": true
+}

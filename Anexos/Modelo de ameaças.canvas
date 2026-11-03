@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"g1","type":"group","x":-40,"y":-40,"width":420,"height":520,"label":"Zona não confiável"},
+		{"id":"g2","type":"group","x":520,"y":-40,"width":420,"height":520,"label":"Fronteira de confiança: sandbox"},
+		{"id":"g3","type":"group","x":1080,"y":-40,"width":460,"height":520,"label":"Zona confiável"},
+		{"id":"a1","type":"text","x":0,"y":20,"width":340,"height":100,"text":"Código de terceiros\n(usuário, LLM, plugin)","color":"1"},
+		{"id":"a2","type":"text","x":0,"y":160,"width":340,"height":100,"text":"Conteúdo externo\n(web, e-mail, arquivos)\nprompt injection indireta","color":"1"},
+		{"id":"a3","type":"text","x":0,"y":300,"width":340,"height":100,"text":"Amostras suspeitas","color":"1"},
+		{"id":"b1","type":"text","x":560,"y":20,"width":340,"height":100,"text":"Isolamento: namespaces, seccomp, microVM, Wasm","color":"3"},
+		{"id":"b2","type":"text","x":560,"y":160,"width":340,"height":100,"text":"Limites: CPU, memória, tempo, processos","color":"3"},
+		{"id":"b3","type":"text","x":560,"y":300,"width":340,"height":100,"text":"Rede: sem saída ou allowlist","color":"3"},
+		{"id":"c1","type":"text","x":1120,"y":20,"width":380,"height":100,"text":"Host e hipervisor","color":"4"},
+		{"id":"c2","type":"text","x":1120,"y":160,"width":380,"height":100,"text":"Segredos e credenciais","color":"4"},
+		{"id":"c3","type":"text","x":1120,"y":300,"width":380,"height":100,"text":"Dados do usuário / rede interna","color":"4"},
+		{"id":"s","type":"text","x":560,"y":520,"width":980,"height":200,"text":"## STRIDE\nSpoofing · Tampering · Repudiation · Information disclosure · Denial of service · Elevation of privilege\n\nAmeaça-chave: **fuga de sandbox** e **exfiltração**. Mitigação: camadas independentes (defesa em profundidade), logs externos, patching."},
+		{"id":"f1","type":"file","x":-40,"y":520,"width":420,"height":200,"file":"Sandbox-Vault/10 - Boas Práticas/Modelo de Ameaças.md"},
+		{"id":"f2","type":"file","x":-40,"y":760,"width":420,"height":200,"file":"Sandbox-Vault/05 - Cuidados e Segurança/Fuga de Sandbox.md"},
+		{"id":"f3","type":"file","x":520,"y":760,"width":420,"height":200,"file":"Sandbox-Vault/10 - Boas Práticas/Defesa em Profundidade.md"}
+	],
+	"edges":[
+		{"id":"x1","fromNode":"a1","toNode":"b1","fromSide":"right","toSide":"left","label":"execução"},
+		{"id":"x2","fromNode":"a2","toNode":"b1","fromSide":"right","toSide":"left","label":"entrada"},
+		{"id":"x3","fromNode":"a3","toNode":"b3","fromSide":"right","toSide":"left","label":"tráfego"},
+		{"id":"y1","fromNode":"b1","toNode":"c1","fromSide":"right","toSide":"left","label":"tentativa de escape"},
+		{"id":"y2","fromNode":"b3","toNode":"c3","fromSide":"right","toSide":"left","label":"exfiltração"},
+		{"id":"y3","fromNode":"b2","toNode":"c2","fromSide":"right","toSide":"left"}
+	]
+}

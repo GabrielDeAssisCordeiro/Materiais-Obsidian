@@ -1,0 +1,107 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Assembly Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 16096779
+      }
+    },
+    {
+      "query": "path:\"Jailbreaking-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 15680580
+      }
+    },
+    {
+      "query": "path:\"Obsidian-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 9133302
+      }
+    },
+    {
+      "query": "path:\"Python-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "path:\"Sandbox-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 1096065
+      }
+    },
+    {
+      "query": "path:\"Rust-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 12009742
+      }
+    },
+    {
+      "query": "path:\"Ciberseguranca-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 440020
+      }
+    },
+    {
+      "query": "path:\"Docker-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 899053
+      }
+    },
+    {
+      "query": "path:\"Seguranca-Integracao-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 8702998
+      }
+    },
+    {
+      "query": "path:\"Automacao-Seguranca-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 15485081
+      }
+    },
+    {
+      "query": "path:\"Cpp-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 22940
+      }
+    },
+    {
+      "query": "path:\"Sistemas-Operacionais-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 16096926
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.469268292682927,
+  "repelStrength": 10.259512195122,
+  "linkStrength": 1,
+  "linkDistance": 252,
+  "scale": 0.1316872427983531,
+  "close": false
+}

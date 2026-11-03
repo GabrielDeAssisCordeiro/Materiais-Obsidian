@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"c","type":"text","x":600,"y":360,"width":300,"height":120,"text":"# Ambiente Sandbox\nisolar · limitar · observar · descartar","color":"5"},
+		{"id":"i0","type":"file","x":0,"y":0,"width":300,"height":160,"file":"Sandbox-Vault/01 - Fundamentos/O que é um Ambiente Sandbox.md"},
+		{"id":"i1","type":"file","x":360,"y":-60,"width":300,"height":160,"file":"Sandbox-Vault/01 - Fundamentos/Namespaces do Linux.md"},
+		{"id":"i2","type":"file","x":720,"y":-60,"width":300,"height":160,"file":"Sandbox-Vault/03 - Tipos de Sandbox/Sandbox por Containers.md"},
+		{"id":"i3","type":"file","x":1080,"y":0,"width":300,"height":160,"file":"Sandbox-Vault/03 - Tipos de Sandbox/Sandbox por MicroVMs.md"},
+		{"id":"i4","type":"file","x":1200,"y":360,"width":300,"height":160,"file":"Sandbox-Vault/05 - Cuidados e Segurança/Fuga de Sandbox.md"},
+		{"id":"i5","type":"file","x":1080,"y":720,"width":300,"height":160,"file":"Sandbox-Vault/07 - Análise de Malware/Laboratório de Análise de Malware.md"},
+		{"id":"i6","type":"file","x":720,"y":780,"width":300,"height":160,"file":"Sandbox-Vault/09 - IA e Agentes/Sandbox para Código Gerado por IA.md"},
+		{"id":"i7","type":"file","x":360,"y":780,"width":300,"height":160,"file":"Sandbox-Vault/08 - Dev e DevOps/Ambientes Efêmeros.md"},
+		{"id":"i8","type":"file","x":0,"y":720,"width":300,"height":160,"file":"Sandbox-Vault/10 - Boas Práticas/Defesa em Profundidade.md"},
+		{"id":"i9","type":"file","x":-120,"y":360,"width":300,"height":160,"file":"Sandbox-Vault/04 - Como Criar/Criar Sandbox com Docker.md"}
+	],
+	"edges":[
+		{"id":"m0","fromNode":"c","toNode":"i0","fromSide":"right","toSide":"left"},
+		{"id":"m1","fromNode":"c","toNode":"i1","fromSide":"right","toSide":"left"},
+		{"id":"m2","fromNode":"c","toNode":"i2","fromSide":"right","toSide":"left"},
+		{"id":"m3","fromNode":"c","toNode":"i3","fromSide":"right","toSide":"left"},
+		{"id":"m4","fromNode":"c","toNode":"i4","fromSide":"right","toSide":"left"},
+		{"id":"m5","fromNode":"c","toNode":"i5","fromSide":"right","toSide":"left"},
+		{"id":"m6","fromNode":"c","toNode":"i6","fromSide":"right","toSide":"left"},
+		{"id":"m7","fromNode":"c","toNode":"i7","fromSide":"right","toSide":"left"},
+		{"id":"m8","fromNode":"c","toNode":"i8","fromSide":"right","toSide":"left"},
+		{"id":"m9","fromNode":"c","toNode":"i9","fromSide":"right","toSide":"left"}
+	]
+}

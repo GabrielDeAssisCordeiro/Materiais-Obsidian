@@ -1,0 +1,456 @@
+{
+  "nodes": [
+    {
+      "id": "m0",
+      "type": "file",
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/01 - Fundamentos/MOC - Fundamentos - Rust.md",
+      "color": "4"
+    },
+    {
+      "id": "m1",
+      "type": "file",
+      "x": 420,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/02 - Básico da Linguagem/MOC - Básico da Linguagem.md",
+      "color": "4"
+    },
+    {
+      "id": "m2",
+      "type": "file",
+      "x": 840,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/03 - Ownership e Lifetimes/MOC - Ownership e Lifetimes.md",
+      "color": "1"
+    },
+    {
+      "id": "m3",
+      "type": "file",
+      "x": 1260,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/04 - Tipos Customizados/MOC - Tipos Customizados.md",
+      "color": "1"
+    },
+    {
+      "id": "m4",
+      "type": "file",
+      "x": 1680,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/05 - Módulos e Cargo/MOC - Módulos e Cargo.md",
+      "color": "3"
+    },
+    {
+      "id": "m5",
+      "type": "file",
+      "x": 2100,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/06 - Coleções e Iteradores/MOC - Coleções e Iteradores.md",
+      "color": "3"
+    },
+    {
+      "id": "m6",
+      "type": "file",
+      "x": 0,
+      "y": 420,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/07 - Erros/MOC - Erros.md",
+      "color": "3"
+    },
+    {
+      "id": "m7",
+      "type": "file",
+      "x": 420,
+      "y": 420,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/08 - Traits e Genéricos/MOC - Traits e Genéricos.md",
+      "color": "3"
+    },
+    {
+      "id": "m8",
+      "type": "file",
+      "x": 840,
+      "y": 420,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/09 - Memória e Ponteiros/MOC - Memória e Ponteiros.md",
+      "color": "2"
+    },
+    {
+      "id": "m9",
+      "type": "file",
+      "x": 1260,
+      "y": 420,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/10 - Concorrência/MOC - Concorrência.md",
+      "color": "2"
+    },
+    {
+      "id": "m10",
+      "type": "file",
+      "x": 1680,
+      "y": 420,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/11 - Async/MOC - Async.md",
+      "color": "2"
+    },
+    {
+      "id": "m11",
+      "type": "file",
+      "x": 2100,
+      "y": 420,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/12 - Testes e Qualidade/MOC - Testes e Qualidade.md",
+      "color": "2"
+    },
+    {
+      "id": "m12",
+      "type": "file",
+      "x": 0,
+      "y": 840,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/13 - Crates/MOC - Crates.md",
+      "color": "2"
+    },
+    {
+      "id": "m13",
+      "type": "file",
+      "x": 420,
+      "y": 840,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/14 - Macros/MOC - Macros.md",
+      "color": "6"
+    },
+    {
+      "id": "m14",
+      "type": "file",
+      "x": 840,
+      "y": 840,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/15 - Unsafe e FFI/MOC - Unsafe e FFI.md",
+      "color": "6"
+    },
+    {
+      "id": "m15",
+      "type": "file",
+      "x": 1260,
+      "y": 840,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/16 - Áreas de Aplicação/MOC - Áreas de Aplicação.md",
+      "color": "6"
+    },
+    {
+      "id": "m16",
+      "type": "file",
+      "x": 1680,
+      "y": 840,
+      "width": 320,
+      "height": 120,
+      "file": "Rust-Vault/17 - Avançado e Performance/MOC - Avançado e Performance.md",
+      "color": "6"
+    },
+    {
+      "id": "mk1",
+      "type": "text",
+      "x": 420,
+      "y": 170,
+      "width": 320,
+      "height": 90,
+      "text": "**Marco: Projeto 1 e exercícios de fundamentos**",
+      "color": "4"
+    },
+    {
+      "id": "mk3",
+      "type": "text",
+      "x": 1260,
+      "y": 170,
+      "width": 320,
+      "height": 90,
+      "text": "**Marco: Projeto 2 e exercícios de ownership/tipos**",
+      "color": "1"
+    },
+    {
+      "id": "mk7",
+      "type": "text",
+      "x": 420,
+      "y": 590,
+      "width": 320,
+      "height": 90,
+      "text": "**Marco: Projetos 3 e 4**",
+      "color": "3"
+    },
+    {
+      "id": "mk11",
+      "type": "text",
+      "x": 2100,
+      "y": 590,
+      "width": 320,
+      "height": 90,
+      "text": "**Marco: Projetos 5, 6 e 7**",
+      "color": "2"
+    },
+    {
+      "id": "mk16",
+      "type": "text",
+      "x": 1680,
+      "y": 1010,
+      "width": 320,
+      "height": 90,
+      "text": "**Marco final: Projeto 8 e um projeto seu**",
+      "color": "6"
+    },
+    {
+      "id": "proj",
+      "type": "file",
+      "x": 0,
+      "y": 1470,
+      "width": 320,
+      "height": 100,
+      "file": "Rust-Vault/18 - Projetos/MOC - Projetos - Rust.md",
+      "color": "5"
+    },
+    {
+      "id": "ref",
+      "type": "file",
+      "x": 420,
+      "y": 1470,
+      "width": 320,
+      "height": 100,
+      "file": "Rust-Vault/19 - Referência/MOC - Referência - Rust.md",
+      "color": "5"
+    },
+    {
+      "id": "exs",
+      "type": "file",
+      "x": 840,
+      "y": 1470,
+      "width": 320,
+      "height": 100,
+      "file": "Rust-Vault/20 - Exercícios/MOC - Exercícios - Rust.md",
+      "color": "5"
+    },
+    {
+      "id": "trl",
+      "type": "file",
+      "x": 1260,
+      "y": 1470,
+      "width": 320,
+      "height": 100,
+      "file": "Rust-Vault/00 - Início/Trilha de estudos - Rust.md",
+      "color": "5"
+    },
+    {
+      "id": "apoio",
+      "type": "text",
+      "x": 1260,
+      "y": 1210,
+      "width": 320,
+      "height": 120,
+      "text": "## Em paralelo\nProjetos, exercícios e referência acompanham toda a trilha",
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "m0",
+      "fromSide": "right",
+      "toNode": "m1",
+      "toSide": "left"
+    },
+    {
+      "id": "e1",
+      "fromNode": "m1",
+      "fromSide": "right",
+      "toNode": "m2",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "m2",
+      "fromSide": "right",
+      "toNode": "m3",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "m3",
+      "fromSide": "right",
+      "toNode": "m4",
+      "toSide": "left"
+    },
+    {
+      "id": "e4",
+      "fromNode": "m4",
+      "fromSide": "right",
+      "toNode": "m5",
+      "toSide": "left"
+    },
+    {
+      "id": "e5",
+      "fromNode": "m5",
+      "fromSide": "left",
+      "toNode": "m6",
+      "toSide": "right"
+    },
+    {
+      "id": "e6",
+      "fromNode": "m6",
+      "fromSide": "right",
+      "toNode": "m7",
+      "toSide": "left"
+    },
+    {
+      "id": "e7",
+      "fromNode": "m7",
+      "fromSide": "right",
+      "toNode": "m8",
+      "toSide": "left"
+    },
+    {
+      "id": "e8",
+      "fromNode": "m8",
+      "fromSide": "right",
+      "toNode": "m9",
+      "toSide": "left"
+    },
+    {
+      "id": "e9",
+      "fromNode": "m9",
+      "fromSide": "right",
+      "toNode": "m10",
+      "toSide": "left"
+    },
+    {
+      "id": "e10",
+      "fromNode": "m10",
+      "fromSide": "right",
+      "toNode": "m11",
+      "toSide": "left"
+    },
+    {
+      "id": "e11",
+      "fromNode": "m11",
+      "fromSide": "left",
+      "toNode": "m12",
+      "toSide": "right"
+    },
+    {
+      "id": "e12",
+      "fromNode": "m12",
+      "fromSide": "right",
+      "toNode": "m13",
+      "toSide": "left"
+    },
+    {
+      "id": "e13",
+      "fromNode": "m13",
+      "fromSide": "right",
+      "toNode": "m14",
+      "toSide": "left"
+    },
+    {
+      "id": "e14",
+      "fromNode": "m14",
+      "fromSide": "right",
+      "toNode": "m15",
+      "toSide": "left"
+    },
+    {
+      "id": "e15",
+      "fromNode": "m15",
+      "fromSide": "right",
+      "toNode": "m16",
+      "toSide": "left"
+    },
+    {
+      "id": "e16",
+      "fromNode": "m1",
+      "fromSide": "bottom",
+      "toNode": "mk1",
+      "toSide": "top",
+      "label": "pratique"
+    },
+    {
+      "id": "e17",
+      "fromNode": "m3",
+      "fromSide": "bottom",
+      "toNode": "mk3",
+      "toSide": "top",
+      "label": "pratique"
+    },
+    {
+      "id": "e18",
+      "fromNode": "m7",
+      "fromSide": "bottom",
+      "toNode": "mk7",
+      "toSide": "top",
+      "label": "pratique"
+    },
+    {
+      "id": "e19",
+      "fromNode": "m11",
+      "fromSide": "bottom",
+      "toNode": "mk11",
+      "toSide": "top",
+      "label": "pratique"
+    },
+    {
+      "id": "e20",
+      "fromNode": "m16",
+      "fromSide": "bottom",
+      "toNode": "mk16",
+      "toSide": "top",
+      "label": "pratique"
+    },
+    {
+      "id": "e21",
+      "fromNode": "apoio",
+      "fromSide": "left",
+      "toNode": "proj",
+      "toSide": "right"
+    },
+    {
+      "id": "e22",
+      "fromNode": "apoio",
+      "fromSide": "left",
+      "toNode": "ref",
+      "toSide": "right"
+    },
+    {
+      "id": "e23",
+      "fromNode": "apoio",
+      "fromSide": "left",
+      "toNode": "exs",
+      "toSide": "right"
+    },
+    {
+      "id": "e24",
+      "fromNode": "apoio",
+      "fromSide": "bottom",
+      "toNode": "trl",
+      "toSide": "top"
+    }
+  ]
+}

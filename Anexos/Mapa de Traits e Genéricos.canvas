@@ -1,0 +1,280 @@
+{
+  "nodes": [
+    {
+      "id": "t",
+      "type": "file",
+      "x": -170,
+      "y": -70,
+      "width": 340,
+      "height": 140,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Traits.md",
+      "color": "4"
+    },
+    {
+      "id": "n0",
+      "type": "file",
+      "x": 610,
+      "y": -50,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Genéricos.md",
+      "color": "3"
+    },
+    {
+      "id": "n1",
+      "type": "file",
+      "x": 534,
+      "y": 230,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Trait bounds e where.md",
+      "color": "3"
+    },
+    {
+      "id": "n2",
+      "type": "file",
+      "x": 323,
+      "y": 455,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/impl Trait e dyn Trait.md",
+      "color": "1"
+    },
+    {
+      "id": "n3",
+      "type": "file",
+      "x": 19,
+      "y": 579,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Traits padrão.md",
+      "color": "2"
+    },
+    {
+      "id": "n4",
+      "type": "file",
+      "x": -319,
+      "y": 579,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/derive.md",
+      "color": "2"
+    },
+    {
+      "id": "n5",
+      "type": "file",
+      "x": -623,
+      "y": 455,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/From e Into.md",
+      "color": "2"
+    },
+    {
+      "id": "n6",
+      "type": "file",
+      "x": -834,
+      "y": 230,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Default.md",
+      "color": "2"
+    },
+    {
+      "id": "n7",
+      "type": "file",
+      "x": -910,
+      "y": -49,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Deref e AsRef.md",
+      "color": "2"
+    },
+    {
+      "id": "n8",
+      "type": "file",
+      "x": -834,
+      "y": -330,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Tipos associados.md",
+      "color": "6"
+    },
+    {
+      "id": "n9",
+      "type": "file",
+      "x": -623,
+      "y": -555,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Supertraits.md",
+      "color": "6"
+    },
+    {
+      "id": "n10",
+      "type": "file",
+      "x": -319,
+      "y": -679,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Object safety.md",
+      "color": "1"
+    },
+    {
+      "id": "n11",
+      "type": "file",
+      "x": 19,
+      "y": -679,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Sobrecarga de operadores.md",
+      "color": "5"
+    },
+    {
+      "id": "n12",
+      "type": "file",
+      "x": 323,
+      "y": -555,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/08 - Traits e Genéricos/Orphan rule.md",
+      "color": "5"
+    },
+    {
+      "id": "n13",
+      "type": "file",
+      "x": 534,
+      "y": -330,
+      "width": 300,
+      "height": 100,
+      "file": "Rust-Vault/17 - Avançado e Performance/Traits avançadas.md",
+      "color": "6"
+    },
+    {
+      "id": "est",
+      "type": "text",
+      "x": -170,
+      "y": 260,
+      "width": 340,
+      "height": 190,
+      "text": "## Estático × dinâmico\n- `impl Trait` / genérico → monomorfização, rápido\n- `dyn Trait` → vtable, flexível\n- só traits *dyn compatible* viram `dyn`",
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "t",
+      "fromSide": "right",
+      "toNode": "n0",
+      "toSide": "left"
+    },
+    {
+      "id": "e1",
+      "fromNode": "t",
+      "fromSide": "right",
+      "toNode": "n1",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "t",
+      "fromSide": "bottom",
+      "toNode": "n2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "t",
+      "fromSide": "bottom",
+      "toNode": "n3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "t",
+      "fromSide": "bottom",
+      "toNode": "n4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "t",
+      "fromSide": "bottom",
+      "toNode": "n5",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "t",
+      "fromSide": "left",
+      "toNode": "n6",
+      "toSide": "right"
+    },
+    {
+      "id": "e7",
+      "fromNode": "t",
+      "fromSide": "left",
+      "toNode": "n7",
+      "toSide": "right"
+    },
+    {
+      "id": "e8",
+      "fromNode": "t",
+      "fromSide": "left",
+      "toNode": "n8",
+      "toSide": "right"
+    },
+    {
+      "id": "e9",
+      "fromNode": "t",
+      "fromSide": "top",
+      "toNode": "n9",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e10",
+      "fromNode": "t",
+      "fromSide": "top",
+      "toNode": "n10",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e11",
+      "fromNode": "t",
+      "fromSide": "top",
+      "toNode": "n11",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e12",
+      "fromNode": "t",
+      "fromSide": "top",
+      "toNode": "n12",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e13",
+      "fromNode": "t",
+      "fromSide": "right",
+      "toNode": "n13",
+      "toSide": "left"
+    },
+    {
+      "id": "e14",
+      "fromNode": "est",
+      "fromSide": "right",
+      "toNode": "n2",
+      "toSide": "left",
+      "label": "compare"
+    },
+    {
+      "id": "e15",
+      "fromNode": "est",
+      "fromSide": "top",
+      "toNode": "n10",
+      "toSide": "bottom",
+      "label": "requisito"
+    }
+  ]
+}
