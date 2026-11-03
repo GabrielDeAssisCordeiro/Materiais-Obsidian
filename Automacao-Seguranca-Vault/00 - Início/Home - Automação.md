@@ -18,7 +18,7 @@ relacionados:
 Bem-vindo ao vault de estudos sobre **automação de segurança**, com foco **defensivo e prático**, em português do Brasil. O material é voltado a estudantes e profissionais de nível intermediário a avançado e foi organizado para que o grafo do Obsidian reflita o encadeamento real do conhecimento: do porquê de automatizar até a governança do uso de IA.
 
 > [!info] Onde fica este material
-> Este material fica na pasta `Automacao-Seguranca-Vault` do vault **Materiais-Obsidian** (veja o [[GUIA]]).
+> Este material fica na pasta `Automacao-Seguranca-Vault` do vault **Materiais-Obsidian** (veja o [[README]]).
 
 > [!tip] Como começar
 > Leia primeiro [[Convenções - Automação]] para entender frontmatter, tags e callouts. Depois siga a trilha numerada abaixo ou use o [[MOC - Revisão - Automação]] para montar sua rotina de estudo.

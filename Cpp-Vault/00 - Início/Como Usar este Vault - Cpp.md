@@ -16,7 +16,7 @@ Este vault é um material de estudos completo de **C++ moderno** (C++11 a C++23,
 ## Abrindo
 
 1. Descompacte o `.zip`.
-2. No Obsidian: **Abrir pasta como cofre** e selecione a pasta `Materiais-Obsidian`. Este material fica na subpasta `Cpp-Vault` (veja o [[GUIA]]).
+2. No Obsidian: **Abrir pasta como cofre** e selecione a pasta `Materiais-Obsidian`. Este material fica na subpasta `Cpp-Vault` (veja o [[README]]).
 3. Comece por [[Home - Cpp]].
 
 ## Navegação

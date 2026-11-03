@@ -11,7 +11,7 @@ relacionados:
 ---
 # Home
 
-Bem-vindo ao vault **Ambientes Sandbox — Material de Estudos**. Este material fica na pasta `Sandbox-Vault` do vault **Materiais-Obsidian** (veja o [[GUIA]]). Use o Graph view para explorar.
+Bem-vindo ao vault **Ambientes Sandbox — Material de Estudos**. Este material fica na pasta `Sandbox-Vault` do vault **Materiais-Obsidian** (veja o [[README]]). Use o Graph view para explorar.
 
 > [!info] Uso responsável
 > Todo o conteúdo é educativo e defensivo. Execute comandos somente em ambiente de laboratório, com dados fictícios e sistemas que você possui ou tem autorização para usar.

@@ -44,5 +44,5 @@ Toda nota leva `ciberseguranca` e a tag do seu `tipo`. As notas de ferramenta ta
 
 ## Veja também
 
-- [[GUIA]]
+- [[README]]
 - [[Glossário#Cibersegurança (Arsenal)]]

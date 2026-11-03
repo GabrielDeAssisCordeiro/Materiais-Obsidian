@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Assembly Vault/\"",
@@ -102,6 +102,6 @@
   "repelStrength": 10.259512195122,
   "linkStrength": 1,
   "linkDistance": 252,
-  "scale": 0.1316872427983531,
+  "scale": 0.13168724279835306,
   "close": false
 }

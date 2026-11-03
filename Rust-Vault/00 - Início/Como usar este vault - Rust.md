@@ -29,7 +29,7 @@ Os canvases ficam em `Anexos/` e os modelos de nota em `Templates/`, ambas na ra
 ## Como abrir
 
 1. Descompacte o `.zip`.
-2. No Obsidian: **Abrir pasta como cofre (vault)** e escolha a pasta `Materiais-Obsidian`. Este material fica na subpasta `Rust-Vault` (veja o [[GUIA]]).
+2. No Obsidian: **Abrir pasta como cofre (vault)** e escolha a pasta `Materiais-Obsidian`. Este material fica na subpasta `Rust-Vault` (veja o [[README]]).
 3. Abra [[Home - Rust]].
 
 > [!info] Sem plugins da comunidade

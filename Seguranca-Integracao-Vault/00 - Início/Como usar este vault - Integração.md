@@ -28,7 +28,7 @@ Este vault organiza o estudo de desenvolvimento e integração de ferramentas de
 
 ## Como funciona
 
-1. No Obsidian, use *Abrir pasta como cofre* e escolha a pasta `Materiais-Obsidian`. Este material fica na subpasta `Seguranca-Integracao-Vault` (veja o [[GUIA]]).
+1. No Obsidian, use *Abrir pasta como cofre* e escolha a pasta `Materiais-Obsidian`. Este material fica na subpasta `Seguranca-Integracao-Vault` (veja o [[README]]).
 2. Comece pela [[Home - Integração]] e siga a trilha sugerida.
 3. Leia cada nota, execute os exemplos em ambiente de laboratório.
 4. Ao final de cada módulo, faça os flashcards e questões em [[MOC - Revisão - Integração]].

@@ -18,7 +18,7 @@ Este material funciona melhor **dentro do Obsidian**, porque usa wikilinks, call
 
 ## Passo a passo
 1. Baixe o zip e extraia a pasta.
-2. No Obsidian: **Abrir pasta como cofre** (*Open folder as vault*) e escolha a pasta extraída `Materiais-Obsidian`. Este material fica na subpasta `Obsidian-Vault` (veja o [[GUIA]]). Veja [[Instalação e primeiro vault]].
+2. No Obsidian: **Abrir pasta como cofre** (*Open folder as vault*) e escolha a pasta extraída `Materiais-Obsidian`. Este material fica na subpasta `Obsidian-Vault` (veja o [[README]]). Veja [[Instalação e primeiro vault]].
 3. Abra [[Home - Obsidian]] e siga a [[Trilha de aprendizado - Obsidian]].
 4. Quando o Obsidian perguntar sobre **Restricted Mode**, mantenha-o ativo: este vault não precisa de plugins da comunidade (veja [[Plugins da comunidade e Restricted Mode]]).
 

@@ -13,7 +13,7 @@ relacionados:
 ---
 # Convenções - Automação
 
-Este documento define as regras de escrita e organização do material de automação de segurança. Qualquer nota nova deve segui-las e as regras gerais do [[GUIA]].
+Este documento define as regras de escrita e organização do material de automação de segurança. Qualquer nota nova deve segui-las e as regras gerais do [[README]].
 
 ## Objetivo
 

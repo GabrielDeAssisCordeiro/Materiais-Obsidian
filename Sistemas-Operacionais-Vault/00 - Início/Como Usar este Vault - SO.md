@@ -20,7 +20,7 @@ Vault Obsidian em pt-BR sobre Sistemas Operacionais: fundamentos, arquitetura, f
 ## Instalação
 
 1. Extraia o `.zip` em uma pasta.
-2. No Obsidian: *Abrir pasta como cofre* e selecione a pasta `Materiais-Obsidian`. Este material fica na subpasta `Sistemas-Operacionais-Vault` (veja o [[GUIA]]).
+2. No Obsidian: *Abrir pasta como cofre* e selecione a pasta `Materiais-Obsidian`. Este material fica na subpasta `Sistemas-Operacionais-Vault` (veja o [[README]]).
 3. Ative o plugin de **Gráfico** (Graph view) e confirme que os diagramas **Mermaid** renderizam (nativo no Obsidian).
 
 ## Navegação

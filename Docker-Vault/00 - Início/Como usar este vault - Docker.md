@@ -18,7 +18,7 @@ relacionados:
 ## Abrindo
 
 1. Descompacte o `.zip`.
-2. No Obsidian: **Abrir pasta como cofre** e selecione a pasta `Materiais-Obsidian`. Este material fica na subpasta `Docker-Vault` (veja o [[GUIA]]).
+2. No Obsidian: **Abrir pasta como cofre** e selecione a pasta `Materiais-Obsidian`. Este material fica na subpasta `Docker-Vault` (veja o [[README]]).
 3. Abra [[Home - Docker]] (o ponto de partida).
 
 ## Como navegar

@@ -196,7 +196,7 @@ flowchart LR
 ## ⚙️ Como usar este material no Obsidian
 
 ### 1. Abra como vault
-No Obsidian: **Abrir pasta como cofre** → selecione a pasta `Materiais-Obsidian`. Este material fica na subpasta `Python-Vault` (veja o [[GUIA]]).
+No Obsidian: **Abrir pasta como cofre** → selecione a pasta `Materiais-Obsidian`. Este material fica na subpasta `Python-Vault` (veja o [[README]]).
 
 ### 2. Plugins recomendados
 
