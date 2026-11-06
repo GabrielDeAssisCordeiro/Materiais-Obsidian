@@ -19,7 +19,7 @@ criado: 2026-10-21
 # Cheat Sheet de Instruções (x86-64, sintaxe NASM/Intel)
 
 > [!abstract] Resumo
-> Consulta rápida das instruções mais usadas, flags, condições de salto, formas de endereçamento e syscalls Linux. Para detalhes, veja o **Intel SDM, Volume 2** ou *felixcloutier.com/x86*. Voltar: [[11 - Recursos e Referências]] · [[00 - Índice]]
+> Consulta rápida das instruções mais usadas, flags, condições de salto, formas de endereçamento e syscalls Linux. Para detalhes, veja o **Intel SDM, Volume 2** ou *felixcloutier.com/x86*. Voltar: [[11 - Recursos e Referências]] · [[Índice - Assembly]]
 
 Tags: #assembly #cheatsheet #x64
 

@@ -1,6 +1,6 @@
 ---
 tags: [funcoes, diario]
-aliases: [Daily notes, Nota do dia]
+aliases: [Nota do dia]
 tipo: funcao
 nivel: iniciante
 criado: 2026-10-23

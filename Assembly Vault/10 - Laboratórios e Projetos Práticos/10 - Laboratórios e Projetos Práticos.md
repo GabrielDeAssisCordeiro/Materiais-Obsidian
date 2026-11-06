@@ -23,7 +23,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Aqui a teoria dos módulos 01 a 09 vira prática. São **8 laboratórios** em ordem crescente de dificuldade, do `write` com "Olá" até um projeto final (`hexdump` em Assembly). Cada lab tem **objetivos, código inicial, passo a passo, desafios progressivos e análise de desempenho**; a **solução completa e comentada** fica em uma nota separada, na pasta `Soluções/`, para você tentar antes de olhar.
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[09 - Otimização, SIMD e Performance]] · Próximo: [[11 - Recursos e Referências]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[09 - Otimização, SIMD e Performance]] · Próximo: [[11 - Recursos e Referências]]
 
 Tags: #assembly #lab #projeto #nasm
 
@@ -151,4 +151,4 @@ Marque conforme avança. Se algum item "não" persistir, volte ao módulo indica
 > - O método é **tentar, depurar, testar contra uma referência em C e medir**.
 > - Autoavalie-se pela rubrica da seção 4 e continue com os projetos extras.
 
-**Próximo:** [[11 - Recursos e Referências]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Cheat Sheet de GDB]] · [[00 - Índice]]
+**Próximo:** [[11 - Recursos e Referências]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Cheat Sheet de GDB]] · [[Índice - Assembly]]

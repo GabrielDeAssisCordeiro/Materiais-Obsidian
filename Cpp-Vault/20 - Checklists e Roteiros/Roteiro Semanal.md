@@ -6,12 +6,12 @@ tipo: guia
 nivel: iniciante
 padrao: C++20
 criado: 2026-10-24
-relacionados: ["[[Trilha de Estudos - Cpp]]", "[[MOC - Checklists e Roteiros - Cpp]]", "[[MOC - Exercícios - Cpp]]"]
+relacionados: ["[[Trilha de aprendizado - Cpp]]", "[[MOC - Checklists e Roteiros - Cpp]]", "[[MOC - Exercícios - Cpp]]"]
 ---
 
 # Roteiro semanal (16 semanas)
 
-Plano para **6–8 horas por semana** (3 sessões de 2 h). Ajuste o ritmo: é melhor terminar uma semana por completo do que correr. A trilha detalhada está em [[Trilha de Estudos - Cpp]].
+Plano para **6–8 horas por semana** (3 sessões de 2 h). Ajuste o ritmo: é melhor terminar uma semana por completo do que correr. A trilha detalhada está em [[Trilha de aprendizado - Cpp]].
 
 | Semana | Foco | Estudar | Praticar |
 |---|---|---|---|
@@ -57,7 +57,7 @@ gantt
 
 ## Veja também
 
-- [[Trilha de Estudos - Cpp]]
+- [[Trilha de aprendizado - Cpp]]
 - [[MOC - Exercícios - Cpp]]
 - [[Livros Cursos e Comunidades - Cpp]]
 - [[MOC - Checklists e Roteiros - Cpp]]

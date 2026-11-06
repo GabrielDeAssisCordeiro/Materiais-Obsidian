@@ -8,7 +8,7 @@ nivel: iniciante
 relacionados:
   - "[[Glossário#Sistemas Operacionais]]"
   - "[[Exercícios com Gabarito]]"
-  - "[[Mapa de Estudos]]"
+  - "[[Trilha de aprendizado - SO]]"
 ---
 
 # MOC - Extras
@@ -17,7 +17,7 @@ Material de apoio para estudo, revisão e consulta rápida.
 
 | Nota | Para quê |
 |---|---|
-| [[Mapa de Estudos]] | Roteiro sequencial de estudo, com tempo estimado e checkpoints |
+| [[Trilha de aprendizado - SO]] | Roteiro sequencial de estudo, com tempo estimado e checkpoints |
 | [[Glossário#Sistemas Operacionais]] | Termos de A a Z com link para a nota de aprofundamento |
 | [[Exercícios com Gabarito]] | Questões conceituais e práticas com respostas comentadas |
 | [[Cheat Sheet - Conceitos]] | Resumo de fórmulas, números e comparações |

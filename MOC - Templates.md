@@ -51,13 +51,15 @@ Mapa de conteúdo dos **templates** de todos os vaults. Os arquivos ficam na pas
 - [[Template de projeto - Docker]] — projeto guiado
 - [[Template de anotação de estudo]] — anotações de estudo
 
-## Segurança e Integração
+## Cibersegurança
+
+### Integração
 
 - [[Template - Nota de Conceito - Integração]] — nota de conceito
 - [[Template - Nota de Ferramenta]] — nota de ferramenta
 - [[Template - Nota de Projeto]] — projeto guiado
 
-## Automação de Segurança
+### Automação
 
 - [[Template de Conceito - Automação]] — nota de conceito
 - [[Template de Playbook - Automação]] — playbook de resposta
@@ -68,6 +70,13 @@ Mapa de conteúdo dos **templates** de todos os vaults. Os arquivos ficam na pas
 
 - [[Template - Nota de Conceito - Cpp]] — nota de conceito
 - [[Template - Exercício]] — exercício com gabarito
+
+## OpenClaw
+
+- [[Template - Conceito]] — nota de conceito
+- [[Template - Projeto]] — projeto prático
+- [[Template - Revisão]] — revisão espaçada
+- [[Template - Incidente de Segurança]] — registro de incidente
 
 ## Veja também
 

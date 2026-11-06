@@ -11,7 +11,6 @@ criado: 2026-10-24
 relacionados:
   - "[[Roteiro de estudo por semanas]]"
   - "[[Checklists de estudo]]"
-  - "[[Como usar este vault - Docker]]"
 ---
 
 # Trilha de aprendizado - Docker
@@ -60,4 +59,3 @@ Objetivo: segurança, automação e produção.
 
 - [[Roteiro de estudo por semanas]]
 - [[Checklists de estudo]]
-- [[Como usar este vault - Docker]]

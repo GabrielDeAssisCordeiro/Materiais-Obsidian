@@ -1,6 +1,6 @@
 ---
 tags: [aparencia]
-aliases: [Fontes, Tipografia]
+aliases: [Tipografia]
 tipo: guia
 nivel: iniciante
 criado: 2026-10-23

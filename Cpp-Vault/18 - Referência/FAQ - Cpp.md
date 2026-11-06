@@ -14,7 +14,7 @@ relacionados: ["[[Glossário#C++]]", "[[Erros Comuns de Iniciantes - Cpp]]", "[[
 ## Aprendizado e escolhas
 
 > [!question] Por onde começar?
-> Siga a trilha em [[Trilha de Estudos - Cpp]]: [[MOC - Fundamentos - Cpp]] → [[MOC - Básico da Linguagem - Cpp]] → [[MOC - Ponteiros e Memória]] → [[MOC - Classes e POO]] → [[MOC - RAII e Move]] → STL, templates e o resto.
+> Siga a trilha em [[Trilha de aprendizado - Cpp]]: [[MOC - Fundamentos - Cpp]] → [[MOC - Básico da Linguagem - Cpp]] → [[MOC - Ponteiros e Memória]] → [[MOC - Classes e POO]] → [[MOC - RAII e Move]] → STL, templates e o resto.
 
 > [!question] Qual padrão (`-std`) devo usar?
 > Para projetos novos, **C++20** é um bom piso (concepts, ranges, módulos, `jthread`, `std::format` em GCC 13+). C++23 se seu compilador suporta o que você precisa. C++26 ainda é novo (veja [[Cpp26 Visão Geral]] e [[Suporte dos Compiladores aos Padrões]]). Detalhes em [[Escolhendo o Padrão com -std]].

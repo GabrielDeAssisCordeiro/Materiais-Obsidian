@@ -24,7 +24,7 @@ criado: 2026-10-16
 > [!abstract] Resumo
 > Este módulo apresenta o **repertório essencial do x86/x64**: mover dados (`MOV`, `LEA`, `XCHG`, `MOVZX`, `MOVSX`), fazer **aritmética** (`ADD`, `SUB`, `MUL`, `DIV`...) e **lógica** (`AND`, `OR`, `XOR`, deslocamentos), **comparar** (`CMP`, `TEST`) e **desviar o fluxo** (`JMP` e os saltos condicionais `Jcc`). Com isso você já implementa `if/else`, `while`, `for` e `switch`, versão ingênua e versão otimizada, e entende por que o desvio é tão importante para o pipeline.
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[02 - Registradores e Memória]] · Próximo: [[04 - Procedimentos, Stack e Calling Conventions]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[02 - Registradores e Memória]] · Próximo: [[04 - Procedimentos, Stack e Calling Conventions]]
 
 **Pré-requisitos:** registradores e sub-registradores, flags (`ZF`, `CF`, `SF`, `OF`) e endereçamento, do [[02 - Registradores e Memória]].
 
@@ -772,4 +772,4 @@ Laboratórios relacionados: [[Lab 01 - Hello World e Operações Básicas]] e [[
 > - **`loop`** existe, porém `dec` + `jnz` costuma ser melhor.
 > - Idiomas do compilador: `xor r, r`, `test r, r`, `lea` aritmético.
 
-**Próximo:** [[04 - Procedimentos, Stack e Calling Conventions]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[00 - Índice]]
+**Próximo:** [[04 - Procedimentos, Stack e Calling Conventions]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Índice - Assembly]]

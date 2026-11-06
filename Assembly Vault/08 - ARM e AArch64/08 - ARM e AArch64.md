@@ -22,7 +22,7 @@ criado: 2026-10-19
 > [!abstract] Resumo
 > ARM é a arquitetura de quase todo smartphone, de boa parte dos servidores em nuvem (Graviton, Ampere), dos Macs com Apple Silicon e de milhares de microcontroladores. Este módulo compara **x86 × ARM** ponto a ponto e ensina **AArch64** (o modo de 64 bits do ARMv8/ARMv9) com: registradores, modos de endereçamento *load/store*, instruções essenciais, **flags e condições**, a calling convention **AAPCS64**, system calls no Linux, **AArch32 e Thumb**, o **modelo de memória fraco** (barreiras e atômicos) e uma introdução a **NEON**. Os mesmos algoritmos aparecem **lado a lado em x64 e ARM**.
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[07 - Assembly Avançado (x86-x64)]] · Próximo: [[09 - Otimização, SIMD e Performance]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[07 - Assembly Avançado (x86-x64)]] · Próximo: [[09 - Otimização, SIMD e Performance]]
 
 **Pré-requisitos:** [[01 - Fundamentos de Arquitetura e Assembly]] (RISC × CISC, endianness), [[03 - Instruções Básicas e Controle de Fluxo]] (flags e saltos), [[04 - Procedimentos, Stack e Calling Conventions]] (ABIs), [[05 - Entrada-Saída e System Calls]], [[07 - Assembly Avançado (x86-x64)]] (SIMD, ordem de memória).
 
@@ -1109,4 +1109,4 @@ Laboratório relacionado: reescreva as funções do [[Lab 04 - Funções da libc
 > - **Memória fraca:** use `dmb`, `ldar`/`stlr`, `ldxr`/`stxr` ou atômicos LSE (`ldadd`, `cas`); código que depende da ordem do x86 quebra.
 > - **NEON:** `v0`–`v31` de 128 bits (`.4s`, `.16b`...), `ld1`/`st1`/`fadd`/`fmla`/`faddp`; SVE/SVE2 estendem a ideia a vetores de largura escalável.
 
-**Próximo:** [[09 - Otimização, SIMD e Performance]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Cheat Sheet de Calling Conventions]] · [[00 - Índice]]
+**Próximo:** [[09 - Otimização, SIMD e Performance]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Cheat Sheet de Calling Conventions]] · [[Índice - Assembly]]

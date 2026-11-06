@@ -7,7 +7,7 @@ tipo: exercicio
 nivel: intermediario
 relacionados:
   - "[[MOC - Extras]]"
-  - "[[Mapa de Estudos]]"
+  - "[[Trilha de aprendizado - SO]]"
   - "[[Glossário#Sistemas Operacionais]]"
 ---
 
@@ -96,4 +96,4 @@ Questões por tema. Responda antes de abrir o gabarito (na seção final).
 
 ## Veja também
 
-[[Glossário#Sistemas Operacionais]] · [[Mapa de Estudos]] · [[MOC - Extras]]
+[[Glossário#Sistemas Operacionais]] · [[Trilha de aprendizado - SO]] · [[MOC - Extras]]

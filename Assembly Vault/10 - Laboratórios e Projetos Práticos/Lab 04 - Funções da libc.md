@@ -23,7 +23,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Agora é o **Assembly que chama a libc**: `srand`, `rand`, `malloc`, `printf`, `qsort`, `free`. Você escreverá um `main` em NASM que sorteia 10 inteiros, ordena com `qsort` usando um **comparador escrito em Assembly** (uma *callback*) e imprime antes e depois. O foco: **alinhamento da pilha em 16 bytes**, registradores **preservados** (*callee-saved*), funções **variádicas** (`AL`) e como a **PLT/GOT** entra no jogo.
 
-Voltar ao índice: [[00 - Índice]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 03 - Manipulação de Strings e Arrays]] · Próximo: [[Lab 05 - Sistema de Arquivos Simples]] · Solução: [[Solução - Lab 04 - Funções da libc]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 03 - Manipulação de Strings e Arrays]] · Próximo: [[Lab 05 - Sistema de Arquivos Simples]] · Solução: [[Solução - Lab 04 - Funções da libc]]
 
 **Pré-requisitos:** [[04 - Procedimentos, Stack e Calling Conventions]] (leitura obrigatória), [[05 - Entrada-Saída e System Calls]], [[07 - Assembly Avançado (x86-x64)]] (PIC, PLT e GOT).
 

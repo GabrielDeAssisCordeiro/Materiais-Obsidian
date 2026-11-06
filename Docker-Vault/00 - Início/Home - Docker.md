@@ -15,7 +15,7 @@ relacionados:
   - "[[MOC - Segurança]]"
   - "[[MOC - Projetos - Docker]]"
   - "[[Trilha de aprendizado - Docker]]"
-  - "[[Índice geral - Docker]]"
+  - "[[Índice - Docker]]"
 ---
 
 # Home - Docker
@@ -23,14 +23,13 @@ relacionados:
 Material completo, em português do Brasil, para aprender **Docker** do zero até a produção: fundamentos, imagens, Dockerfile, Compose, redes, volumes, segurança, Swarm, observabilidade, CI/CD, produção, IA e novidades, com **9 projetos guiados**, exercícios com gabarito e material de referência.
 
 > [!tip] Primeira vez aqui?
-> Leia [[Como usar este vault - Docker]], escolha uma rota em [[Trilha de aprendizado - Docker]] e siga o [[Roteiro de estudo por semanas]].
+> Escolha uma rota em [[Trilha de aprendizado - Docker]] e siga o [[Roteiro de estudo por semanas]].
 
 ## Comece aqui
 
-- [[Como usar este vault - Docker]]
 - [[Trilha de aprendizado - Docker]] e o mapa visual [[Trilha de Aprendizado em Docker.canvas]]
 - [[Roteiro de estudo por semanas]] (12 semanas)
-- [[Índice geral - Docker]] (todas as notas em ordem alfabética)
+- [[Índice - Docker]] (todas as notas em ordem alfabética)
 - [[Glossário#Docker]] · [[Cheat sheet de comandos Docker]] · [[Erros comuns e soluções]]
 
 ## Mapa de seções (MOCs)
@@ -87,6 +86,6 @@ Material completo, em português do Brasil, para aprender **Docker** do zero at�
 
 ## Veja também
 
-- [[Índice geral - Docker]]
+- [[Índice - Docker]]
 - [[Trilha de aprendizado - Docker]]
 - [[MOC - Projetos - Docker]]

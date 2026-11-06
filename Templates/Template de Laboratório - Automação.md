@@ -2,7 +2,8 @@
 titulo: "Lab - {{title}}"
 aliases: []
 tags:
-  - automacao-seguranca
+  - ciberseguranca
+  - automacao-de-seguranca
   - laboratorio
 tipo: laboratorio
 nivel: iniciante

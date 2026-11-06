@@ -29,4 +29,3 @@ relacionados: ["[[Solução de problemas]]", "[[FAQ]]", "[[Sintaxe YAML do front
 
 ## Veja também
 - [[FAQ]]
-- [[Checklist de configuração inicial]]

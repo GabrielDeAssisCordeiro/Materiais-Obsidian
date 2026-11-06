@@ -6,7 +6,7 @@ tipo: ferramenta
 nivel: iniciante
 padrao: C++11
 criado: 2026-10-24
-relacionados: ["[[clang-tidy e cppcheck]]", "[[CI e CD para Cpp]]", "[[Convenções - Cpp]]"]
+relacionados: ["[[clang-tidy e cppcheck]]", "[[CI e CD para Cpp]]"]
 ---
 
 # clang-format
@@ -59,7 +59,6 @@ int main() { std::cout << matriz[1][1] << '\n'; }
 - [[clang-tidy e cppcheck]]
 - [[CI e CD para Cpp]]
 - [[Core Guidelines]]
-- [[Convenções - Cpp]]
 
 ## Exercício
 

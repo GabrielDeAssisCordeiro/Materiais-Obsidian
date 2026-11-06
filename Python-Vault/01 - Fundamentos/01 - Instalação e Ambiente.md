@@ -199,6 +199,6 @@ Veremos isso em detalhes em [[03 - Funções e Modularização/05 - Virtual Envi
 ## Próximos passos
 ➡️ [[01 - Fundamentos/02 - Sintaxe Básica e Variáveis|Sintaxe Básica e Variáveis]]
 
-⬆️ Voltar ao [[00 - Índice Python|Índice]]
+⬆️ Voltar ao [[Índice - Python|Índice]]
 
 #python #basico #instalacao #ambiente #vscode #repl

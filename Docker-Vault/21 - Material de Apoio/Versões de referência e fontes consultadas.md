@@ -9,7 +9,6 @@ nivel: iniciante
 criado: 2026-10-24
 relacionados:
   - "[[Comunidades e fontes oficiais]]"
-  - "[[Como usar este vault - Docker]]"
   - "[[Docker Model Runner]]"
 ---
 
@@ -42,5 +41,4 @@ Este material foi elaborado com consulta a fontes oficiais em **24/10/2026**. As
 ## Veja também
 
 - [[Comunidades e fontes oficiais]]
-- [[Como usar este vault - Docker]]
 - [[Docker Model Runner]]

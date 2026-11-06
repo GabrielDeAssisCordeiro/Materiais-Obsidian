@@ -9,7 +9,7 @@ nivel: "intermediario"
 
 # Kit de Laboratório (`labkit`)
 
-Voltar ao [[00 - Índice Jailbreaking]] · Usado por [[Laboratório 01 - Comportamento de Recusa]], [[Laboratório 02 - Robustez a Instruções]], [[Laboratório 03 - Prompt Injection]], [[Laboratório 04 - Defesa em Camadas]] e [[Laboratório 05 - Avaliação Comparativa]].
+Voltar ao [[Índice - Jailbreaking]] · Usado por [[Laboratório 01 - Comportamento de Recusa]], [[Laboratório 02 - Robustez a Instruções]], [[Laboratório 03 - Prompt Injection]], [[Laboratório 04 - Defesa em Camadas]] e [[Laboratório 05 - Avaliação Comparativa]].
 
 > [!warning] Escopo e responsabilidade
 > O kit só ataca **alvos de brinquedo que você mesmo monta**, com canários inofensivos e ferramentas **simuladas** (apenas registram a chamada). Não aponte o kit para sistemas de terceiros. Use modelo local ou API própria, com dados fictícios. Veja [[Planejamento de Avaliações]].

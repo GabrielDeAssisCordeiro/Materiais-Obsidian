@@ -604,6 +604,6 @@ Exercícios **progressivos** para fixar o **Módulo 05**. Resolva sozinho(a) ant
 ## 🚀 Próximo módulo
 ➡️ [[06 - Módulos da Biblioteca Padrão Essenciais/01 - os pathlib e sys|Módulo 06: Biblioteca Padrão Essencial]]
 
-⬅️ [[05 - Tratamento de Erros e Arquivos/04 - Context Managers com with|Context Managers]] · ⬆️ [[00 - Índice Python|Índice]]
+⬅️ [[05 - Tratamento de Erros e Arquivos/04 - Context Managers com with|Context Managers]] · ⬆️ [[Índice - Python|Índice]]
 
 #python #intermediario #exercicios #pratica #excecoes #arquivos #csv #json #context-managers

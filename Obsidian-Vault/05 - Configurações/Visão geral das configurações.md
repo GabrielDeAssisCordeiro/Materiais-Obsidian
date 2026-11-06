@@ -4,7 +4,7 @@ aliases: [Settings, Menu de configurações]
 tipo: referencia
 nivel: iniciante
 criado: 2026-10-23
-relacionados: ["[[Configurações do Editor]]", "[[Configurações de Arquivos e links]]", "[[Checklist de configuração inicial]]"]
+relacionados: ["[[Configurações do Editor]]", "[[Configurações de Arquivos e links]]"]
 ---
 
 # Visão geral das configurações
@@ -32,7 +32,6 @@ Abra **Settings** com `Ctrl/Cmd + ,` ou pelo ícone de engrenagem.
 > Use a paleta para abrir uma seção direto ([[Paleta de comandos]]).
 
 ## Veja também
-- [[Checklist de configuração inicial]]
 - [[Pasta .obsidian]]
 
 ## Exercício

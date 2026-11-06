@@ -10,7 +10,6 @@ criado: 2026-10-24
 relacionados:
   - "[[Livros, cursos e certificações]]"
   - "[[Versões de referência e fontes consultadas]]"
-  - "[[Como usar este vault - Docker]]"
 ---
 
 # Comunidades e fontes oficiais
@@ -52,4 +51,3 @@ relacionados:
 
 - [[Livros, cursos e certificações]]
 - [[Versões de referência e fontes consultadas]]
-- [[Como usar este vault - Docker]]

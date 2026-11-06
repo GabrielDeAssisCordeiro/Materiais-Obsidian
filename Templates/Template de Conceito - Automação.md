@@ -2,7 +2,8 @@
 titulo: "{{title}}"
 aliases: []
 tags:
-  - automacao-seguranca
+  - ciberseguranca
+  - automacao-de-seguranca
   - conceito
 tipo: conceito
 nivel: iniciante

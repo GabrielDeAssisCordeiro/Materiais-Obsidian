@@ -17,7 +17,7 @@ Mapa de conteúdo de **referência e apoio ao estudo**.
 ## Notas desta seção
 
 - [[Glossário#Sandboxes e isolamento]] — termos
-- [[Trilha de Aprendizado - Sandbox]] — iniciante → avançado
+- [[Trilha de aprendizado - Sandbox]] — iniciante → avançado
 - [[FAQ de Sandboxes]] — perguntas frequentes
 - [[Cheat Sheet - Isolamento no Linux]] — comandos
 - [[Cheat Sheet - Docker e Podman]] — comandos

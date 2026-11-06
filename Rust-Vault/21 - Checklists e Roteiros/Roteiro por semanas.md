@@ -4,7 +4,7 @@ aliases: ["Plano de 12 semanas"]
 tipo: roteiro
 nivel: iniciante
 criado: 2026-10-24
-relacionados: ["[[Trilha de estudos - Rust]]", "[[Checklist de progresso]]", "[[Como usar este vault - Rust]]", "[[Livros, cursos e comunidades]]"]
+relacionados: ["[[Trilha de aprendizado - Rust]]", "[[Checklist de progresso]]", "[[Livros, cursos e comunidades]]"]
 ---
 
 # Roteiro por semanas
@@ -54,7 +54,6 @@ Revise os flashcards em D+1, D+3, D+7 e D+21: [[Flashcards de fundamentos e owne
 
 ## Veja também
 
-- [[Trilha de estudos - Rust]]
+- [[Trilha de aprendizado - Rust]]
 - [[Checklist de progresso]]
-- [[Como usar este vault - Rust]]
 - [[Livros, cursos e comunidades]]

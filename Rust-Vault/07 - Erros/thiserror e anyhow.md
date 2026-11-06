@@ -1,6 +1,6 @@
 ---
 tags: [rust, erros, crates]
-aliases: ["thiserror", "anyhow", "Context"]
+aliases: ["thiserror", "anyhow"]
 tipo: ferramenta
 nivel: intermediario
 criado: 2026-10-24

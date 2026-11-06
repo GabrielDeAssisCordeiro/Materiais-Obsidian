@@ -50,4 +50,4 @@ flowchart LR
 - [[Home - Cpp]]
 - [[MOC - Exercícios - Cpp]]
 - [[MOC - Projetos - Cpp]]
-- [[Trilha de Estudos - Cpp]]
+- [[Trilha de aprendizado - Cpp]]

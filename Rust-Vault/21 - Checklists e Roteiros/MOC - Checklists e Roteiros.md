@@ -4,7 +4,7 @@ aliases: ["Checklists"]
 tipo: moc
 nivel: iniciante
 criado: 2026-10-24
-relacionados: ["[[Home - Rust]]", "[[Trilha de estudos - Rust]]"]
+relacionados: ["[[Home - Rust]]", "[[Trilha de aprendizado - Rust]]"]
 ---
 
 # MOC - Checklists e Roteiros
@@ -27,4 +27,4 @@ Material de apoio ao estudo: roteiro semanal e checklists. Os canvases (mapas vi
 ## Veja também
 
 - [[Home - Rust]]
-- [[Trilha de estudos - Rust]]
+- [[Trilha de aprendizado - Rust]]

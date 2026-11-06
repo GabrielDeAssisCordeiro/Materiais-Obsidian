@@ -23,9 +23,9 @@ criado: 2026-10-16
 > [!abstract] Resumo
 > Neste módulo você aprende **o que é Assembly**, como ele se relaciona com a linguagem de máquina e com o processador, quais são os modelos de arquitetura (von Neumann e Harvard), os modos de operação do x86 (Real, Protegido e Longo), o que é *endianness*, como uma CPU executa instruções (registradores, ALU, pipeline) e, por fim, escreve seu primeiro programa em **NASM** (Linux) e **MASM** (Windows), em 32 e 64 bits.
 
-Voltar ao índice: [[00 - Índice]] · Próximo módulo: [[02 - Registradores e Memória]]
+Voltar ao índice: [[Índice - Assembly]] · Próximo módulo: [[02 - Registradores e Memória]]
 
-**Pré-requisitos:** nenhum além do ambiente configurado em [[00 - Índice#5. Configurando o ambiente de desenvolvimento|Configurando o ambiente]].
+**Pré-requisitos:** nenhum além do ambiente configurado em [[Índice - Assembly#5. Configurando o ambiente de desenvolvimento|Configurando o ambiente]].
 
 **Objetivos:**
 - Explicar com suas palavras o que é Assembly e por que ainda vale a pena aprendê-lo.
@@ -324,7 +324,7 @@ Sem pipeline, 4 instruções levariam 20 ciclos; com o pipeline cheio, termina-s
 Um Hello World em Assembly precisa fazer **duas chamadas ao sistema operacional**: escrever o texto e encerrar o processo. Sem libc, isso é feito por **system calls** (Linux) ou por funções da **Windows API**. O [[05 - Entrada-Saída e System Calls]] aprofunda o assunto.
 
 > [!note] Já viu o x64 no módulo 00?
-> Sim, [[00 - Índice#5.7 Teste de fogo: Hello World|o módulo 00]] trouxe a versão x64 como teste de ambiente. Aqui vamos **entender cada parte** e comparar com as versões de **32 bits**, para você enxergar o que muda entre as arquiteturas.
+> Sim, [[Índice - Assembly#5.7 Teste de fogo: Hello World|o módulo 00]] trouxe a versão x64 como teste de ambiente. Aqui vamos **entender cada parte** e comparar com as versões de **32 bits**, para você enxergar o que muda entre as arquiteturas.
 
 ### 7.1 Anatomia de um programa NASM
 
@@ -633,4 +633,4 @@ Os laboratórios que acompanham este módulo: [[Lab 01 - Hello World e Operaçõ
 > - Hello World exige **escrever** e **encerrar**; no Linux via `syscall` (x64) ou `int 0x80` (x86), no Windows via Windows API.
 > - Em x64, escrever em registrador de **32 bits zera os 32 superiores**, o que permite instruções menores (`mov eax, 1` em vez de `mov rax, 1`).
 
-**Próximo:** [[02 - Registradores e Memória]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[00 - Índice]]
+**Próximo:** [[02 - Registradores e Memória]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Índice - Assembly]]

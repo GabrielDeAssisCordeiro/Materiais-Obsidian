@@ -23,7 +23,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > **Projeto:** `hd`, um clone de **`hexdump -vC`** em Assembly puro (sem libc). Ele lê um arquivo (ou a entrada padrão) e imprime *offset*, bytes em hexadecimal e coluna ASCII, **idêntico** ao formato do `hexdump`. É um projeto que reúne tudo: `argc/argv`, `open/read/write`, buffers, laços aninhados, tabelas de conversão, tratamento de erros, testes de borda e medição de desempenho. Diferente dos labs anteriores, este vem como **especificação**: você planeja, implementa por marcos e se auto-avalia com uma rubrica.
 
-Voltar ao índice: [[00 - Índice]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 07 - Floating Point e SIMD]] · Próximo: [[11 - Recursos e Referências]] · Solução: [[Solução - Lab 08 - Projeto Final]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 07 - Floating Point e SIMD]] · Próximo: [[11 - Recursos e Referências]] · Solução: [[Solução - Lab 08 - Projeto Final]]
 
 **Pré-requisitos:** [[Lab 05 - Sistema de Arquivos Simples]] (E/S e buffers), [[Lab 01 - Hello World e Operações Básicas]] (conversão numérica), [[09 - Otimização, SIMD e Performance]] (medição). Recomendado: [[Cheat Sheet de GDB]].
 

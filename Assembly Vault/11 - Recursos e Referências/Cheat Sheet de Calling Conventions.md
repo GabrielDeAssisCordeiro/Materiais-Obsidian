@@ -20,7 +20,7 @@ criado: 2026-10-21
 # Cheat Sheet de Calling Conventions
 
 > [!abstract] Resumo
-> As convenções de chamada lado a lado: **System V AMD64** (Linux/macOS), **Microsoft x64** (Windows), as de 32 bits (`cdecl`, `stdcall`, `fastcall`) e **AAPCS64/AAPCS32** (ARM). Teoria completa no [[04 - Procedimentos, Stack e Calling Conventions]]; ARM no [[08 - ARM e AArch64]]. Voltar: [[11 - Recursos e Referências]] · [[00 - Índice]]
+> As convenções de chamada lado a lado: **System V AMD64** (Linux/macOS), **Microsoft x64** (Windows), as de 32 bits (`cdecl`, `stdcall`, `fastcall`) e **AAPCS64/AAPCS32** (ARM). Teoria completa no [[04 - Procedimentos, Stack e Calling Conventions]]; ARM no [[08 - ARM e AArch64]]. Voltar: [[11 - Recursos e Referências]] · [[Índice - Assembly]]
 
 Tags: #assembly #cheatsheet #calling-convention #abi
 

@@ -14,7 +14,7 @@ criado: "{{date:YYYY-MM-DD}}"
 > [!abstract] Resumo
 > Em 2 ou 3 linhas: o que este módulo ensina e por quê.
 
-Voltar ao índice: [[00 - Índice]]
+Voltar ao índice: [[Índice - Assembly]]
 
 ## Objetivos
 

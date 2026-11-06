@@ -1,0 +1,17 @@
+# Obsidian: estado local e cache (mantém app, core-plugins, graph, templates e appearance)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Python (script de validação)
+__pycache__/
+*.pyc

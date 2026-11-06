@@ -419,6 +419,6 @@ Exercícios **progressivos** para fixar o **Módulo 02**. Resolva sozinho(a) ant
 ## 🚀 Próximo módulo
 ➡️ [[03 - Funções e Modularização/01 - Definindo Funções|Módulo 03: Funções e Modularização]]
 
-⬅️ [[02 - Controle de Fluxo e Estruturas de Dados/07 - Comprehensions|Comprehensions]] · ⬆️ [[00 - Índice Python|Índice]]
+⬅️ [[02 - Controle de Fluxo e Estruturas de Dados/07 - Comprehensions|Comprehensions]] · ⬆️ [[Índice - Python|Índice]]
 
 #python #basico #exercicios #pratica #estruturas-de-dados #fluxo

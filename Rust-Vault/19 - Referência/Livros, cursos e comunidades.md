@@ -4,7 +4,7 @@ aliases: ["Onde estudar mais", "Comunidades de Rust"]
 tipo: referencia
 nivel: iniciante
 criado: 2026-10-24
-relacionados: ["[[Trilha de estudos - Rust]]", "[[O que é Rust]]", "[[Instalação com rustup]]", "[[Escolhendo e avaliando crates]]"]
+relacionados: ["[[Trilha de aprendizado - Rust]]", "[[O que é Rust]]", "[[Instalação com rustup]]", "[[Escolhendo e avaliando crates]]"]
 ---
 
 # Livros, cursos e comunidades
@@ -75,7 +75,7 @@ relacionados: ["[[Trilha de estudos - Rust]]", "[[O que é Rust]]", "[[Instalaç
 
 ## Veja também
 
-- [[Trilha de estudos - Rust]]
+- [[Trilha de aprendizado - Rust]]
 - [[O que é Rust]]
 - [[Instalação com rustup]]
 - [[Escolhendo e avaliando crates]]

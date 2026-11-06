@@ -23,7 +23,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Ponto flutuante em Assembly, do **escalar** (`movss`, `mulss`, `addss`, `sqrtss`, `ucomisd`) ao **vetorial** (AVX2 + FMA com registradores `YMM`). Você escreve produto escalar, `saxpy`, norma de vetor e o laço do **conjunto de Mandelbrot**, compara as versões escalar e vetorial (até **16×** de ganho) e descobre **quando o SIMD não ajuda** (memória) e **quando o compilador empata** (laços limitados por latência).
 
-Voltar ao índice: [[00 - Índice]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 06 - Ordenação]] · Próximo: [[Lab 08 - Projeto Final]] · Solução: [[Solução - Lab 07 - Floating Point e SIMD]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 06 - Ordenação]] · Próximo: [[Lab 08 - Projeto Final]] · Solução: [[Solução - Lab 07 - Floating Point e SIMD]]
 
 **Pré-requisitos:** [[07 - Assembly Avançado (x86-x64)]] (SSE/AVX, `vzeroupper`, `cpuid`), [[09 - Otimização, SIMD e Performance]] (latência × vazão, acumuladores múltiplos), [[04 - Procedimentos, Stack e Calling Conventions]] (`float`/`double` em `XMM0..XMM7`).
 

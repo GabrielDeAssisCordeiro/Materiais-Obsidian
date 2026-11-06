@@ -24,7 +24,7 @@ relacionados:
 - [ ] 7. Configure notas diárias com template ([[Notas diárias]]).
 - [ ] 8. Aplique tags a 3 notas e busque por elas ([[Tags]]).
 - [ ] 9. Cole uma imagem e confira onde foi salva ([[Gerenciamento de anexos]]).
-- [ ] 10. Conclua a [[Checklist de configuração inicial]].
+- [ ] 10. Conclua a configuração inicial do vault.
 
 > [!tip] Autocorreção
 > Compare o resultado com as notas indicadas e revise com [[Flashcards]].

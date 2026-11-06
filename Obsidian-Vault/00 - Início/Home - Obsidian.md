@@ -8,8 +8,7 @@ nivel: iniciante
 criado: 2026-10-23
 relacionados:
   - "[[Trilha de aprendizado - Obsidian]]"
-  - "[[Índice geral - Obsidian]]"
-  - "[[Como usar este vault]]"
+  - "[[Índice - Obsidian]]"
 ---
 
 # Home
@@ -20,10 +19,8 @@ Bem-vindo(a)! Este vault é um curso completo de **Obsidian** escrito no própri
 > Conteúdo revisado com base no Obsidian Desktop **1.13.x** (consulta à documentação em 23/10/2026). Recursos novos podem mudar de nome ou comportamento: quando houver dúvida, confira a [documentação oficial](https://help.obsidian.md).
 
 ## Comece por aqui
-- [[Como usar este vault]]
 - [[Trilha de aprendizado - Obsidian]] — iniciante → intermediário → avançado
-- [[Checklist de configuração inicial]]
-- [[Índice geral - Obsidian]]
+- [[Índice - Obsidian]]
 
 ## Mapas de seção (MOCs)
 | Pasta | MOC | Assunto |

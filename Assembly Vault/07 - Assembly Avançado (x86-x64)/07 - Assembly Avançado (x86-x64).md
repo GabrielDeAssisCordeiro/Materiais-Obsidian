@@ -27,7 +27,7 @@ criado: 2026-10-17
 > [!abstract] Resumo
 > Aqui o curso sai do "núcleo" do x86 e entra no que se usa em código real de alto desempenho e de sistema: **manipulação de bits** (`BSF`, `POPCNT`, `BT`, BMI), **multiplicação e divisão avançadas** (128 bits, divisão por constante), **ponto flutuante** com a **FPU x87** e com **SSE/AVX** (SIMD), **macros** e diferenças entre NASM, MASM e GAS, **Assembly inline** em C/C++ (GCC e MSVC), **código independente de posição** (PIC, GOT/PLT) e **tratamento de exceções** (sinais no Linux, SEH no Windows, *unwinding*).
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[06 - Estruturas de Dados e Arrays]] · Próximo: [[08 - ARM e AArch64]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[06 - Estruturas de Dados e Arrays]] · Próximo: [[08 - ARM e AArch64]]
 
 **Pré-requisitos:** [[03 - Instruções Básicas e Controle de Fluxo]] (flags, `mul`/`div`, deslocamentos), [[04 - Procedimentos, Stack e Calling Conventions]] (ABIs), [[05 - Entrada-Saída e System Calls]] (syscalls), [[06 - Estruturas de Dados e Arrays]] (arrays, alinhamento).
 
@@ -1331,4 +1331,4 @@ Laboratório relacionado: [[Lab 07 - Floating Point e SIMD]]. Retomamos mediçã
 > - **PIC:** x64 usa `[rel ...]`; símbolos externos via **GOT** (`wrt ..gotpcrel`) e **PLT** (`wrt ..plt`); endereços absolutos quebram em PIE.
 > - **Exceções:** `#DE`→`SIGFPE`, `#PF`/`#GP`→`SIGSEGV`; um tratador que só retorna **repete** a instrução; Windows x64 usa **tabelas** (`.pdata`/`.xdata`, `PROC FRAME`); Linux/C++ usam **`.eh_frame`** (`.cfi_*` no GAS).
 
-**Próximo:** [[08 - ARM e AArch64]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[00 - Índice]]
+**Próximo:** [[08 - ARM e AArch64]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Índice - Assembly]]

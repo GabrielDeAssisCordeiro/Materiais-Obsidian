@@ -75,4 +75,4 @@ Aprovação: ≥ 70. Penalizações: conclusões sobre modelos reais baseadas s�
 > Projeto didático; os métodos valem para avaliações reais, mas os números do curso não.
 
 ## Próximos passos
-Volte ao [[00 - Índice Jailbreaking]] e revise a trilha de estudo. Reavalie o conteúdo a cada nova versão de modelo.
+Volte ao [[Índice - Jailbreaking]] e revise a trilha de estudo. Reavalie o conteúdo a cada nova versão de modelo.

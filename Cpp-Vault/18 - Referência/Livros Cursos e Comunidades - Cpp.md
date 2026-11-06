@@ -6,7 +6,7 @@ tipo: referencia
 nivel: iniciante
 padrao: C++23
 criado: 2026-10-24
-relacionados: ["[[Trilha de Estudos - Cpp]]", "[[FAQ - Cpp]]", "[[Core Guidelines]]"]
+relacionados: ["[[Trilha de aprendizado - Cpp]]", "[[FAQ - Cpp]]", "[[Core Guidelines]]"]
 ---
 
 # Livros Cursos e Comunidades - Cpp
@@ -77,7 +77,7 @@ relacionados: ["[[Trilha de Estudos - Cpp]]", "[[FAQ - Cpp]]", "[[Core Guideline
 
 ## Veja também
 
-- [[Trilha de Estudos - Cpp]]
+- [[Trilha de aprendizado - Cpp]]
 - [[FAQ - Cpp]]
 - [[Core Guidelines]]
 - [[MOC - Referência - Cpp]]

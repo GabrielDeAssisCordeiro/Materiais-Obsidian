@@ -21,7 +21,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Uma calculadora interativa que lê linhas como `12 + 30` ou `-7 * 6` da entrada padrão, faz a conta (`+ - * /`) e imprime o resultado, tratando **números negativos**, **divisão por zero** e **erros de sintaxe**. Você escreve um *parser* de inteiros, uma leitura de linha e a impressão com sinal.
 
-Voltar ao índice: [[00 - Índice]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 01 - Hello World e Operações Básicas]] · Próximo: [[Lab 03 - Manipulação de Strings e Arrays]] · Solução: [[Solução - Lab 02 - Calculadora em Assembly]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 01 - Hello World e Operações Básicas]] · Próximo: [[Lab 03 - Manipulação de Strings e Arrays]] · Solução: [[Solução - Lab 02 - Calculadora em Assembly]]
 
 **Pré-requisitos:** [[Lab 01 - Hello World e Operações Básicas]], [[03 - Instruções Básicas e Controle de Fluxo]] (saltos, `cmov`), [[05 - Entrada-Saída e System Calls]].
 

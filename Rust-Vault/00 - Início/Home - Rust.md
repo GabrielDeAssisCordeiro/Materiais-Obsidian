@@ -4,19 +4,18 @@ aliases: []
 tipo: moc
 nivel: iniciante
 criado: 2026-10-24
-relacionados: ["[[Trilha de estudos - Rust]]", "[[Índice geral - Rust]]", "[[Como usar este vault - Rust]]", "[[MOC - Início - Rust]]", "[[MOC - Fundamentos - Rust]]", "[[MOC - Básico da Linguagem]]", "[[MOC - Ownership e Lifetimes]]", "[[MOC - Tipos Customizados]]", "[[MOC - Módulos e Cargo]]", "[[MOC - Coleções e Iteradores]]", "[[MOC - Erros]]", "[[MOC - Traits e Genéricos]]", "[[MOC - Memória e Ponteiros]]", "[[MOC - Concorrência]]", "[[MOC - Async]]", "[[MOC - Testes e Qualidade]]", "[[MOC - Crates]]", "[[MOC - Macros]]", "[[MOC - Unsafe e FFI]]", "[[MOC - Áreas de Aplicação]]", "[[MOC - Avançado e Performance]]", "[[MOC - Projetos - Rust]]", "[[MOC - Referência - Rust]]", "[[MOC - Exercícios - Rust]]", "[[MOC - Checklists e Roteiros]]", "[[MOC - Templates]]"]
+relacionados: ["[[Trilha de aprendizado - Rust]]", "[[Índice - Rust]]", "[[MOC - Fundamentos - Rust]]", "[[MOC - Básico da Linguagem]]", "[[MOC - Ownership e Lifetimes]]", "[[MOC - Tipos Customizados]]", "[[MOC - Módulos e Cargo]]", "[[MOC - Coleções e Iteradores]]", "[[MOC - Erros]]", "[[MOC - Traits e Genéricos]]", "[[MOC - Memória e Ponteiros]]", "[[MOC - Concorrência]]", "[[MOC - Async]]", "[[MOC - Testes e Qualidade]]", "[[MOC - Crates]]", "[[MOC - Macros]]", "[[MOC - Unsafe e FFI]]", "[[MOC - Áreas de Aplicação]]", "[[MOC - Avançado e Performance]]", "[[MOC - Projetos - Rust]]", "[[MOC - Referência - Rust]]", "[[MOC - Exercícios - Rust]]", "[[MOC - Checklists e Roteiros]]", "[[MOC - Templates]]"]
 ---
 
 # Home - Rust
 
 > [!abstract] Rust — Material de Estudos
-> Do zero ao avançado, em português do Brasil. **Rust 1.99 · edição 2024.** mais de 250 notas, centenas de exemplos testados, 8 projetos guiados, exercícios com gabarito e flashcards.
+> Do zero ao avançado, em português do Brasil. **Rust 1.99 · edição 2024.** Mais de 250 notas, centenas de exemplos testados, 8 projetos guiados, exercícios com gabarito e flashcards.
 
 ## Comece por aqui
 
-1. Leia [[Como usar este vault - Rust]].
-2. Siga a [[Trilha de estudos - Rust]] (ou o [[Roteiro por semanas]], um plano de 12 semanas).
-3. Consulte o [[Índice geral - Rust]] quando quiser achar algo específico.
+1. Siga a [[Trilha de aprendizado - Rust]] (ou o [[Roteiro por semanas]], um plano de 12 semanas).
+2. Consulte o [[Índice - Rust]] quando quiser achar algo específico.
 
 ## Trilha de estudos
 
@@ -126,10 +125,8 @@ flowchart TD
 
 ## Veja também
 
-- [[Trilha de estudos - Rust]]
-- [[Índice geral - Rust]]
-- [[Como usar este vault - Rust]]
-- [[MOC - Início - Rust]]
+- [[Trilha de aprendizado - Rust]]
+- [[Índice - Rust]]
 - [[MOC - Fundamentos - Rust]]
 - [[MOC - Básico da Linguagem]]
 - [[MOC - Ownership e Lifetimes]]

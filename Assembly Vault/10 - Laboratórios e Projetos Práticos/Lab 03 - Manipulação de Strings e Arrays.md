@@ -22,7 +22,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Você vai escrever **funções reutilizáveis** em Assembly (convenção **System V**), chamadas **a partir de código C**: `str_len`, `str_rev`, `str_upper`, `str_is_pal`, `arr_sum`, `arr_minmax` e `str_find`. Um testador em C funciona como "corretor automático": ele compara cada função com a libc e com referências em C, e o seu trabalho é fazê-lo imprimir `lab03 OK`.
 
-Voltar ao índice: [[00 - Índice]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 02 - Calculadora em Assembly]] · Próximo: [[Lab 04 - Funções da libc]] · Solução: [[Solução - Lab 03 - Manipulação de Strings e Arrays]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 02 - Calculadora em Assembly]] · Próximo: [[Lab 04 - Funções da libc]] · Solução: [[Solução - Lab 03 - Manipulação de Strings e Arrays]]
 
 **Pré-requisitos:** [[02 - Registradores e Memória]] (modos de endereçamento, `movzx`/`movsxd`), [[03 - Instruções Básicas e Controle de Fluxo]] (`cmp`, saltos, `cmov`), [[04 - Procedimentos, Stack e Calling Conventions]] (System V), [[06 - Estruturas de Dados e Arrays]].
 

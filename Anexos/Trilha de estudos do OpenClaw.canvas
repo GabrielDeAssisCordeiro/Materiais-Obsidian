@@ -1,0 +1,259 @@
+{
+  "nodes": [
+    {
+      "id": "m0",
+      "type": "file",
+      "file": "OpenClaw-Vault/01 - Visão Geral/MOC - Visão Geral.md",
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "l0",
+      "type": "text",
+      "text": "**Etapa 1 Visão geral**",
+      "x": 0,
+      "y": -70,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m1",
+      "type": "file",
+      "file": "OpenClaw-Vault/03 - Fundamentos de Agentes de IA/MOC - Fundamentos de Agentes de IA.md",
+      "x": 380,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "l1",
+      "type": "text",
+      "text": "**Etapa 2 Fundamentos**",
+      "x": 380,
+      "y": -70,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m2",
+      "type": "file",
+      "file": "OpenClaw-Vault/13 - Instalação e Configuração/MOC - Instalação e Configuração - OpenClaw.md",
+      "x": 760,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "color": "3"
+    },
+    {
+      "id": "l2",
+      "type": "text",
+      "text": "**Etapa 3 Instalar**",
+      "x": 760,
+      "y": -70,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m3",
+      "type": "file",
+      "file": "OpenClaw-Vault/07 - Canais e Mensageria/MOC - Canais e Mensageria.md",
+      "x": 1140,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "color": "3"
+    },
+    {
+      "id": "l3",
+      "type": "text",
+      "text": "**Etapa 4 Canais**",
+      "x": 1140,
+      "y": -70,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m4",
+      "type": "file",
+      "file": "OpenClaw-Vault/08 - Provedores e Modelos/MOC - Provedores e Modelos.md",
+      "x": 1520,
+      "y": 0,
+      "width": 320,
+      "height": 120,
+      "color": "3"
+    },
+    {
+      "id": "l4",
+      "type": "text",
+      "text": "**Etapa 5 Modelos**",
+      "x": 1520,
+      "y": -70,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m5",
+      "type": "file",
+      "file": "OpenClaw-Vault/10 - Skills/MOC - Skills.md",
+      "x": 0,
+      "y": 260,
+      "width": 320,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "l5",
+      "type": "text",
+      "text": "**Etapa 6 Skills**",
+      "x": 0,
+      "y": 190,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m6",
+      "type": "file",
+      "file": "OpenClaw-Vault/12 - Automação e Agendamento/MOC - Automação e Agendamento.md",
+      "x": 380,
+      "y": 260,
+      "width": 320,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "l6",
+      "type": "text",
+      "text": "**Etapa 7 Automacao**",
+      "x": 380,
+      "y": 190,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m7",
+      "type": "file",
+      "file": "OpenClaw-Vault/15 - Segurança e Hardening/MOC - Segurança e Hardening.md",
+      "x": 760,
+      "y": 260,
+      "width": 320,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "l7",
+      "type": "text",
+      "text": "**Etapa 8 Seguranca**",
+      "x": 760,
+      "y": 190,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m8",
+      "type": "file",
+      "file": "OpenClaw-Vault/14 - Operação e Manutenção/MOC - Operação e Manutenção.md",
+      "x": 1140,
+      "y": 260,
+      "width": 320,
+      "height": 120,
+      "color": "6"
+    },
+    {
+      "id": "l8",
+      "type": "text",
+      "text": "**Etapa 9 Operacao**",
+      "x": 1140,
+      "y": 190,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "m9",
+      "type": "file",
+      "file": "OpenClaw-Vault/18 - Projetos Práticos/MOC - Projetos Práticos - OpenClaw.md",
+      "x": 1520,
+      "y": 260,
+      "width": 320,
+      "height": 120,
+      "color": "5"
+    },
+    {
+      "id": "l9",
+      "type": "text",
+      "text": "**Etapa 10 Projetos**",
+      "x": 1520,
+      "y": 190,
+      "width": 320,
+      "height": 50
+    }
+  ],
+  "edges": [
+    {
+      "id": "f0",
+      "fromNode": "m0",
+      "toNode": "m1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "f1",
+      "fromNode": "m1",
+      "toNode": "m2",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "f2",
+      "fromNode": "m2",
+      "toNode": "m3",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "f3",
+      "fromNode": "m3",
+      "toNode": "m4",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "f4",
+      "fromNode": "m4",
+      "toNode": "m5",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "f5",
+      "fromNode": "m5",
+      "toNode": "m6",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "f6",
+      "fromNode": "m6",
+      "toNode": "m7",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "f7",
+      "fromNode": "m7",
+      "toNode": "m8",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "f8",
+      "fromNode": "m8",
+      "toNode": "m9",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

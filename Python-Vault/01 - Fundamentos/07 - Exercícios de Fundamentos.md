@@ -302,6 +302,6 @@ Exercícios progressivos para fixar o **Módulo 01**. Tente resolver **sozinho(a
 ## 🚀 Próximo módulo
 ➡️ [[02 - Controle de Fluxo e Estruturas de Dados/01 - if elif else e match case|Módulo 02: Controle de Fluxo e Estruturas de Dados]]
 
-⬅️ [[01 - Fundamentos/06 - Comentários e Boas Práticas|Comentários e Boas Práticas]] · ⬆️ [[00 - Índice Python|Índice]]
+⬅️ [[01 - Fundamentos/06 - Comentários e Boas Práticas|Comentários e Boas Práticas]] · ⬆️ [[Índice - Python|Índice]]
 
 #python #basico #exercicios #pratica #fundamentos

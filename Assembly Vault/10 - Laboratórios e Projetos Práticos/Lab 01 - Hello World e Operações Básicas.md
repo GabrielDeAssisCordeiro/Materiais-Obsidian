@@ -21,7 +21,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Seu primeiro programa **sem libc**: escrever na tela com a syscall `write`, terminar com `exit`, fazer aritmética e **imprimir números em decimal** convertendo à mão (divisão por 10). Ao final você terá a rotina `print_u64`, que será reaproveitada em quase todos os labs seguintes.
 
-Voltar ao índice: [[00 - Índice]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Próximo: [[Lab 02 - Calculadora em Assembly]] · Solução: [[Solução - Lab 01 - Hello World e Operações Básicas]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Próximo: [[Lab 02 - Calculadora em Assembly]] · Solução: [[Solução - Lab 01 - Hello World e Operações Básicas]]
 
 **Pré-requisitos:** [[01 - Fundamentos de Arquitetura e Assembly]], [[02 - Registradores e Memória]], [[03 - Instruções Básicas e Controle de Fluxo]], [[05 - Entrada-Saída e System Calls]].
 
@@ -38,7 +38,7 @@ Tags: #assembly #lab #nasm #syscall
 - Converter um inteiro em texto ASCII (divisões sucessivas por 10).
 
 > [!note] Ambiente
-> Linux x86-64, NASM e `ld` (ver [[00 - Índice]]). Para **Windows/MASM**, veja o quadro "NASM × MASM" ao final: no Windows não existem syscalls estáveis, e o programa chama a **Windows API** (`WriteFile`) através de `kernel32`.
+> Linux x86-64, NASM e `ld` (ver [[Índice - Assembly]]). Para **Windows/MASM**, veja o quadro "NASM × MASM" ao final: no Windows não existem syscalls estáveis, e o programa chama a **Windows API** (`WriteFile`) através de `kernel32`.
 
 ## 2. Material de partida (*starter code*)
 

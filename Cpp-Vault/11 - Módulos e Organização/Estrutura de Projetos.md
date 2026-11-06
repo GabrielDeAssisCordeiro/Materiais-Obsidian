@@ -6,7 +6,7 @@ tipo: conceito
 nivel: intermediario
 padrao: C++17
 criado: 2026-10-24
-relacionados: ["[[Headers vs Sources]]", "[[Bibliotecas Estáticas e Dinâmicas]]", "[[Convenções - Cpp]]"]
+relacionados: ["[[Headers vs Sources]]", "[[Bibliotecas Estáticas e Dinâmicas]]"]
 ---
 
 # Estrutura de projetos

@@ -663,6 +663,6 @@ Exercícios **progressivos** para fixar o **Módulo 04**. Resolva sozinho(a) ant
 ## 🚀 Próximo módulo
 ➡️ [[05 - Tratamento de Erros e Arquivos/01 - try except else finally|Módulo 05: Tratamento de Erros e Arquivos]]
 
-⬅️ [[04 - Programação Orientada a Objetos/06 - Design Patterns Básicos|Design Patterns Básicos]] · ⬆️ [[00 - Índice Python|Índice]]
+⬅️ [[04 - Programação Orientada a Objetos/06 - Design Patterns Básicos|Design Patterns Básicos]] · ⬆️ [[Índice - Python|Índice]]
 
 #python #intermediario #exercicios #pratica #poo #dataclasses #design-patterns

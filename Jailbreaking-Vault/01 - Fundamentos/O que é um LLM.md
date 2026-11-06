@@ -9,7 +9,7 @@ nivel: "iniciante"
 
 # O que é um LLM
 
-Voltar ao [[00 - Índice Jailbreaking]] · Etapa 1 do [[Plano de Estudos]]
+Voltar ao [[Índice - Jailbreaking]] · Etapa 1 do [[Trilha de aprendizado - Jailbreaking]]
 
 ## Pré-requisitos
 - Noções básicas de programação e de como uma API web funciona.

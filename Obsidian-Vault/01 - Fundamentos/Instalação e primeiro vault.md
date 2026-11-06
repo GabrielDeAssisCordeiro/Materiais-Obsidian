@@ -4,7 +4,7 @@ aliases: [Instalar Obsidian, Primeiro cofre]
 tipo: tutorial
 nivel: iniciante
 criado: 2026-10-23
-relacionados: ["[[Vault]]", "[[Checklist de configuração inicial]]", "[[Como usar este vault]]"]
+relacionados: ["[[Vault]]"]
 ---
 
 # Instalação e primeiro vault
@@ -24,7 +24,7 @@ relacionados: ["[[Vault]]", "[[Checklist de configuração inicial]]", "[[Como u
 2. Dê um título e escreva em [[Sintaxe básica]].
 3. Crie um link para outra nota com `[[`  ([[Wikilinks e links Markdown]]).
 4. Veja o resultado no [[Graph view]].
-5. Siga a [[Checklist de configuração inicial]].
+5. Confira as configurações iniciais em [[Visão geral das configurações]].
 
 > [!warning] Restricted Mode
 > Ao abrir um vault com plugins da comunidade, o Obsidian pede para ativá-los. Só ative os que você entende e confia ([[Plugins da comunidade e Restricted Mode]], [[Instalando e avaliando segurança]]).

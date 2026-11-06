@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Assembly Vault/\"",
@@ -64,20 +64,6 @@
       }
     },
     {
-      "query": "path:\"Seguranca-Integracao-Vault/\"",
-      "color": {
-        "a": 1,
-        "rgb": 8702998
-      }
-    },
-    {
-      "query": "path:\"Automacao-Seguranca-Vault/\"",
-      "color": {
-        "a": 1,
-        "rgb": 15485081
-      }
-    },
-    {
       "query": "path:\"Cpp-Vault/\"",
       "color": {
         "a": 1,
@@ -89,6 +75,13 @@
       "color": {
         "a": 1,
         "rgb": 16096926
+      }
+    },
+    {
+      "query": "path:\"OpenClaw-Vault/\"",
+      "color": {
+        "a": 1,
+        "rgb": 16347926
       }
     }
   ],
@@ -102,6 +95,6 @@
   "repelStrength": 10.259512195122,
   "linkStrength": 1,
   "linkDistance": 252,
-  "scale": 0.13168724279835306,
+  "scale": 0.1316872427983531,
   "close": false
 }

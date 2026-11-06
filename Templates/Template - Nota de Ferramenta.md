@@ -2,7 +2,8 @@
 titulo: "{{title}}"
 aliases: []
 tags:
-  - integracao-seguranca
+  - ciberseguranca
+  - integracao-de-ferramentas
   - template
 tipo: ferramenta
 nivel: iniciante

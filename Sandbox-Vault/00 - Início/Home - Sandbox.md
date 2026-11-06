@@ -6,8 +6,8 @@ tipo: moc
 nivel: iniciante
 criado: 2026-10-24
 relacionados:
-  - "[[Índice Geral - Sandbox]]"
-  - "[[Trilha de Aprendizado - Sandbox]]"
+  - "[[Índice - Sandbox]]"
+  - "[[Trilha de aprendizado - Sandbox]]"
 ---
 # Home
 
@@ -18,8 +18,8 @@ Bem-vindo ao vault **Ambientes Sandbox — Material de Estudos**. Este material 
 
 ## Por onde começar
 
-- Trilha de estudos: [[Trilha de Aprendizado - Sandbox]]
-- Índice geral: [[Índice Geral - Sandbox]]
+- Trilha de estudos: [[Trilha de aprendizado - Sandbox]]
+- Índice geral: [[Índice - Sandbox]]
 - Glossário: [[Glossário#Sandboxes e isolamento]] · FAQ: [[FAQ de Sandboxes]]
 
 ## Mapas de conteúdo (MOCs)
@@ -58,4 +58,4 @@ flowchart LR
 
 ## Veja também
 
-- [[Índice Geral - Sandbox]]
+- [[Índice - Sandbox]]

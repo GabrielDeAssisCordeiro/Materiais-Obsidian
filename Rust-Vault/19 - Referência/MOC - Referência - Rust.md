@@ -4,7 +4,7 @@ aliases: []
 tipo: moc
 nivel: iniciante
 criado: 2026-10-24
-relacionados: ["[[Home - Rust]]", "[[Trilha de estudos - Rust]]"]
+relacionados: ["[[Home - Rust]]", "[[Trilha de aprendizado - Rust]]"]
 ---
 
 # MOC - Referência - Rust
@@ -33,4 +33,4 @@ Material de consulta rápida: glossário, cheat sheets, erros do compilador, FAQ
 ## Veja também
 
 - [[Home - Rust]]
-- [[Trilha de estudos - Rust]]
+- [[Trilha de aprendizado - Rust]]

@@ -9,7 +9,7 @@ nivel: "iniciante"
 
 # Laboratório 01 — Comportamento de Recusa
 
-Kit e instalação: [[README - Kit de Laboratório]] · Plano: [[Plano de Estudos]] (Etapa 3)
+Kit e instalação: [[README - Kit de Laboratório]] · Plano: [[Trilha de aprendizado - Jailbreaking]] (Etapa 3)
 
 > [!warning] Escopo
 > Ambiente próprio, dados fictícios. Este laboratório **não usa nenhum conteúdo nocivo**: a "recusa" aqui é sobre **escopo** (o assistente da biblioteca deve recusar assuntos que não são dele). O mecanismo de medição é o mesmo de qualquer avaliação de recusa.

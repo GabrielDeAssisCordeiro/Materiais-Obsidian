@@ -46,6 +46,12 @@ Mapa de conteúdo dos **anexos** de todos os vaults (canvases e bases). Os arqui
 - [[Mapa da STL.canvas]] — contêineres, algoritmos, ranges e tipos de vocabulário
 - Guias, roteiro e checklists: [[MOC - Checklists e Roteiros - Cpp]]
 
+## OpenClaw
+
+- [[Mapa da arquitetura do OpenClaw.canvas]] — do usuário ao Gateway, runtime, ferramentas, skills e fronteiras de confiança
+- [[Trilha de estudos do OpenClaw.canvas]] — dez etapas de leitura, de visão geral a projetos
+- [[Mapa de defesa em camadas.canvas]] — ameaças, controles e resposta
+
 ## Veja também
 
 - [[MOC - Boas Práticas]]

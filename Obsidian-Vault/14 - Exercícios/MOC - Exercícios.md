@@ -26,5 +26,4 @@ Revisão complementar: [[Flashcards]].
 > Pratique em uma cópia para não bagunçar seu vault principal ([[Backup]]).
 
 ## Veja também
-- [[Checklist de configuração inicial]]
-- [[Índice geral - Obsidian]]
+- [[Índice - Obsidian]]

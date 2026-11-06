@@ -31,4 +31,4 @@ Mapa de conteúdo de **exercícios, flashcards e estudos de caso**.
 
 ## Veja também
 
-- [[Trilha de Aprendizado - Sandbox]]
+- [[Trilha de aprendizado - Sandbox]]

@@ -25,7 +25,7 @@ criado: 2026-10-16
 > [!abstract] Resumo
 > Um programa em Assembly não "imprime" nem "lê arquivos" sozinho: **pede ao sistema operacional**. Neste módulo você aprende a fazer isso no **Linux** (instrução `syscall` em x64 e `int 0x80` em x86) e no **Windows** (funções da Windows API), lê e escreve **arquivos**, interage com **teclado e tela**, e escreve à mão as rotinas de **strings** que a libc normalmente esconde (`strlen`, impressão de números, conversão de texto para inteiro, maiúsculas, cópia).
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[04 - Procedimentos, Stack e Calling Conventions]] · Próximo: [[06 - Estruturas de Dados e Arrays]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[04 - Procedimentos, Stack e Calling Conventions]] · Próximo: [[06 - Estruturas de Dados e Arrays]]
 
 **Pré-requisitos:** procedimentos e calling conventions ([[04 - Procedimentos, Stack e Calling Conventions]]), registradores preservados e voláteis, instruções do [[03 - Instruções Básicas e Controle de Fluxo]].
 
@@ -955,4 +955,4 @@ Laboratórios relacionados: [[Lab 03 - Manipulação de Strings e Arrays]] e [[L
 > - **Strings:** `strlen` por laço, `print_uint` com divisão (ou multiplicação mágica), `atoi` com o truque `sub '0'` + `cmp 9` + `ja`, instruções `rep movsb`/`stosb`/`scasb` (com `cld`).
 > - Use `strace` para enxergar as syscalls reais do programa.
 
-**Próximo:** [[06 - Estruturas de Dados e Arrays]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[00 - Índice]]
+**Próximo:** [[06 - Estruturas de Dados e Arrays]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Índice - Assembly]]

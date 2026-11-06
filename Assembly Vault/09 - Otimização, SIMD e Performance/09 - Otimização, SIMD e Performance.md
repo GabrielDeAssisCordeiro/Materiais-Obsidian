@@ -23,7 +23,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Escrever Assembly **não** deixa o código rápido por si só. O que o deixa rápido é entender **o que o processador faz de verdade**: cadeias de dependência, previsão de desvios, cache, instruções certas e SIMD. Este módulo ensina a **medir** (e a desconfiar das medições), explica pipeline, *hazards*, cache e localidade, e mostra **oito experimentos reais** (soma de floats, desvios, matrizes, listas, divisão, `popcnt`, `strlen`, `memcpy`), sempre comparando a versão **ingênua**, a **otimizada** e o **compilador**. No fim, discute **quando Assembly vale a pena e quando não vale**.
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[08 - ARM e AArch64]] · Próximo: [[10 - Laboratórios e Projetos Práticos]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[08 - ARM e AArch64]] · Próximo: [[10 - Laboratórios e Projetos Práticos]]
 
 **Pré-requisitos:** [[03 - Instruções Básicas e Controle de Fluxo]] (saltos, `cmov`), [[06 - Estruturas de Dados e Arrays]] (layout e cache), [[07 - Assembly Avançado (x86-x64)]] (SSE/AVX, `popcnt`, `cpuid`).
 
@@ -811,4 +811,4 @@ Laboratórios relacionados: **análise de performance** dos [[Lab 04 - Funções
 > - **Quando o limite é a memória** (16 MiB), nenhuma instrução esperta ajuda.
 > - **Assembly vale** em instruções sem intrínseco, *kernels* numéricos quentes, código de sistema e tempo constante. **Não vale** sem medição, quando um algoritmo/estrutura melhor resolve ou quando o compilador já faz bem. Mantenha referência em C, testes e *dispatch*.
 
-**Próximo:** [[10 - Laboratórios e Projetos Práticos]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[11 - Recursos e Referências]] · [[00 - Índice]]
+**Próximo:** [[10 - Laboratórios e Projetos Práticos]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[11 - Recursos e Referências]] · [[Índice - Assembly]]

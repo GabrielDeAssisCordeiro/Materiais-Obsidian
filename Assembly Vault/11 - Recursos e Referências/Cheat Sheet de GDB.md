@@ -17,7 +17,7 @@ criado: 2026-10-21
 # Cheat Sheet de GDB para Assembly
 
 > [!abstract] Resumo
-> Comandos do **GDB** mais úteis para depurar Assembly: iniciar, pontos de parada, execução passo a passo (por instrução), ver registradores, flags e memória, desmontar, e depurar sem símbolos. Também `strace`, `objdump` e uma sessão completa de exemplo. Voltar: [[11 - Recursos e Referências]] · [[00 - Índice]]
+> Comandos do **GDB** mais úteis para depurar Assembly: iniciar, pontos de parada, execução passo a passo (por instrução), ver registradores, flags e memória, desmontar, e depurar sem símbolos. Também `strace`, `objdump` e uma sessão completa de exemplo. Voltar: [[11 - Recursos e Referências]] · [[Índice - Assembly]]
 
 Tags: #assembly #cheatsheet #gdb #depuracao
 

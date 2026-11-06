@@ -51,4 +51,4 @@ flowchart LR
 - [[MOC - Referência - Cpp]]
 - [[MOC - Projetos - Cpp]]
 - [[Roteiro Semanal]]
-- [[Trilha de Estudos - Cpp]]
+- [[Trilha de aprendizado - Cpp]]

@@ -556,6 +556,6 @@ Exercícios **progressivos** para fixar o **Módulo 06**. Muitos combinam vário
 ## 🚀 Próximo módulo
 ➡️ [[07 - Programação Funcional e Intermediário/01 - Funções de Ordem Superior|Módulo 07: Programação Funcional e Intermediário]]
 
-⬅️ [[06 - Módulos da Biblioteca Padrão Essenciais/07 - logging|logging]] · ⬆️ [[00 - Índice Python|Índice]]
+⬅️ [[06 - Módulos da Biblioteca Padrão Essenciais/07 - logging|logging]] · ⬆️ [[Índice - Python|Índice]]
 
 #python #intermediario #exercicios #pratica #stdlib #logging #concorrencia #regex

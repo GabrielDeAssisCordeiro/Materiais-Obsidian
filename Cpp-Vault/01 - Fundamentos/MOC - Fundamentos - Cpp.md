@@ -62,4 +62,3 @@ flowchart LR
 ## Veja também
 
 - [[Home - Cpp]]
-- [[Como Usar este Vault - Cpp]]

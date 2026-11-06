@@ -2,7 +2,6 @@
 tags:
   - referencia
 aliases:
-  - Fontes oficiais
   - Links
 tipo: referencia
 nivel: iniciante
@@ -42,4 +41,4 @@ Versões de referência registradas na pesquisa: Docker Engine 29.x (2026). Para
 
 - [[Glossário#Sandboxes e isolamento]]
 - [[MOC - Referência - Sandbox]]
-- [[Trilha de Aprendizado - Sandbox]]
+- [[Trilha de aprendizado - Sandbox]]

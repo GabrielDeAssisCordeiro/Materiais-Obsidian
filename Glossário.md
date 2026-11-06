@@ -19,11 +19,11 @@ tags:
 > [!abstract] Glossário unificado
 > Um único glossário para todos os vaults, com os termos agrupados por assunto e, dentro de cada assunto, por tópico e em ordem alfabética. Cada definição aponta para a nota que explica o conceito. Termos que existem em mais de um assunto (por exemplo, *Menor privilégio*, *Mock*, *Syscall*) aparecem em cada um, com a definição do contexto.
 
-**Assuntos:** [[#Assembly (x86-64 e ARM)|Assembly]] · [[#Python|Python]] · [[#Rust|Rust]] · [[#C++|C++]] · [[#Sistemas Operacionais|Sistemas Operacionais]] · [[#Obsidian|Obsidian]] · [[#Docker|Docker]] · [[#Sandboxes e isolamento|Sandboxes e isolamento]] · [[#Segurança de IA (jailbreaking e prompt injection)|Segurança de IA]] · [[#Integração de Segurança|Integração]] · [[#Automação de Segurança|Automação]] · [[#Cibersegurança (Arsenal)|Cibersegurança]]
+**Assuntos:** [[#Assembly (x86-64 e ARM)|Assembly]] · [[#Python|Python]] · [[#Rust|Rust]] · [[#C++|C++]] · [[#Sistemas Operacionais|Sistemas Operacionais]] · [[#Obsidian|Obsidian]] · [[#OpenClaw|OpenClaw]] · [[#Docker|Docker]] · [[#Sandboxes e isolamento|Sandboxes e isolamento]] · [[#Segurança de IA (jailbreaking e prompt injection)|Segurança de IA]] · [[#Cibersegurança|Cibersegurança]]
 
 ## Assembly (x86-64 e ARM)
 
-Voltar ao índice: [[00 - Índice]].
+Voltar ao índice: [[Índice - Assembly]].
 
 ### Arquitetura e CPU
 
@@ -86,7 +86,7 @@ Voltar ao índice: [[00 - Índice]].
 | **Linker (ligador)** | junta objetos e resolve símbolos (`ld`) → [[05 - Entrada-Saída e System Calls]] |
 | **llvm-mca** | simulador de pipeline → [[09 - Otimização, SIMD e Performance]] |
 | **MASM** | *Microsoft Macro Assembler* → [[01 - Fundamentos de Arquitetura e Assembly]] |
-| **NASM** | *Netwide Assembler* (sintaxe Intel) → [[00 - Índice]] |
+| **NASM** | *Netwide Assembler* (sintaxe Intel) → [[Índice - Assembly]] |
 
 ### Programa na memória e formatos
 
@@ -190,7 +190,7 @@ Voltar ao índice: [[00 - Índice]].
 
 ## Python
 
-Voltar ao índice: [[00 - Índice Python]].
+Voltar ao índice: [[Índice - Python]].
 
 ### Fundamentos da linguagem
 
@@ -305,7 +305,7 @@ Voltar ao índice: [[00 - Índice Python]].
 
 ## Rust
 
-Voltar ao índice: [[Índice geral - Rust]].
+Voltar ao índice: [[Índice - Rust]].
 
 ### Ownership e memória
 
@@ -497,7 +497,7 @@ Voltar ao índice: [[Home - Cpp]].
 
 ## Sistemas Operacionais
 
-Voltar ao índice: [[Índice Geral - SO]].
+Voltar ao índice: [[Índice - SO]].
 
 ### Processos e threads
 
@@ -582,11 +582,11 @@ Voltar ao índice: [[Índice Geral - SO]].
 | **Namespace** | Isolamento de visão de recursos ([[Namespaces do Linux - SO]]) |
 | **Sandbox** | Ambiente restrito de execução ([[Sandboxing]]) |
 
-**Veja também:** [[Mapa de Estudos]] · [[Cheat Sheet - Conceitos]] · [[Cheat Sheet - Comandos]]
+**Veja também:** [[Trilha de aprendizado - SO]] · [[Cheat Sheet - Conceitos]] · [[Cheat Sheet - Comandos]]
 
 ## Obsidian
 
-Voltar ao índice: [[Índice geral - Obsidian]].
+Voltar ao índice: [[Índice - Obsidian]].
 
 ### Vault, plugins e configuração
 
@@ -635,9 +635,95 @@ Voltar ao índice: [[Índice geral - Obsidian]].
 **Veja também:** [[FAQ]] · [[Cheat sheet Markdown]]
 
 
+## OpenClaw
+
+Voltar ao índice: [[Home - OpenClaw]].
+
+### Arquitetura e conceitos
+
+| Termo | Definição |
+|---|---|
+| **Agente** | Sistema que usa um modelo de linguagem em laço com ferramentas para cumprir objetivos → [[O que é um agente de IA]] |
+| **Canal** | Integração com um app de mensagens (Telegram, WhatsApp, Discord, Slack etc.) → [[Visão geral dos canais e instalação sob demanda]] |
+| **Estado** | Diretório `~/.openclaw` com configuração, credenciais, sessões e bancos → [[Onde o OpenClaw guarda estado em disco]] |
+| **Gateway** | Processo único e de longa duração que conecta canais, agente, ferramentas e clientes; padrão `127.0.0.1:18789` → [[O processo Gateway e a porta 18789]] |
+| **Node** | Dispositivo pareado que expõe capacidades locais ao Gateway (ex.: `system.run`) → [[Gateway, clientes e nodes]] |
+| **Perfil (profile)** | Instância isolada de estado (`~/.openclaw-<perfil>`) → [[Perfis, variáveis de ambiente e caminhos de estado]] |
+| **Plugin** | Extensão em código que adiciona capacidades ao OpenClaw → [[Pontos de extensão - plugins, skills e hooks]] |
+| **Sessão** | Conversa persistente identificada por uma chave de sessão → [[Sessões e chaves de sessão]] |
+| **Skill** | Pasta com `SKILL.md` que ensina o agente como e quando usar ferramentas → [[O que são skills e como o OpenClaw as carrega]] |
+| **Workspace** | Diretório de trabalho do agente (`~/.openclaw/workspace`) com `AGENTS.md`, memória e skills → [[Arquivos do workspace do agente]] |
+
+### Agente, contexto e modelos
+
+| Termo | Definição |
+|---|---|
+| **AGENTS.md** | Arquivo injetado em toda sessão; local das standing orders → [[Arquivos do workspace do agente]] |
+| **Compactação** | Resumo de turnos antigos para caber na janela de contexto → [[Poda de sessão e compactação]] |
+| **Fallback** | Modelo alternativo usado quando o principal falha → [[Failover de modelos e fallbacks]] |
+| **Janela de contexto** | Limite de tokens que o modelo processa por vez → [[Modelos de linguagem, tokens e janela de contexto]] |
+| **MCP** | Model Context Protocol: padrão para expor tools, resources e prompts a agentes → [[MCP - conectar servidores externos]] |
+| **MEMORY.md** | Arquivo de memória de longo prazo no workspace → [[Arquivos de memória em Markdown]] |
+| **Perfil de ferramentas** | Base `minimal`, `coding`, `messaging` ou `full` em `tools.profile` → [[Perfis e política de ferramentas]] |
+| **Poda de sessão** | Remoção de resultados antigos de ferramentas do contexto → [[Poda de sessão e compactação]] |
+| **ReAct** | Padrão de raciocínio e ação em laço → [[O padrão ReAct]] |
+| **Thinking** | Nível de raciocínio estendido do modelo (`/think`) → [[Thinking e cache de prompt]] |
+| **Tool calling** | Mecanismo pelo qual o modelo pede a execução de ferramentas → [[Uso de ferramentas e tool calling]] |
+
+### Canais e acesso
+
+| Termo | Definição |
+|---|---|
+| **allowFrom** | Lista de remetentes permitidos em DMs → [[Allowlists e política de ferramentas por chat]] |
+| **Binding** | Regra que roteia mensagens de um canal/conta para um agente → [[Roteamento multiagente e bindings]] |
+| **Control UI** | Interface web do Gateway (dashboard) → [[Control UI e dashboard]] |
+| **dmPolicy** | Política de DM: `pairing`, `allowlist`, `open` ou `disabled` → [[Controle de acesso a DMs e grupos]] |
+| **groupPolicy** | Política de acesso a grupos (ex.: `allowlist`) → [[Grupos - menção obrigatória e groupPolicy]] |
+| **Loopback** | Interface local `127.0.0.1`; bind padrão seguro do Gateway → [[Superfície de rede - bind, autenticação e exposição]] |
+| **Pareamento (pairing)** | Fluxo de aprovação de um remetente por código → [[Pareamento e política de DM]] |
+| **requireMention** | Exige menção ao bot para responder em grupos → [[Grupos - menção obrigatória e groupPolicy]] |
+| **Túnel SSH** | Redirecionamento `ssh -L 18789:127.0.0.1:18789` para acesso remoto seguro → [[Acesso remoto - SSH, Tailscale e modos de bind]] |
+
+### Automação
+
+| Termo | Definição |
+|---|---|
+| **Automação** | Job agendado (`openclaw automations`, alias `cron`) → [[Automações e cron - agendar tarefas do agente]] |
+| **Heartbeat** | Despertar periódico do agente controlado por `HEARTBEAT.md` → [[Automações e heartbeat que não disparam]] |
+| **Hook interno** | Handler JS/TS que roda no Gateway em eventos; código confiável sem sandbox → [[Hooks internos e webhooks HTTP de entrada]] |
+| **Standing order** | Autoridade permanente com escopo, gatilhos, aprovação e escalonamento → [[Standing orders - autoridade permanente do agente]] |
+| **Webhook** | Entrada HTTP (`/hooks/agent`) que inicia um run → [[Hooks internos e webhooks HTTP de entrada]] |
+
+### Instalação e operação
+
+| Termo | Definição |
+|---|---|
+| **Doctor** | Ferramenta de verificação e reparo (`openclaw doctor`) → [[Doctor e reparos do estado]] |
+| **LaunchAgent** | Serviço de usuário do launchd no macOS que mantém o Gateway → [[Instalação no macOS - script e app de menu]] |
+| **openclaw.json** | Arquivo de configuração principal em JSON5 com esquema estrito → [[Configuração do Gateway em openclaw.json]] |
+| **SecretRef** | Objeto `{ source, provider, id }` que referencia um segredo sem texto puro → [[Gestão de segredos com SecretRef]] |
+| **Unidade systemd de usuário** | Serviço `openclaw-gateway.service` no Linux → [[Instalação no Linux com systemd]] |
+| **WSL2** | Subsistema Linux do Windows, runtime mais compatível do Gateway → [[Instalação no Windows - nativo e WSL2]] |
+
+### Segurança
+
+| Termo | Definição |
+|---|---|
+| **Allowlist** | Lista de itens permitidos (comandos, remetentes, hosts) → [[Aprovações de exec e allowlists]] |
+| **Aprovação de exec** | Camada que exige política, allowlist e opcionalmente humano para rodar comandos → [[Aprovações de exec e allowlists]] |
+| **ClawHavoc** | Campanha de skills maliciosas no ClawHub relatada em 2026 → [[Skills e plugins maliciosos - o caso ClawHavoc]] |
+| **ClawHub** | Registro público de skills e plugins, com versões imutáveis e auditorias → [[ClawHub - publicar, versões e verificação]] |
+| **Elevated** | Escape que executa `exec` fora do sandbox → [[Superfícies de alto risco - elevated, navegador, nodes e hooks]] |
+| **MITRE ATLAS** | Base de táticas e técnicas contra sistemas de IA usada no modelo de ameaças → [[Mapa de ameaças do OpenClaw - MITRE ATLAS e execução]] |
+| **Prompt injection** | Instruções maliciosas em entrada ou conteúdo lido pelo agente (direta ou indireta) → [[Prompt injection direta e indireta - como se defender]] |
+| **Sandbox** | Isolamento (Docker, SSH, OpenShell) da execução de ferramentas; desligado por padrão → [[Isolamento com sandbox - modos, escopo e backends]] |
+| **Typosquatting** | Nome parecido com o de um pacote legítimo para enganar instalações → [[Skills e plugins maliciosos - o caso ClawHavoc]] |
+
+**Veja também:** [[Cheatsheets]] · [[Flashcards - OpenClaw]] · [[Fontes]]
+
 ## Docker
 
-Voltar ao índice: [[Índice geral - Docker]].
+Voltar ao índice: [[Índice - Docker]].
 
 ### Arquitetura e runtime
 
@@ -730,7 +816,7 @@ Voltar ao índice: [[Índice geral - Docker]].
 
 ## Sandboxes e isolamento
 
-Voltar ao índice: [[Índice Geral - Sandbox]].
+Voltar ao índice: [[Índice - Sandbox]].
 
 ### Conceitos de isolamento e segurança
 
@@ -801,7 +887,7 @@ Voltar ao índice: [[Índice Geral - Sandbox]].
 
 ## Segurança de IA (jailbreaking e prompt injection)
 
-Voltar ao índice: [[00 - Índice Jailbreaking]].
+Voltar ao índice: [[Índice - Jailbreaking]].
 
 ### Fundamentos de LLMs
 
@@ -856,32 +942,36 @@ OWASP ([[OWASP para Aplicações de LLM]]) · ATLAS ([[MITRE ATLAS]]) · LLM · 
 
 **Veja também:** [[Questionário de Fundamentos]] (módulo 9)
 
-## Integração de Segurança
+## Cibersegurança
 
-Voltar ao índice: [[Home - Integração]].
+Voltar ao índice: [[Índice - Cibersegurança]].
 
-### Arquitetura e integração
+Termos de Arsenal, Integração e Automação num só lugar. Quando o mesmo termo aparece em mais de uma parte, cada definição vem identificada pela parte.
+
+### Frameworks, padrões e métricas
 
 | Termo | Definição |
 |---|---|
-| **Adapter** | Padrão que traduz a interface de um sistema para a esperada pela aplicação, isolando fornecedores. → [[Padrão Adapter e Connector]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
-| **Backoff exponencial** | Aumento progressivo do intervalo entre tentativas de uma operação que falhou. → [[Retries com Backoff e Tratamento de Falhas]] · [[Rate Limiting]] |
-| **Backpressure** | Mecanismo pelo qual o consumidor controla o ritmo de entrega para não ser sobrecarregado. → [[Filas e Streaming - Kafka e RabbitMQ]] · [[Retries com Backoff e Tratamento de Falhas]] |
-| **Circuit breaker** | Padrão que interrompe chamadas a uma dependência degradada para evitar falhas em cascata. → [[Retries com Backoff e Tratamento de Falhas]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
-| **Connector** | Implementação concreta que integra a aplicação a uma ferramenta específica. → [[Padrão Adapter e Connector]] · [[Plugins e Extensões]] |
-| **Dead-letter queue** | Fila de mensagens que falharam repetidamente, para análise. → [[Filas e Streaming - Kafka e RabbitMQ]] · [[Retries com Backoff e Tratamento de Falhas]] |
-| **Deduplicação** | Descarte ou agrupamento de eventos ou achados repetidos. → [[Idempotência]] · [[Integração com Ticketing - Jira e GitHub Issues]] · [[Enriquecimento de Alertas e Escalonamento]] |
-| **HEC** | HTTP Event Collector do Splunk, para ingestão de eventos via HTTP. → [[Integração com SIEM - Splunk Elastic e Wazuh]] · [[Webhooks e Polling]] |
-| **Idempotência** | Propriedade de uma operação repetida produzir o mesmo efeito de uma execução. → [[Idempotência]] · [[Retries com Backoff e Tratamento de Falhas]] · [[Webhooks e Polling]] |
-| **Jitter** | Aleatoriedade adicionada ao backoff para evitar picos sincronizados. → [[Retries com Backoff e Tratamento de Falhas]] · [[Rate Limiting]] |
-| **Kafka** | Plataforma de log distribuído para streaming de eventos. → [[Filas e Streaming - Kafka e RabbitMQ]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
-| **Polling** | Consulta periódica do consumidor à origem para buscar novidades. → [[Webhooks e Polling]] · [[Paginação e Versionamento]] |
-| **RabbitMQ** | Message broker AMQP com roteamento flexível e confirmação por mensagem. → [[Filas e Streaming - Kafka e RabbitMQ]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
-| **Rate limiting** | Controle do número de requisições por intervalo de tempo. → [[Rate Limiting]] · [[Retries com Backoff e Tratamento de Falhas]] |
-| **Replay** | Reenvio de uma mensagem legítima capturada; mitigado com timestamp e id únicos. → [[Webhooks e Polling]] · [[Idempotência]] |
-| **Retry** | Nova tentativa de uma operação que falhou, com limites. → [[Retries com Backoff e Tratamento de Falhas]] · [[Idempotência]] |
-| **Token bucket** | Algoritmo de limitação de taxa com tokens repostos em ritmo constante. → [[Rate Limiting]] · [[Retries com Backoff e Tratamento de Falhas]] |
-| **Webhook** | Callback HTTP enviado por uma origem quando um evento ocorre. → [[Webhooks e Polling]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
+| **ASVS** | Application Security Verification Standard da OWASP: requisitos verificáveis em três níveis. → [[OWASP ASVS]] · [[OWASP Top 10 - Integração]] |
+| **ATT&CK** | **Integração:** Base de conhecimento MITRE de táticas e técnicas de adversários. → [[MITRE ATT&CK - Integração]] · [[Modelagem de Ameaças - STRIDE e PASTA]]<br>**Automação:** Base de conhecimento de táticas e técnicas de adversários → [[Framework MITRE ATT&CK]]<br>**Arsenal:** Base de conhecimento pública que cataloga táticas, técnicas e procedimentos (TTPs) reais usados por adversários. → [[MITRE ATT&CK]] |
+| **Cadeia de Ataque (Cyber Kill Chain)** | Modelo que descreve as etapas sequenciais típicas de um ataque cibernético, da fase de reconhecimento à ação final sobre o objetivo. → [[Cadeia de Ataque - Cyber Kill Chain]] |
+| **CIA** | **Integração:** Tríade Confidencialidade, Integridade e Disponibilidade. → [[Modelo CIA e Princípios de Segurança]] · [[SDLC e SSDLC]]<br>**Arsenal:** Os três pilares fundamentais da segurança da informação: Confidencialidade, Integridade e Disponibilidade. → [[CIA Triad]] |
+| **CIS Controls** | **Integração:** Conjunto priorizado de salvaguardas defensivas do Center for Internet Security. → [[CIS Controls]] · [[NIST CSF]]<br>**Automação:** Conjunto priorizado de 18 controles defensivos → [[Framework CIS Controls]] |
+| **CVE** | Identificador público de uma vulnerabilidade conhecida. → [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] · [[Integração com SAST e SCA - Semgrep SonarQube Dependabot e Snyk]] |
+| **CVSS** | **Integração:** Sistema de pontuação de severidade de vulnerabilidades. → [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] · [[Enriquecimento de Alertas e Escalonamento]]<br>**Automação:** Pontuação de severidade técnica de vulnerabilidades (0 a 10) → [[Priorização com CVSS, EPSS e KEV]] |
+| **CWE** | Catálogo de tipos de fraquezas de software. → [[OWASP Top 10 - Integração]] · [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] |
+| **EPSS** | **Integração:** Modelo que estima a probabilidade de exploração de uma vulnerabilidade. → [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] · [[Enriquecimento de Alertas e Escalonamento]]<br>**Automação:** Probabilidade estimada de exploração de uma vulnerabilidade → [[Priorização com CVSS, EPSS e KEV]] |
+| **ISO/IEC 27001** | Norma internacional certificável para implementação de um Sistema de Gestão de Segurança da Informação (SGSI). → [[ISO-IEC 27001]] |
+| **KEV** | **Integração:** Catálogo da CISA de vulnerabilidades sabidamente exploradas. → [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] · [[Enriquecimento de Alertas e Escalonamento]]<br>**Automação:** Catálogo de vulnerabilidades sabidamente exploradas → [[Priorização com CVSS, EPSS e KEV]] |
+| **LGPD** | **Integração:** Lei Geral de Proteção de Dados Pessoais (Lei 13.709/2018). → [[LGPD e Privacidade]] · [[Auditoria e Logs de Ações]]<br>**Automação:** Lei Geral de Proteção de Dados → [[Aspectos Legais e LGPD]] |
+| **Modelo OSI/TCP-IP** | Modelos conceituais em camadas que descrevem como a comunicação de rede é estruturada, base para entender onde cada ferramenta de segurança atua. → [[Modelo OSI-TCP-IP]] |
+| **MTTA** | Tempo médio até o reconhecimento de um alerta. → [[Métricas - MTTD e MTTR]] · [[SOAR - Shuffle TheHive Cortex e n8n]] |
+| **MTTD** | Tempo médio de detecção de um incidente. → [[Métricas - MTTD e MTTR]] · [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] |
+| MTTD / MTTA / MTTR | Tempo médio para detectar / reconhecer / responder → [[Métricas - MTTD, MTTR, Falso Positivo e ROI]] |
+| **MTTR** | Tempo médio de resposta, resolução ou recuperação (defina a variante). → [[Métricas - MTTD e MTTR]] · [[Automação de Resposta a Incidentes]] |
+| **NIST CSF** | **Integração:** Framework de cibersegurança do NIST com as funções Govern, Identify, Protect, Detect, Respond e Recover. → [[NIST CSF]] · [[CIS Controls]]<br>**Arsenal:** Framework voluntário do governo americano para gestão de risco de cibersegurança em nível organizacional. → [[NIST Cybersecurity Framework]] |
+| **OWASP Top 10** | **Integração:** Lista de riscos críticos de aplicações web. → [[OWASP Top 10 - Integração]] · [[OWASP ASVS]]<br>**Arsenal:** Lista consolidada periodicamente dos dez riscos de segurança mais críticos em aplicações web. → [[OWASP Top 10]] |
+| **TLP** | **Integração:** Traffic Light Protocol: define como a informação pode ser compartilhada. → [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] · [[Enriquecimento de Alertas e Escalonamento]]<br>**Automação:** Protocolo de marcação de sensibilidade da informação → [[Feeds de Inteligência de Ameaças]] |
 
 ### Formatos e padrões de dados
 
@@ -896,10 +986,106 @@ Voltar ao índice: [[Home - Integração]].
 | **SARIF** | Formato padrão de resultados de análise estática. → [[Parsing de Formatos - SARIF JSON e XML]] · [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] |
 | **SPDX** | Padrão de SBOM, forte em licenciamento. → [[SBOM - CycloneDX e SPDX]] · [[Supply Chain da Ferramenta]] |
 | **STIX** | Linguagem JSON para descrever inteligência de ameaças. → [[Normalização de Dados - OCSF ECS CEF STIX e TAXII]] · [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] |
+| STIX / TAXII | Formato e transporte de inteligência de ameaças → [[STIX e TAXII]] |
 | **TAXII** | Protocolo para compartilhar inteligência em STIX. → [[Normalização de Dados - OCSF ECS CEF STIX e TAXII]] · [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] |
-| **VEX** | Declaração de explorabilidade de vulnerabilidades em um produto. → [[SBOM - CycloneDX e SPDX]] · [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] |
+| **VEX** | **Integração:** Declaração de explorabilidade de vulnerabilidades em um produto. → [[SBOM - CycloneDX e SPDX]] · [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]]<br>**Automação:** Declaração de explorabilidade de vulnerabilidades → [[SBOM]] |
 
-### APIs e autenticação
+### Detecção, SIEM e inteligência de ameaças
+
+| Termo | Definição |
+|---|---|
+| **Alert fatigue** | Desgaste causado por excesso de alertas, que leva a ignorá-los, inclusive os verdadeiros. → [[Redução de Falsos Positivos]] · [[Enriquecimento de Alertas e Escalonamento]] |
+| **Auditoria** | Registro íntegro de quem fez o quê, quando e com qual resultado. → [[Auditoria e Logs de Ações]] · [[Logging Estruturado]] |
+| **Backtesting** | Execução de uma regra de detecção sobre logs históricos para estimar disparos e falsos positivos. → [[Testes de Regras de Detecção]] · [[Redução de Falsos Positivos]] |
+| **Baseline** | Referência de comportamento normal ou de estado aceito, usada para comparar mudanças. → [[Redução de Falsos Positivos]] · [[Security Gates e Shift-Left]] |
+| **Correlation ID** | Identificador que liga os registros de uma mesma operação entre serviços. → [[Logging Estruturado]] · [[Métricas e Tracing - Prometheus e OpenTelemetry]] |
+| Detection as Code | Gestão de detecções com práticas de engenharia de software → [[Detection as Code]] |
+| **EDR** | **Integração:** Endpoint Detection and Response: telemetria e resposta em endpoints. → [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] · [[Automação de Resposta a Incidentes]]<br>**Automação:** Detecção e resposta em endpoints / estendida a várias camadas → [[EDR e XDR]] |
+| **Enriquecimento** | Anexar contexto a alertas, como reputação, dono e criticidade. → [[Enriquecimento de Alertas e Escalonamento]] · [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] |
+| **Falso positivo** | Alerta disparado por atividade legítima. → [[Redução de Falsos Positivos]] · [[Regras Sigma]] |
+| **Hash chain** | Encadeamento de registros por hash para evidenciar adulteração. → [[Auditoria e Logs de Ações]] · [[Logging Estruturado]] |
+| **IDS/IPS** | Sistemas de detecção e de prevenção de intrusão. → [[Suricata - Integração]] · [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] |
+| **IoC** | **Integração:** Indicador de comprometimento, como IP, domínio ou hash associado a atividade maliciosa. → [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] · [[YARA - Integração]]<br>**Automação:** Indicador de comprometimento (IP, domínio, hash) → [[Enriquecimento de IOCs]] |
+| **MISP** | **Integração:** Plataforma open source de compartilhamento de IoCs e eventos. → [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] · [[Normalização de Dados - OCSF ECS CEF STIX e TAXII]]<br>**Automação:** Plataforma aberta de compartilhamento de inteligência → [[MISP - Automação]] |
+| **Observabilidade** | Capacidade de entender o estado interno do sistema por logs, métricas e traces. → [[Logging Estruturado]] · [[Métricas e Tracing - Prometheus e OpenTelemetry]] |
+| **OpenTelemetry** | Padrão aberto de instrumentação para logs, métricas e traces. → [[Métricas e Tracing - Prometheus e OpenTelemetry]] · [[Logging Estruturado]] |
+| **Prometheus** | Sistema de métricas baseado em scrape de endpoints /metrics. → [[Métricas e Tracing - Prometheus e OpenTelemetry]] · [[Logging Estruturado]] |
+| **SIEM** | **Integração:** Coleta, normaliza e correlaciona logs para gerar alertas. → [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] · [[Integração com SIEM - Splunk Elastic e Wazuh]]<br>**Automação:** Coleta, correlação e alerta sobre logs → [[SIEM]] |
+| **Sigma** | **Integração:** Formato genérico de regras de detecção para logs. → [[Regras Sigma]] · [[Detecção como Código]]<br>**Automação:** Formato aberto de regras de detecção para logs → [[Regras Sigma - Automação]] |
+| **Suricata** | Motor open source de IDS, IPS e NSM. → [[Suricata - Integração]] · [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] |
+| **YARA** | **Integração:** Linguagem para identificar arquivos ou memória por padrões. → [[YARA - Integração]] · [[Regras Sigma]]<br>**Automação:** Linguagem de regras para classificar arquivos → [[YARA - Automação]] |
+
+### Resposta, orquestração e automação
+
+| Termo | Definição |
+|---|---|
+| DLQ | Fila de mensagens que falharam repetidamente → [[Webhooks, Filas e Integrações]] |
+| **HITL** | **Integração:** Human-in-the-loop: pessoa na decisão de ações automatizadas relevantes. → [[Human-in-the-Loop]] · [[Automação de Resposta a Incidentes]]<br>**Automação:** Humano no circuito de decisão → [[Human in the Loop - Automação]] |
+| **Playbook** | **Integração:** Procedimento de resposta orientado a um cenário, com gatilho, decisões e ações. → [[Playbooks e Runbooks]] · [[SOAR - Shuffle TheHive Cortex e n8n]]<br>**Automação:** Fluxo automatizado de resposta → [[SOAR]] |
+| Prompt injection | Instruções maliciosas embutidas em dados processados por um LLM → [[Riscos de IA em Segurança]] |
+| Rollback | Reversão de uma ação ao estado anterior → [[Rollback]] |
+| **Runbook** | **Integração:** Procedimento operacional documentado. → [[Playbooks e Runbooks]] · [[Automação de Resposta a Incidentes]]<br>**Automação:** Procedimento operacional passo a passo → [[Runbooks]] |
+| **SOAR** | **Integração:** Orquestração, automação e resposta de segurança. → [[SOAR - Shuffle TheHive Cortex e n8n]] · [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] · [[Playbooks e Runbooks]]<br>**Automação:** Orquestração, automação e resposta → [[SOAR]] |
+| SoD | Segregação de funções → [[Segregação de Funções]] |
+| TTL | Tempo de vida de uma ação ou indicador → [[Contenção Automatizada]] |
+
+### DevSecOps, vulnerabilidades e cadeia de suprimentos
+
+| Termo | Definição |
+|---|---|
+| **Attestation** | Declaração assinada sobre um artefato, como proveniência de build ou SBOM. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SLSA]] |
+| **Checkov** | Scanner de infraestrutura como código multi-framework. → [[IaC Scanning - Checkov e tfsec]] · [[Políticas como Código - OPA e Rego]] |
+| **Conftest** | Ferramenta que aplica políticas Rego a arquivos de configuração. → [[Políticas como Código - OPA e Rego]] · [[IaC Scanning - Checkov e tfsec]] |
+| **Cosign** | Ferramenta do Sigstore para assinar e verificar artefatos e attestations. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SBOM - CycloneDX e SPDX]] |
+| **CSPM** | **Integração:** Cloud Security Posture Management: avaliação contínua de configurações de nuvem. → [[Ferramentas de Postura e Proteção - CSPM WAF Scanners e Segredos]] · [[IaC Scanning - Checkov e tfsec]]<br>**Automação:** Gestão da postura de segurança em nuvem → [[CSPM]] |
+| **DAST** | **Integração:** Teste dinâmico de segurança de aplicações em execução. → [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] · [[Panorama de Ferramentas de Segurança]]<br>**Automação:** Teste dinâmico de aplicações em execução → [[DAST]] |
+| **Dependency confusion** | Resolução indevida de um nome interno para um pacote público homônimo. → [[Supply Chain da Ferramenta]] · [[SBOM - CycloneDX e SPDX]] |
+| **Drift** | Divergência entre a configuração desejada (código) e a real. → [[IaC Scanning - Checkov e tfsec]] · [[Ferramentas de Postura e Proteção - CSPM WAF Scanners e Segredos]] |
+| **Fulcio** | Autoridade do Sigstore que emite certificados efêmeros ligados a identidades OIDC. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SLSA]] |
+| **Gate** | Ponto de decisão automatizado que bloqueia o fluxo se um critério for violado. → [[Security Gates e Shift-Left]] · [[GitHub Actions]] |
+| **Hardening** | **Integração:** Endurecimento da configuração para reduzir a superfície de ataque. → [[Privilégio Mínimo e Hardening de Containers]] · [[Empacotamento e Containers]]<br>**Automação:** Redução da superfície de ataque por configuração segura → [[Hardening com CIS Benchmarks]] |
+| **IaC** | **Integração:** Infraestrutura como código. → [[IaC Scanning - Checkov e tfsec]] · [[Políticas como Código - OPA e Rego]]<br>**Automação:** Infraestrutura descrita como código → [[Infrastructure as Code]] |
+| **IAST** | Teste interativo que instrumenta a aplicação durante a execução. → [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] · [[Panorama de Ferramentas de Segurança]] |
+| **OPA** | Open Policy Agent: motor de políticas como código. → [[Políticas como Código - OPA e Rego]] · [[IaC Scanning - Checkov e tfsec]] |
+| OPA / Rego | Motor de políticas e sua linguagem → [[Políticas como Código com OPA]] |
+| **pre-commit** | Framework para executar verificações em hooks do git. → [[Pré-commit Hooks]] · [[Security Gates e Shift-Left]] |
+| **Proveniência** | Registro verificável de como, onde e a partir de quê um artefato foi construído. → [[SLSA]] · [[Assinatura de Artefatos - Sigstore e cosign]] |
+| **Rego** | Linguagem declarativa de políticas do OPA. → [[Políticas como Código - OPA e Rego]] · [[IaC Scanning - Checkov e tfsec]] |
+| **Rekor** | Log de transparência do Sigstore. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SLSA]] |
+| **SAST** | **Integração:** Análise estática de segurança do código-fonte. → [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] · [[Integração com SAST e SCA - Semgrep SonarQube Dependabot e Snyk]]<br>**Automação:** Análise estática de código → [[SAST]] |
+| **SBOM** | **Integração:** Inventário formal de componentes de um software. → [[SBOM - CycloneDX e SPDX]] · [[Supply Chain da Ferramenta]]<br>**Automação:** Lista de materiais de software → [[SBOM]] |
+| **SCA** | **Integração:** Análise de composição de software: dependências e vulnerabilidades. → [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] · [[Integração com SAST e SCA - Semgrep SonarQube Dependabot e Snyk]]<br>**Automação:** Análise de composição de software → [[SCA]] |
+| **Shift-left** | Antecipar atividades de segurança no ciclo de desenvolvimento. → [[Security Gates e Shift-Left]] · [[SDLC e SSDLC]] |
+| **Sigstore** | Conjunto de projetos para assinatura e verificação de artefatos. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SLSA]] |
+| **SLSA** | Níveis de garantia da cadeia de construção de software. → [[SLSA]] · [[Assinatura de Artefatos - Sigstore e cosign]] · [[SBOM - CycloneDX e SPDX]] |
+| **Supply chain** | Cadeia de suprimentos de software: dependências, builds e distribuição. → [[Supply Chain da Ferramenta]] · [[SLSA]] |
+| **Typosquatting** | Pacote com nome parecido com um popular para enganar instalações. → [[Supply Chain da Ferramenta]] · [[SBOM - CycloneDX e SPDX]] |
+| **WAF** | Web Application Firewall: filtra tráfego HTTP. → [[Ferramentas de Postura e Proteção - CSPM WAF Scanners e Segredos]] · [[OWASP Top 10 - Integração]] |
+
+### Arquitetura de integração
+
+| Termo | Definição |
+|---|---|
+| **Adapter** | Padrão que traduz a interface de um sistema para a esperada pela aplicação, isolando fornecedores. → [[Padrão Adapter e Connector]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
+| **Backoff exponencial** | Aumento progressivo do intervalo entre tentativas de uma operação que falhou. → [[Retries com Backoff e Tratamento de Falhas]] · [[Rate Limiting]] |
+| **Backpressure** | Mecanismo pelo qual o consumidor controla o ritmo de entrega para não ser sobrecarregado. → [[Filas e Streaming - Kafka e RabbitMQ]] · [[Retries com Backoff e Tratamento de Falhas]] |
+| **Circuit breaker** | Padrão que interrompe chamadas a uma dependência degradada para evitar falhas em cascata. → [[Retries com Backoff e Tratamento de Falhas]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
+| **Connector** | Implementação concreta que integra a aplicação a uma ferramenta específica. → [[Padrão Adapter e Connector]] · [[Plugins e Extensões]] |
+| **Dead-letter queue** | Fila de mensagens que falharam repetidamente, para análise. → [[Filas e Streaming - Kafka e RabbitMQ]] · [[Retries com Backoff e Tratamento de Falhas]] |
+| **Deduplicação** | Descarte ou agrupamento de eventos ou achados repetidos. → [[Idempotência]] · [[Integração com Ticketing - Jira e GitHub Issues]] · [[Enriquecimento de Alertas e Escalonamento]] |
+| **HEC** | HTTP Event Collector do Splunk, para ingestão de eventos via HTTP. → [[Integração com SIEM - Splunk Elastic e Wazuh]] · [[Webhooks e Polling]] |
+| **Idempotência** | **Integração:** Propriedade de uma operação repetida produzir o mesmo efeito de uma execução. → [[Idempotência]] · [[Retries com Backoff e Tratamento de Falhas]] · [[Webhooks e Polling]]<br>**Automação:** Repetir uma operação não altera o resultado além da primeira vez → [[Orquestração via APIs]] |
+| **Jitter** | Aleatoriedade adicionada ao backoff para evitar picos sincronizados. → [[Retries com Backoff e Tratamento de Falhas]] · [[Rate Limiting]] |
+| **Kafka** | Plataforma de log distribuído para streaming de eventos. → [[Filas e Streaming - Kafka e RabbitMQ]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
+| **Polling** | Consulta periódica do consumidor à origem para buscar novidades. → [[Webhooks e Polling]] · [[Paginação e Versionamento]] |
+| **RabbitMQ** | Message broker AMQP com roteamento flexível e confirmação por mensagem. → [[Filas e Streaming - Kafka e RabbitMQ]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
+| **Rate limiting** | Controle do número de requisições por intervalo de tempo. → [[Rate Limiting]] · [[Retries com Backoff e Tratamento de Falhas]] |
+| **Replay** | Reenvio de uma mensagem legítima capturada; mitigado com timestamp e id únicos. → [[Webhooks e Polling]] · [[Idempotência]] |
+| **Retry** | Nova tentativa de uma operação que falhou, com limites. → [[Retries com Backoff e Tratamento de Falhas]] · [[Idempotência]] |
+| **Token bucket** | Algoritmo de limitação de taxa com tokens repostos em ritmo constante. → [[Rate Limiting]] · [[Retries com Backoff e Tratamento de Falhas]] |
+| **Webhook** | Callback HTTP enviado por uma origem quando um evento ocorre. → [[Webhooks e Polling]] · [[Padrões de Integração - Point-to-Point Hub-and-Spoke e Event-Driven]] |
+
+### APIs, autenticação e segredos
 
 | Termo | Definição |
 |---|---|
@@ -923,188 +1109,23 @@ Voltar ao índice: [[Home - Integração]].
 | **REST** | Estilo arquitetural de APIs baseado em recursos e métodos HTTP. → [[REST e Design de APIs de Segurança]] · [[OpenAPI]] |
 | **Secret zero** | Problema de obter a primeira credencial sem embuti-la. → [[Gestão de Segredos na Ferramenta]] · [[Integração com Gestão de Segredos - Vault e gitleaks]] |
 
-### Fundamentos e frameworks de segurança
-
-| Termo | Definição |
-|---|---|
-| **ASVS** | Application Security Verification Standard da OWASP: requisitos verificáveis em três níveis. → [[OWASP ASVS]] · [[OWASP Top 10 - Integração]] |
-| **ATT&CK** | Base de conhecimento MITRE de táticas e técnicas de adversários. → [[MITRE ATT&CK - Integração]] · [[Modelagem de Ameaças - STRIDE e PASTA]] |
-| **Blast radius** | Alcance do impacto de uma ação ou falha; deve ser limitado por desenho. → [[Automação de Resposta a Incidentes]] · [[Privilégio Mínimo e Hardening de Containers]] |
-| **CIA** | Tríade Confidencialidade, Integridade e Disponibilidade. → [[Modelo CIA e Princípios de Segurança]] · [[SDLC e SSDLC]] |
-| **CIS Controls** | Conjunto priorizado de salvaguardas defensivas do Center for Internet Security. → [[CIS Controls]] · [[NIST CSF]] |
-| **CVE** | Identificador público de uma vulnerabilidade conhecida. → [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] · [[Integração com SAST e SCA - Semgrep SonarQube Dependabot e Snyk]] |
-| **CVSS** | Sistema de pontuação de severidade de vulnerabilidades. → [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] · [[Enriquecimento de Alertas e Escalonamento]] |
-| **CWE** | Catálogo de tipos de fraquezas de software. → [[OWASP Top 10 - Integração]] · [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] |
-| **Defesa em profundidade** | Camadas independentes de controles, de modo que a falha de uma não compromete tudo. → [[Modelo CIA e Princípios de Segurança]] · [[Privilégio Mínimo e Hardening de Containers]] |
-| **DFD** | Diagrama de fluxo de dados usado na modelagem de ameaças. → [[Modelagem de Ameaças - STRIDE e PASTA]] · [[SDLC e SSDLC]] |
-| **EPSS** | Modelo que estima a probabilidade de exploração de uma vulnerabilidade. → [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] · [[Enriquecimento de Alertas e Escalonamento]] |
-| **Fail secure** | Falhar em estado seguro: na dúvida, negar ou enfileirar. → [[Modelo CIA e Princípios de Segurança]] · [[Automação de Resposta a Incidentes]] |
-| **KEV** | Catálogo da CISA de vulnerabilidades sabidamente exploradas. → [[Integração com Scanners - Nessus OpenVAS Trivy e Nuclei]] · [[Enriquecimento de Alertas e Escalonamento]] |
-| **LGPD** | Lei Geral de Proteção de Dados Pessoais (Lei 13.709/2018). → [[LGPD e Privacidade]] · [[Auditoria e Logs de Ações]] |
-| **NIST CSF** | Framework de cibersegurança do NIST com as funções Govern, Identify, Protect, Detect, Respond e Recover. → [[NIST CSF]] · [[CIS Controls]] |
-| **OWASP Top 10** | Lista de riscos críticos de aplicações web. → [[OWASP Top 10 - Integração]] · [[OWASP ASVS]] |
-| **PASTA** | Metodologia de modelagem de ameaças em sete etapas, orientada a risco. → [[Modelagem de Ameaças - STRIDE e PASTA]] · [[SDLC e SSDLC]] |
-| **Pseudonimização** | Substituição de identificadores por tokens, mantendo o dado como pessoal. → [[LGPD e Privacidade]] · [[Auditoria e Logs de Ações]] |
-| **SSDLC** | Ciclo de vida de desenvolvimento seguro. → [[SDLC e SSDLC]] · [[Security Gates e Shift-Left]] |
-| **STRIDE** | Seis categorias de ameaça: spoofing, tampering, repudiation, information disclosure, DoS e elevation of privilege. → [[Modelagem de Ameaças - STRIDE e PASTA]] · [[SDLC e SSDLC]] |
-| **Threat modeling** | Identificação estruturada de ameaças e mitigações no design. → [[Modelagem de Ameaças - STRIDE e PASTA]] · [[SDLC e SSDLC]] |
-| **TLP** | Traffic Light Protocol: define como a informação pode ser compartilhada. → [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] · [[Enriquecimento de Alertas e Escalonamento]] |
-
-### DevSecOps e cadeia de suprimentos
-
-| Termo | Definição |
-|---|---|
-| **Attestation** | Declaração assinada sobre um artefato, como proveniência de build ou SBOM. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SLSA]] |
-| **Checkov** | Scanner de infraestrutura como código multi-framework. → [[IaC Scanning - Checkov e tfsec]] · [[Políticas como Código - OPA e Rego]] |
-| **Conftest** | Ferramenta que aplica políticas Rego a arquivos de configuração. → [[Políticas como Código - OPA e Rego]] · [[IaC Scanning - Checkov e tfsec]] |
-| **Cosign** | Ferramenta do Sigstore para assinar e verificar artefatos e attestations. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SBOM - CycloneDX e SPDX]] |
-| **CSPM** | Cloud Security Posture Management: avaliação contínua de configurações de nuvem. → [[Ferramentas de Postura e Proteção - CSPM WAF Scanners e Segredos]] · [[IaC Scanning - Checkov e tfsec]] |
-| **DAST** | Teste dinâmico de segurança de aplicações em execução. → [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] · [[Panorama de Ferramentas de Segurança]] |
-| **Dependency confusion** | Resolução indevida de um nome interno para um pacote público homônimo. → [[Supply Chain da Ferramenta]] · [[SBOM - CycloneDX e SPDX]] |
-| **Drift** | Divergência entre a configuração desejada (código) e a real. → [[IaC Scanning - Checkov e tfsec]] · [[Ferramentas de Postura e Proteção - CSPM WAF Scanners e Segredos]] |
-| **Fulcio** | Autoridade do Sigstore que emite certificados efêmeros ligados a identidades OIDC. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SLSA]] |
-| **Gate** | Ponto de decisão automatizado que bloqueia o fluxo se um critério for violado. → [[Security Gates e Shift-Left]] · [[GitHub Actions]] |
-| **Hardening** | Endurecimento da configuração para reduzir a superfície de ataque. → [[Privilégio Mínimo e Hardening de Containers]] · [[Empacotamento e Containers]] |
-| **IaC** | Infraestrutura como código. → [[IaC Scanning - Checkov e tfsec]] · [[Políticas como Código - OPA e Rego]] |
-| **IAST** | Teste interativo que instrumenta a aplicação durante a execução. → [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] · [[Panorama de Ferramentas de Segurança]] |
-| **OPA** | Open Policy Agent: motor de políticas como código. → [[Políticas como Código - OPA e Rego]] · [[IaC Scanning - Checkov e tfsec]] |
-| **pre-commit** | Framework para executar verificações em hooks do git. → [[Pré-commit Hooks]] · [[Security Gates e Shift-Left]] |
-| **Proveniência** | Registro verificável de como, onde e a partir de quê um artefato foi construído. → [[SLSA]] · [[Assinatura de Artefatos - Sigstore e cosign]] |
-| **Rego** | Linguagem declarativa de políticas do OPA. → [[Políticas como Código - OPA e Rego]] · [[IaC Scanning - Checkov e tfsec]] |
-| **Rekor** | Log de transparência do Sigstore. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SLSA]] |
-| **SAST** | Análise estática de segurança do código-fonte. → [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] · [[Integração com SAST e SCA - Semgrep SonarQube Dependabot e Snyk]] |
-| **SBOM** | Inventário formal de componentes de um software. → [[SBOM - CycloneDX e SPDX]] · [[Supply Chain da Ferramenta]] |
-| **SCA** | Análise de composição de software: dependências e vulnerabilidades. → [[Ferramentas de Teste de Aplicação - SAST DAST IAST SCA]] · [[Integração com SAST e SCA - Semgrep SonarQube Dependabot e Snyk]] |
-| **Shift-left** | Antecipar atividades de segurança no ciclo de desenvolvimento. → [[Security Gates e Shift-Left]] · [[SDLC e SSDLC]] |
-| **Sigstore** | Conjunto de projetos para assinatura e verificação de artefatos. → [[Assinatura de Artefatos - Sigstore e cosign]] · [[SLSA]] |
-| **SLSA** | Níveis de garantia da cadeia de construção de software. → [[SLSA]] · [[Assinatura de Artefatos - Sigstore e cosign]] · [[SBOM - CycloneDX e SPDX]] |
-| **Supply chain** | Cadeia de suprimentos de software: dependências, builds e distribuição. → [[Supply Chain da Ferramenta]] · [[SLSA]] |
-| **Typosquatting** | Pacote com nome parecido com um popular para enganar instalações. → [[Supply Chain da Ferramenta]] · [[SBOM - CycloneDX e SPDX]] |
-| **WAF** | Web Application Firewall: filtra tráfego HTTP. → [[Ferramentas de Postura e Proteção - CSPM WAF Scanners e Segredos]] · [[OWASP Top 10 - Integração]] |
-
-### Detecção, observabilidade e resposta
-
-| Termo | Definição |
-|---|---|
-| **Alert fatigue** | Desgaste causado por excesso de alertas, que leva a ignorá-los, inclusive os verdadeiros. → [[Redução de Falsos Positivos]] · [[Enriquecimento de Alertas e Escalonamento]] |
-| **Auditoria** | Registro íntegro de quem fez o quê, quando e com qual resultado. → [[Auditoria e Logs de Ações]] · [[Logging Estruturado]] |
-| **Backtesting** | Execução de uma regra de detecção sobre logs históricos para estimar disparos e falsos positivos. → [[Testes de Regras de Detecção]] · [[Redução de Falsos Positivos]] |
-| **Baseline** | Referência de comportamento normal ou de estado aceito, usada para comparar mudanças. → [[Redução de Falsos Positivos]] · [[Security Gates e Shift-Left]] |
-| **Correlation ID** | Identificador que liga os registros de uma mesma operação entre serviços. → [[Logging Estruturado]] · [[Métricas e Tracing - Prometheus e OpenTelemetry]] |
-| **EDR** | Endpoint Detection and Response: telemetria e resposta em endpoints. → [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] · [[Automação de Resposta a Incidentes]] |
-| **Enriquecimento** | Anexar contexto a alertas, como reputação, dono e criticidade. → [[Enriquecimento de Alertas e Escalonamento]] · [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] |
-| **Falso positivo** | Alerta disparado por atividade legítima. → [[Redução de Falsos Positivos]] · [[Regras Sigma]] |
-| **Hash chain** | Encadeamento de registros por hash para evidenciar adulteração. → [[Auditoria e Logs de Ações]] · [[Logging Estruturado]] |
-| **HITL** | Human-in-the-loop: pessoa na decisão de ações automatizadas relevantes. → [[Human-in-the-Loop]] · [[Automação de Resposta a Incidentes]] |
-| **IDS/IPS** | Sistemas de detecção e de prevenção de intrusão. → [[Suricata - Integração]] · [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] |
-| **IoC** | Indicador de comprometimento, como IP, domínio ou hash associado a atividade maliciosa. → [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] · [[YARA - Integração]] |
-| **MISP** | Plataforma open source de compartilhamento de IoCs e eventos. → [[Integração com Threat Intelligence - MISP OpenCTI e VirusTotal]] · [[Normalização de Dados - OCSF ECS CEF STIX e TAXII]] |
-| **MTTA** | Tempo médio até o reconhecimento de um alerta. → [[Métricas - MTTD e MTTR]] · [[SOAR - Shuffle TheHive Cortex e n8n]] |
-| **MTTD** | Tempo médio de detecção de um incidente. → [[Métricas - MTTD e MTTR]] · [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] |
-| **MTTR** | Tempo médio de resposta, resolução ou recuperação (defina a variante). → [[Métricas - MTTD e MTTR]] · [[Automação de Resposta a Incidentes]] |
-| **Observabilidade** | Capacidade de entender o estado interno do sistema por logs, métricas e traces. → [[Logging Estruturado]] · [[Métricas e Tracing - Prometheus e OpenTelemetry]] |
-| **OpenTelemetry** | Padrão aberto de instrumentação para logs, métricas e traces. → [[Métricas e Tracing - Prometheus e OpenTelemetry]] · [[Logging Estruturado]] |
-| **Playbook** | Procedimento de resposta orientado a um cenário, com gatilho, decisões e ações. → [[Playbooks e Runbooks]] · [[SOAR - Shuffle TheHive Cortex e n8n]] |
-| **Prometheus** | Sistema de métricas baseado em scrape de endpoints /metrics. → [[Métricas e Tracing - Prometheus e OpenTelemetry]] · [[Logging Estruturado]] |
-| **Runbook** | Procedimento operacional documentado. → [[Playbooks e Runbooks]] · [[Automação de Resposta a Incidentes]] |
-| **SIEM** | Coleta, normaliza e correlaciona logs para gerar alertas. → [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] · [[Integração com SIEM - Splunk Elastic e Wazuh]] |
-| **Sigma** | Formato genérico de regras de detecção para logs. → [[Regras Sigma]] · [[Detecção como Código]] |
-| **SOAR** | Orquestração, automação e resposta de segurança. → [[SOAR - Shuffle TheHive Cortex e n8n]] · [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] · [[Playbooks e Runbooks]] |
-| **Suricata** | Motor open source de IDS, IPS e NSM. → [[Suricata - Integração]] · [[Ferramentas de Detecção e Resposta - EDR SIEM SOAR]] |
-| **YARA** | Linguagem para identificar arquivos ou memória por padrões. → [[YARA - Integração]] · [[Regras Sigma]] |
-
-### Código seguro
+### Princípios, modelagem e código seguro
 
 | Termo | Definição |
 |---|---|
 | **Allowlist** | Lista do que é permitido; abordagem mais robusta que a denylist para validação e exceções. → [[Validacao de Entrada]] · [[Redução de Falsos Positivos]] · [[SSRF Injeção e Desserialização Insegura]] |
+| **Blast radius** | Alcance do impacto de uma ação ou falha; deve ser limitado por desenho. → [[Automação de Resposta a Incidentes]] · [[Privilégio Mínimo e Hardening de Containers]] |
+| **Defesa em profundidade** | Camadas independentes de controles, de modo que a falha de uma não compromete tudo. → [[Modelo CIA e Princípios de Segurança]] · [[Privilégio Mínimo e Hardening de Containers]] |
 | **Desserialização insegura** | Reconstrução de objetos a partir de dados não confiáveis com formatos executáveis. → [[SSRF Injeção e Desserialização Insegura]] · [[Validacao de Entrada]] |
+| **DFD** | Diagrama de fluxo de dados usado na modelagem de ameaças. → [[Modelagem de Ameaças - STRIDE e PASTA]] · [[SDLC e SSDLC]] |
 | **Exit code** | Código de saída de um programa, usado por pipelines como resultado de gate. → [[CLI de Segurança]] · [[Security Gates e Shift-Left]] |
+| **Fail secure** | Falhar em estado seguro: na dúvida, negar ou enfileirar. → [[Modelo CIA e Princípios de Segurança]] · [[Automação de Resposta a Incidentes]] |
+| **PASTA** | Metodologia de modelagem de ameaças em sete etapas, orientada a risco. → [[Modelagem de Ameaças - STRIDE e PASTA]] · [[SDLC e SSDLC]] |
+| **Pseudonimização** | Substituição de identificadores por tokens, mantendo o dado como pessoal. → [[LGPD e Privacidade]] · [[Auditoria e Logs de Ações]] |
+| **SSDLC** | Ciclo de vida de desenvolvimento seguro. → [[SDLC e SSDLC]] · [[Security Gates e Shift-Left]] |
 | **SSRF** | Server-Side Request Forgery: induzir o servidor a requisições indevidas. → [[SSRF Injeção e Desserialização Insegura]] · [[Privilégio Mínimo e Hardening de Containers]] |
+| **STRIDE** | Seis categorias de ameaça: spoofing, tampering, repudiation, information disclosure, DoS e elevation of privilege. → [[Modelagem de Ameaças - STRIDE e PASTA]] · [[SDLC e SSDLC]] |
+| **Threat modeling** | Identificação estruturada de ameaças e mitigações no design. → [[Modelagem de Ameaças - STRIDE e PASTA]] · [[SDLC e SSDLC]] |
 | **XXE** | Entidades externas em XML que podem ler arquivos ou fazer requisições. → [[Parsing de Formatos - SARIF JSON e XML]] · [[Validacao de Entrada]] |
 
-**Veja também:** [[MOC - Fundamentos - Integração]] · [[Panorama de Ferramentas de Segurança]]
-
-## Automação de Segurança
-
-Voltar ao índice: [[Home - Automação]].
-
-### Frameworks, métricas e conformidade
-
-| Termo | Definição |
-|---|---|
-| ATT&CK | Base de conhecimento de táticas e técnicas de adversários → [[Framework MITRE ATT&CK]] |
-| CIS Controls | Conjunto priorizado de 18 controles defensivos → [[Framework CIS Controls]] |
-| CVSS | Pontuação de severidade técnica de vulnerabilidades (0 a 10) → [[Priorização com CVSS, EPSS e KEV]] |
-| EPSS | Probabilidade estimada de exploração de uma vulnerabilidade → [[Priorização com CVSS, EPSS e KEV]] |
-| KEV | Catálogo de vulnerabilidades sabidamente exploradas → [[Priorização com CVSS, EPSS e KEV]] |
-| LGPD | Lei Geral de Proteção de Dados → [[Aspectos Legais e LGPD]] |
-| MTTD / MTTA / MTTR | Tempo médio para detectar / reconhecer / responder → [[Métricas - MTTD, MTTR, Falso Positivo e ROI]] |
-| TLP | Protocolo de marcação de sensibilidade da informação → [[Feeds de Inteligência de Ameaças]] |
-
-### Plataformas e detecção
-
-| Termo | Definição |
-|---|---|
-| CSPM | Gestão da postura de segurança em nuvem → [[CSPM]] |
-| Detection as Code | Gestão de detecções com práticas de engenharia de software → [[Detection as Code]] |
-| EDR / XDR | Detecção e resposta em endpoints / estendida a várias camadas → [[EDR e XDR]] |
-| IOC | Indicador de comprometimento (IP, domínio, hash) → [[Enriquecimento de IOCs]] |
-| MISP | Plataforma aberta de compartilhamento de inteligência → [[MISP - Automação]] |
-| SIEM | Coleta, correlação e alerta sobre logs → [[SIEM]] |
-| Sigma | Formato aberto de regras de detecção para logs → [[Regras Sigma - Automação]] |
-| SOAR | Orquestração, automação e resposta → [[SOAR]] |
-| STIX / TAXII | Formato e transporte de inteligência de ameaças → [[STIX e TAXII]] |
-| YARA | Linguagem de regras para classificar arquivos → [[YARA - Automação]] |
-
-### DevSecOps e vulnerabilidades
-
-| Termo | Definição |
-|---|---|
-| DAST | Teste dinâmico de aplicações em execução → [[DAST]] |
-| Hardening | Redução da superfície de ataque por configuração segura → [[Hardening com CIS Benchmarks]] |
-| IaC | Infraestrutura descrita como código → [[Infrastructure as Code]] |
-| OPA / Rego | Motor de políticas e sua linguagem → [[Políticas como Código com OPA]] |
-| SAST | Análise estática de código → [[SAST]] |
-| SBOM | Lista de materiais de software → [[SBOM]] |
-| SCA | Análise de composição de software → [[SCA]] |
-| VEX | Declaração de explorabilidade de vulnerabilidades → [[SBOM]] |
-
-### Operação e resposta
-
-| Termo | Definição |
-|---|---|
-| DLQ | Fila de mensagens que falharam repetidamente → [[Webhooks, Filas e Integrações]] |
-| HITL | Humano no circuito de decisão → [[Human in the Loop - Automação]] |
-| Idempotência | Repetir uma operação não altera o resultado além da primeira vez → [[Orquestração via APIs]] |
-| Playbook | Fluxo automatizado de resposta → [[SOAR]] |
-| Prompt injection | Instruções maliciosas embutidas em dados processados por um LLM → [[Riscos de IA em Segurança]] |
-| Rollback | Reversão de uma ação ao estado anterior → [[Rollback]] |
-| Runbook | Procedimento operacional passo a passo → [[Runbooks]] |
-| SoD | Segregação de funções → [[Segregação de Funções]] |
-| TTL | Tempo de vida de uma ação ou indicador → [[Contenção Automatizada]] |
-
-**Veja também:** [[MOC - Revisão - Automação]] · [[Banco de Exercícios]]
-
-## Cibersegurança (Arsenal)
-
-Voltar ao índice: [[MOC - Arsenal de Cibersegurança]].
-
-### Conceitos fundamentais
-
-| Termo | Definição |
-|---|---|
-| **Cadeia de Ataque (Cyber Kill Chain)** | Modelo que descreve as etapas sequenciais típicas de um ataque cibernético, da fase de reconhecimento à ação final sobre o objetivo. → [[Cadeia de Ataque - Cyber Kill Chain]] |
-| **CIA Triad** | Os três pilares fundamentais da segurança da informação: Confidencialidade, Integridade e Disponibilidade. → [[CIA Triad]] |
-| **Modelo OSI/TCP-IP** | Modelos conceituais em camadas que descrevem como a comunicação de rede é estruturada, base para entender onde cada ferramenta de segurança atua. → [[Modelo OSI-TCP-IP]] |
-
-### Padrões e frameworks
-
-| Termo | Definição |
-|---|---|
-| **ISO/IEC 27001** | Norma internacional certificável para implementação de um Sistema de Gestão de Segurança da Informação (SGSI). → [[ISO-IEC 27001]] |
-| **MITRE ATT&CK** | Base de conhecimento pública que cataloga táticas, técnicas e procedimentos (TTPs) reais usados por adversários. → [[MITRE ATT&CK]] |
-| **NIST Cybersecurity Framework** | Framework voluntário do governo americano para gestão de risco de cibersegurança em nível organizacional. → [[NIST Cybersecurity Framework]] |
-| **OWASP Top 10** | Lista consolidada periodicamente dos dez riscos de segurança mais críticos em aplicações web. → [[OWASP Top 10]] |
-
-**Veja também:** [[MOC - Conceitos]] · [[MOC - Padrões e Frameworks]] · [[Convenções do Arsenal]]
+**Veja também:** [[MOC - Arsenal de Cibersegurança]] · [[MOC - Integração de Ferramentas]] · [[MOC - Automação de Segurança]]

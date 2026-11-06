@@ -4,7 +4,7 @@ aliases: []
 tipo: moc
 nivel: iniciante
 criado: 2026-10-24
-relacionados: ["[[Home - Rust]]", "[[Trilha de estudos - Rust]]"]
+relacionados: ["[[Home - Rust]]", "[[Trilha de aprendizado - Rust]]"]
 ---
 
 # MOC - Exercícios - Rust
@@ -31,4 +31,4 @@ Listas de exercícios por tema, **todas com gabarito compilável e testado**, e 
 ## Veja também
 
 - [[Home - Rust]]
-- [[Trilha de estudos - Rust]]
+- [[Trilha de aprendizado - Rust]]

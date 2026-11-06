@@ -38,5 +38,4 @@ Tudo sobre **Settings** (`Ctrl/Cmd + ,`).
 > Continue em [[MOC - Plugins Core]].
 
 ## Veja também
-- [[Checklist de configuração inicial]]
 - [[Solução de problemas]]

@@ -4,7 +4,6 @@ tags:
   - agentes
 aliases:
   - "Prompt injection"
-  - "Injeção de prompt"
 tipo: ia
 nivel: intermediario
 criado: 2026-10-24

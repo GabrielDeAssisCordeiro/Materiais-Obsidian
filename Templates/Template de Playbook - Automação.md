@@ -2,7 +2,8 @@
 titulo: "Playbook - {{title}}"
 aliases: []
 tags:
-  - automacao-seguranca
+  - ciberseguranca
+  - automacao-de-seguranca
   - playbook
 tipo: playbook
 nivel: iniciante

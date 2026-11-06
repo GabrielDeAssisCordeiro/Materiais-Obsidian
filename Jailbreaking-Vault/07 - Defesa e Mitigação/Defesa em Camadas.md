@@ -10,7 +10,7 @@ nivel: "intermediario"
 
 # Defesa em Camadas
 
-Voltar ao [[00 - Índice Jailbreaking]] · Prática: [[Laboratório 04 - Defesa em Camadas]] · Pré-requisitos: [[Taxonomia de Ataques]], [[Conceitos Fundamentais]], [[Alinhamento e Guardrails]]
+Voltar ao [[Índice - Jailbreaking]] · Prática: [[Laboratório 04 - Defesa em Camadas]] · Pré-requisitos: [[Taxonomia de Ataques]], [[Conceitos Fundamentais]], [[Alinhamento e Guardrails]]
 
 ## 1. Definição
 

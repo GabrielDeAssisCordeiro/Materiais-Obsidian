@@ -24,7 +24,7 @@ criado: 2026-10-16
 > [!abstract] Resumo
 > Registradores são o "espaço de trabalho" da CPU; a memória é onde vivem código, dados e pilha. Neste módulo você aprende **todos os registradores relevantes do x86 e do x64** (propósito geral, segmento, flags, ponteiros), como a CPU **traduz endereços** (segmentação e paginação), como o **processo é organizado na memória** (text, data, bss, heap, stack), os **modos de endereçamento** (incluindo `base + index*scale + displacement`) e por que o **alinhamento** importa.
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[01 - Fundamentos de Arquitetura e Assembly]] · Próximo: [[03 - Instruções Básicas e Controle de Fluxo]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[01 - Fundamentos de Arquitetura e Assembly]] · Próximo: [[03 - Instruções Básicas e Controle de Fluxo]]
 
 **Pré-requisitos:** ter feito o Hello World do [[01 - Fundamentos de Arquitetura e Assembly]] e saber usar `stepi` e `info registers` no GDB (ou o equivalente no x64dbg/Visual Studio).
 
@@ -620,4 +620,4 @@ Laboratórios relacionados: [[Lab 01 - Hello World e Operações Básicas]] e [[
 > - **NASM**: colchetes = conteúdo; **MASM**: nome da variável sozinho = conteúdo.
 > - **Alinhamento natural** melhora o desempenho e é obrigatório em algumas instruções SIMD; structs recebem *padding*.
 
-**Próximo:** [[03 - Instruções Básicas e Controle de Fluxo]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[00 - Índice]]
+**Próximo:** [[03 - Instruções Básicas e Controle de Fluxo]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Índice - Assembly]]

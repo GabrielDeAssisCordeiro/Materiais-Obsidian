@@ -29,7 +29,6 @@ Obsidian costuma ser rápido, mas vaults grandes e muitos plugins podem pesar.
 
 ## Veja também
 - [[Solução de problemas]]
-- [[Checklist de configuração inicial]]
 
 ## Exercício
 Meça quanto tempo o app leva para abrir com e sem plugins.

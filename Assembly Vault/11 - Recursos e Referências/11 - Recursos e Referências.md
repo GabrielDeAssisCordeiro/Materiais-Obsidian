@@ -22,7 +22,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Fechamento do curso: **onde aprofundar** (livros, manuais oficiais, sites e ferramentas), as **notas de consulta rápida** do vault ([[Cheat Sheet de Instruções]], [[Cheat Sheet de Calling Conventions]], [[Cheat Sheet de GDB]], [[Glossário#Assembly (x86-64 e ARM)]]) e um **roadmap de continuidade** com trilhas por objetivo: engenharia reversa, sistemas, desempenho, ARM e segurança.
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[10 - Laboratórios e Projetos Práticos]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[10 - Laboratórios e Projetos Práticos]]
 
 Tags: #assembly #referencias #livros #roadmap
 
@@ -223,4 +223,4 @@ flowchart TD
 > | [[09 - Otimização, SIMD e Performance]] | medir, pipeline, cache, quando vale a pena |
 > | [[10 - Laboratórios e Projetos Práticos]] | 8 labs e um projeto final |
 
-**Voltar ao índice:** [[00 - Índice]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Cheat Sheet de Calling Conventions]] · [[Cheat Sheet de GDB]]
+**Voltar ao índice:** [[Índice - Assembly]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Cheat Sheet de Calling Conventions]] · [[Cheat Sheet de GDB]]

@@ -2,7 +2,8 @@
 titulo: "Flashcards - {{title}}"
 aliases: []
 tags:
-  - automacao-seguranca
+  - ciberseguranca
+  - automacao-de-seguranca
   - revisao
   - flashcards
 tipo: revisao

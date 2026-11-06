@@ -1,12 +1,12 @@
 ---
 titulo: "Home - Cpp"
 tags: [cpp, moc]
-aliases: ["Home", "Início"]
+aliases: ["Home"]
 tipo: moc
 nivel: iniciante
 padrao: C++23
 criado: 2026-10-24
-relacionados: ["[[Como Usar este Vault - Cpp]]", "[[Convenções - Cpp]]", "[[Trilha de Estudos - Cpp]]", "[[Índice Geral - Cpp]]"]
+relacionados: ["[[Trilha de aprendizado - Cpp]]", "[[Índice - Cpp]]"]
 ---
 
 # Home - Cpp
@@ -14,13 +14,12 @@ relacionados: ["[[Como Usar este Vault - Cpp]]", "[[Convenções - Cpp]]", "[[Tr
 Vault completo sobre **C++ moderno** (C++11 a C++23, com notas sobre C++26), em português do Brasil: teoria, exemplos compiláveis, exercícios com gabarito, projetos e referência.
 
 > [!info] Comece aqui
-> 1. Leia [[Como Usar este Vault - Cpp]] e [[Convenções - Cpp]].
-> 2. Siga a [[Trilha de Estudos - Cpp]] com o [[Roteiro Semanal]] (16 semanas).
-> 3. Consulte o [[Índice Geral - Cpp]] para achar qualquer nota.
+> 1. Siga a [[Trilha de aprendizado - Cpp]] com o [[Roteiro Semanal]] (16 semanas).
+> 2. Consulte o [[Índice - Cpp]] para achar qualquer nota.
 
 ## Seções
 
-- **00 — Início:** [[Como Usar este Vault - Cpp]] · [[Convenções - Cpp]]
+- **00 — Início:** [[Índice - Cpp]] · [[Trilha de aprendizado - Cpp]]
 - **01 — Fundamentos:** [[MOC - Fundamentos - Cpp]]
 - **02 — Básico da Linguagem:** [[MOC - Básico da Linguagem - Cpp]]
 - **03 — Ponteiros e Memória:** [[MOC - Ponteiros e Memória]]
@@ -69,7 +68,7 @@ flowchart LR
 | Especialização | 10, 14, 15, 16 | avançado |
 | Prática | 17, 19 | todos |
 
-Detalhes: [[Trilha de Estudos - Cpp]] e [[Roteiro Semanal]].
+Detalhes: [[Trilha de aprendizado - Cpp]] e [[Roteiro Semanal]].
 
 ## Atalhos
 
@@ -93,15 +92,13 @@ Detalhes: [[Trilha de Estudos - Cpp]] e [[Roteiro Semanal]].
 
 ## Índice geral
 
-Todas as notas de A a Z em [[Índice Geral - Cpp]].
+Todas as notas de A a Z em [[Índice - Cpp]].
 
 > [!question] Verificar na documentação oficial
 > Padrões e compiladores evoluem. Confirme versões e suporte em [[Suporte dos Compiladores aos Padrões]] e na documentação de cada compilador.
 
 ## Veja também
 
-- [[Como Usar este Vault - Cpp]]
-- [[Convenções - Cpp]]
-- [[Trilha de Estudos - Cpp]]
-- [[Índice Geral - Cpp]]
+- [[Trilha de aprendizado - Cpp]]
+- [[Índice - Cpp]]
 - [[MOC - Checklists e Roteiros - Cpp]]

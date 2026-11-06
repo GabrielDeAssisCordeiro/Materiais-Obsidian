@@ -7,7 +7,6 @@ tipo: moc
 nivel: iniciante
 criado: 2026-10-24
 relacionados:
-  - "[[Como usar este vault - Docker]]"
   - "[[Trilha de aprendizado - Docker]]"
   - "[[Roteiro de estudo por semanas]]"
   - "[[Checklists de estudo]]"
@@ -22,7 +21,6 @@ Guias de uso, roteiro de estudo, checklists e fontes do material de Docker.
 
 ## Guias
 
-- [[Como usar este vault - Docker]]
 - [[Trilha de aprendizado - Docker]]
 - [[Roteiro de estudo por semanas]]
 - [[Checklists de estudo]]
@@ -40,7 +38,6 @@ Guias de uso, roteiro de estudo, checklists e fontes do material de Docker.
 
 ## Veja também
 
-- [[Como usar este vault - Docker]]
 - [[Trilha de aprendizado - Docker]]
 - [[Roteiro de estudo por semanas]]
 - [[Checklists de estudo]]

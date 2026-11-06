@@ -517,6 +517,6 @@ Exercícios **progressivos** para fixar o **Módulo 03**. Resolva sozinho(a) ant
 ## 🚀 Próximo módulo
 ➡️ [[04 - Programação Orientada a Objetos/01 - Classes e Objetos|Módulo 04: Programação Orientada a Objetos]]
 
-⬅️ [[03 - Funções e Modularização/06 - Docstrings|Docstrings]] · ⬆️ [[00 - Índice Python|Índice]]
+⬅️ [[03 - Funções e Modularização/06 - Docstrings|Docstrings]] · ⬆️ [[Índice - Python|Índice]]
 
 #python #basico #exercicios #pratica #funcoes #modulos #closures

@@ -4,7 +4,7 @@ aliases: ["Meu progresso", "Autoavaliação"]
 tipo: checklist
 nivel: iniciante
 criado: 2026-10-24
-relacionados: ["[[Trilha de estudos - Rust]]", "[[Roteiro por semanas]]", "[[Checklist de revisão de código]]", "[[MOC - Exercícios - Rust]]"]
+relacionados: ["[[Trilha de aprendizado - Rust]]", "[[Roteiro por semanas]]", "[[Checklist de revisão de código]]", "[[MOC - Exercícios - Rust]]"]
 ---
 
 # Checklist de progresso
@@ -55,7 +55,7 @@ Marque (`- [x]`) o que você consegue fazer **sem consultar**. Se não conseguir
 
 ## Veja também
 
-- [[Trilha de estudos - Rust]]
+- [[Trilha de aprendizado - Rust]]
 - [[Roteiro por semanas]]
 - [[Checklist de revisão de código]]
 - [[MOC - Exercícios - Rust]]

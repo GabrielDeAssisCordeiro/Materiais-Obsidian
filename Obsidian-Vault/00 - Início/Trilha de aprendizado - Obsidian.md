@@ -8,7 +8,6 @@ nivel: iniciante
 criado: 2026-10-23
 relacionados:
   - "[[Home - Obsidian]]"
-  - "[[Checklist de configuração inicial]]"
   - "[[MOC - Exercícios]]"
 ---
 
@@ -47,6 +46,5 @@ Siga na ordem. Cada etapa termina com exercícios.
 > Mais valioso que ler tudo é **usar**: mantenha uma [[Notas diárias|nota diária]] e conecte ideias novas às existentes.
 
 ## Veja também
-- [[Checklist de configuração inicial]]
 - [[Fluxo de estudos acadêmicos]]
 - [[Flashcards]]

@@ -22,7 +22,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Três algoritmos de ordenação de `int32_t` em Assembly, com a mesma assinatura `void f(int32_t *a, size_t n)`: **bubble sort** (com parada antecipada), **insertion sort** e **quicksort** (recursivo, com o particionamento de Hoare). Um testador em C compara cada um com o `qsort` da libc em milhares de casos e **mede o tempo**. É o lab de **laços aninhados, endereçamento indexado, recursão com registradores preservados** e de comparar a **complexidade teórica** com o que o hardware faz.
 
-Voltar ao índice: [[00 - Índice]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 05 - Sistema de Arquivos Simples]] · Próximo: [[Lab 07 - Floating Point e SIMD]] · Solução: [[Solução - Lab 06 - Ordenação]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 05 - Sistema de Arquivos Simples]] · Próximo: [[Lab 07 - Floating Point e SIMD]] · Solução: [[Solução - Lab 06 - Ordenação]]
 
 **Pré-requisitos:** [[03 - Instruções Básicas e Controle de Fluxo]], [[04 - Procedimentos, Stack e Calling Conventions]] (recursão), [[06 - Estruturas de Dados e Arrays]], [[Lab 03 - Manipulação de Strings e Arrays]].
 

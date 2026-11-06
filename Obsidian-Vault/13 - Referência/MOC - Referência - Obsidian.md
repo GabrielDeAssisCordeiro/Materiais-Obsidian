@@ -37,4 +37,4 @@ Consulta rápida.
 
 ## Veja também
 - [[Trilha de aprendizado - Obsidian]]
-- [[Índice geral - Obsidian]]
+- [[Índice - Obsidian]]

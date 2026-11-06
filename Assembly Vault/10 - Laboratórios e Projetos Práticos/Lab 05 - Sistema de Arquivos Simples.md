@@ -22,7 +22,7 @@ criado: 2026-10-21
 > [!abstract] Resumo
 > Um mini-utilitário **sem libc** com três comandos: `cat`, `cp` e `wc`. Você vai ler `argc/argv` direto da **pilha inicial**, usar as syscalls `open`, `read`, `write`, `close` e `exit`, tratar **erros** (retorno negativo = `-errno`), **escritas parciais** e **buffers**, e escrever uma pequena **máquina de estados** para contar palavras. A análise de desempenho mede o preço de cada syscall: o mesmo `cp` varia de **2 s a 3 ms** só mudando o tamanho do buffer.
 
-Voltar ao índice: [[00 - Índice]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 04 - Funções da libc]] · Próximo: [[Lab 06 - Ordenação]] · Solução: [[Solução - Lab 05 - Sistema de Arquivos Simples]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo: [[10 - Laboratórios e Projetos Práticos]] · Anterior: [[Lab 04 - Funções da libc]] · Próximo: [[Lab 06 - Ordenação]] · Solução: [[Solução - Lab 05 - Sistema de Arquivos Simples]]
 
 **Pré-requisitos:** [[05 - Entrada-Saída e System Calls]] (leitura obrigatória), [[04 - Procedimentos, Stack e Calling Conventions]], [[Lab 01 - Hello World e Operações Básicas]] (`print_dec`), [[Lab 02 - Calculadora em Assembly]] (*buffer* de entrada).
 

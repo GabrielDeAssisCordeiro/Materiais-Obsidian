@@ -1,6 +1,6 @@
 ---
 tags: [rust, modulos, cargo]
-aliases: ["workspace", "monorepo Rust"]
+aliases: ["monorepo Rust"]
 tipo: conceito
 nivel: intermediario
 criado: 2026-10-24

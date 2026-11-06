@@ -7,7 +7,7 @@ tipo: referencia
 nivel: iniciante
 relacionados:
   - "[[MOC - Extras]]"
-  - "[[Mapa de Estudos]]"
+  - "[[Trilha de aprendizado - SO]]"
 ---
 
 # Referências Recomendadas
@@ -68,4 +68,4 @@ relacionados:
 
 ## Veja também
 
-[[Mapa de Estudos]] · [[MOC - Extras]]
+[[Trilha de aprendizado - SO]] · [[MOC - Extras]]

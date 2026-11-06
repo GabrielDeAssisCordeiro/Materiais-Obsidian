@@ -26,7 +26,7 @@ criado: 2026-10-17
 > [!abstract] Resumo
 > Em Assembly não existem "arrays", "structs" ou "listas": existem **endereços, tamanhos e deslocamentos**. Este módulo mostra como cada estrutura de dados de linguagens de alto nível se reduz a **aritmética de endereços**: arrays 1D e multidimensionais (`base + i×tamanho`), strings, **structs** (campos = *offsets* fixos, com *padding*), **ponteiros** (registradores que guardam endereços) e **estruturas dinâmicas** (alocador simples e **lista encadeada**). Você também vê por que o *layout* na memória decide o desempenho (cache).
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[05 - Entrada-Saída e System Calls]] · Próximo: [[07 - Assembly Avançado (x86-x64)]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[05 - Entrada-Saída e System Calls]] · Próximo: [[07 - Assembly Avançado (x86-x64)]]
 
 **Pré-requisitos:** endereçamento `[base + índice×escala + deslocamento]` e alinhamento ([[02 - Registradores e Memória]]), laços e saltos ([[03 - Instruções Básicas e Controle de Fluxo]]), calling conventions e registradores preservados ([[04 - Procedimentos, Stack e Calling Conventions]]), rotinas de string e syscalls ([[05 - Entrada-Saída e System Calls]]).
 
@@ -986,4 +986,4 @@ Laboratórios relacionados: [[Lab 03 - Manipulação de Strings e Arrays]], [[La
 > - **Estruturas dinâmicas**: um alocador *arena* sobre `brk`, e a **lista encadeada** (inserir, percorrer, buscar, inverter), em NASM e MASM.
 > - **Layout é desempenho**: arrays aproveitam cache e *prefetch*; listas sofrem com *pointer chasing*; AoS × SoA decide a vetorização.
 
-**Próximo:** [[07 - Assembly Avançado (x86-x64)]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[00 - Índice]]
+**Próximo:** [[07 - Assembly Avançado (x86-x64)]] · **Ver também:** [[Glossário#Assembly (x86-64 e ARM)]] · [[Cheat Sheet de Instruções]] · [[Índice - Assembly]]

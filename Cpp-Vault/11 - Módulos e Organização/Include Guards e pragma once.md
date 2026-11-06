@@ -61,7 +61,7 @@ struct Ponto { int x, y; };
 ```
 
 > [!tip] Recomendação
-> Em projetos modernos `#pragma once` é amplamente usado e seguro na prática. Use guards se precisar de **portabilidade estrita** para toolchains incomuns. Escolha **um** estilo no projeto (veja [[Convenções - Cpp]] para o estilo deste material).
+> Em projetos modernos `#pragma once` é amplamente usado e seguro na prática. Use guards se precisar de **portabilidade estrita** para toolchains incomuns. Escolha **um** estilo no projeto.
 
 > [!bug] Armadilha clássica
 > Dois headers com o **mesmo** nome de guard (por copiar e colar) fazem o segundo ser ignorado silenciosamente, gerando erros de "tipo não declarado" difíceis de achar.

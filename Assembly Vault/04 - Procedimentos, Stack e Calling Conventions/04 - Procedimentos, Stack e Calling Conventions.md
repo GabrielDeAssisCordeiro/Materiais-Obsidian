@@ -27,7 +27,7 @@ criado: 2026-10-16
 > [!abstract] Resumo
 > Funções (procedimentos) são o que permite reaproveitar código, e a **pilha** (*stack*) é o mecanismo que faz isso funcionar: guarda o **endereço de retorno**, os **parâmetros** (às vezes), os **registradores salvos** e as **variáveis locais**. Este módulo explica `PUSH`, `POP`, `CALL`, `RET`, o **stack frame** (prólogo e epílogo), as principais **calling conventions** (cdecl, stdcall, fastcall, Microsoft x64 e System V AMD64), a passagem de parâmetros e valores de retorno, a **recursão** e as variáveis locais.
 
-Voltar ao índice: [[00 - Índice]] · Módulo anterior: [[03 - Instruções Básicas e Controle de Fluxo]] · Próximo: [[05 - Entrada-Saída e System Calls]]
+Voltar ao índice: [[Índice - Assembly]] · Módulo anterior: [[03 - Instruções Básicas e Controle de Fluxo]] · Próximo: [[05 - Entrada-Saída e System Calls]]
 
 **Pré-requisitos:** registradores `RSP`/`RBP`/`RIP` ([[02 - Registradores e Memória]]), instruções de movimentação, saltos e comparação ([[03 - Instruções Básicas e Controle de Fluxo]]).
 
@@ -869,4 +869,4 @@ Laboratório relacionado: [[Lab 04 - Funções da libc]] (todas as funções seg
 > - Em código otimizado, **funções-folha sem frame** usam só registradores.
 > - A pilha é alvo de ataques (*buffer overflow*) e por isso tem proteções (canário, NX, ASLR, CET).
 
-**Próximo:** [[05 - Entrada-Saída e System Calls]] · **Ver também:** [[Cheat Sheet de Calling Conventions]] · [[Glossário#Assembly (x86-64 e ARM)]] · [[00 - Índice]]
+**Próximo:** [[05 - Entrada-Saída e System Calls]] · **Ver também:** [[Cheat Sheet de Calling Conventions]] · [[Glossário#Assembly (x86-64 e ARM)]] · [[Índice - Assembly]]

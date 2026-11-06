@@ -37,4 +37,3 @@ Base conceitual e prática do Obsidian: o que é, onde ficam seus dados e como �
 
 ## Veja também
 - [[Trilha de aprendizado - Obsidian]]
-- [[Checklist de configuração inicial]]

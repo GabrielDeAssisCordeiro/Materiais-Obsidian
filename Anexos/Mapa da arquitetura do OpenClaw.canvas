@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "t1",
+      "type": "text",
+      "text": "**Usuário**\nChat (Telegram, WhatsApp...), CLI, Control UI",
+      "x": 0,
+      "y": 0,
+      "width": 340,
+      "height": 110,
+      "color": "5"
+    },
+    {
+      "id": "n1",
+      "type": "file",
+      "file": "OpenClaw-Vault/07 - Canais e Mensageria/Visão geral dos canais e instalação sob demanda.md",
+      "x": -400,
+      "y": 220,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n2",
+      "type": "file",
+      "file": "OpenClaw-Vault/05 - Gateway/O processo Gateway e a porta 18789.md",
+      "x": 0,
+      "y": 220,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n3",
+      "type": "file",
+      "file": "OpenClaw-Vault/05 - Gateway/O protocolo WebSocket do Gateway.md",
+      "x": 400,
+      "y": 220,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n4",
+      "type": "file",
+      "file": "OpenClaw-Vault/06 - Agent Runtime e Loop ReAct/O agent runtime embutido.md",
+      "x": 0,
+      "y": 420,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n5",
+      "type": "file",
+      "file": "OpenClaw-Vault/06 - Agent Runtime e Loop ReAct/Montagem do system prompt.md",
+      "x": -400,
+      "y": 420,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n6",
+      "type": "file",
+      "file": "OpenClaw-Vault/06 - Agent Runtime e Loop ReAct/Anatomia do loop do agente no OpenClaw.md",
+      "x": 400,
+      "y": 420,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n7",
+      "type": "file",
+      "file": "OpenClaw-Vault/08 - Provedores e Modelos/Provedores, referências de modelo e a CLI models.md",
+      "x": -400,
+      "y": 640,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n8",
+      "type": "file",
+      "file": "OpenClaw-Vault/11 - Ferramentas e MCP/Visão geral das ferramentas do agente.md",
+      "x": 0,
+      "y": 640,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n9",
+      "type": "file",
+      "file": "OpenClaw-Vault/09 - Memória e Contexto/Arquivos de memória em Markdown.md",
+      "x": 400,
+      "y": 640,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n10",
+      "type": "file",
+      "file": "OpenClaw-Vault/10 - Skills/O que são skills e como o OpenClaw as carrega.md",
+      "x": -200,
+      "y": 860,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n11",
+      "type": "file",
+      "file": "OpenClaw-Vault/11 - Ferramentas e MCP/MCP - conectar servidores externos.md",
+      "x": 200,
+      "y": 860,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n12",
+      "type": "file",
+      "file": "OpenClaw-Vault/04 - Arquitetura/Fronteiras de confiança na arquitetura.md",
+      "x": 0,
+      "y": 1060,
+      "width": 360,
+      "height": 90,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "t1",
+      "toNode": "n1",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "mensagem"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n1",
+      "toNode": "n2",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "canal"
+    },
+    {
+      "id": "e3",
+      "fromNode": "t1",
+      "toNode": "n2",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "n2",
+      "toNode": "n4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "run"
+    },
+    {
+      "id": "e5",
+      "fromNode": "n4",
+      "toNode": "n5",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "contexto"
+    },
+    {
+      "id": "e6",
+      "fromNode": "n4",
+      "toNode": "n6",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "loop"
+    },
+    {
+      "id": "e7",
+      "fromNode": "n4",
+      "toNode": "n7",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "modelo"
+    },
+    {
+      "id": "e8",
+      "fromNode": "n4",
+      "toNode": "n8",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "tool calls"
+    },
+    {
+      "id": "e9",
+      "fromNode": "n4",
+      "toNode": "n9",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "memoria"
+    },
+    {
+      "id": "e10",
+      "fromNode": "n8",
+      "toNode": "n10",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "skills"
+    },
+    {
+      "id": "e11",
+      "fromNode": "n8",
+      "toNode": "n11",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "MCP"
+    },
+    {
+      "id": "e12",
+      "fromNode": "n10",
+      "toNode": "n12",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "limites"
+    },
+    {
+      "id": "e13",
+      "fromNode": "n11",
+      "toNode": "n12",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "limites"
+    }
+  ]
+}

@@ -15,9 +15,9 @@ Materiais de apoio: guias de estudo, checklists e o índice geral.
 
 ## Guias de estudo
 
-- [[Trilha de Estudos - Cpp]] — ordem recomendada em 12 fases
+- [[Trilha de aprendizado - Cpp]] — ordem recomendada em 12 fases
 - [[Roteiro Semanal]] — plano de 16 semanas
-- [[Índice Geral - Cpp]] — todas as notas de A a Z
+- [[Índice - Cpp]] — todas as notas de A a Z
 
 ## Checklists
 

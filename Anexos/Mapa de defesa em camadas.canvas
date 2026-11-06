@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "t1",
+      "type": "text",
+      "text": "**Entrada não confiável**\nmensagens, páginas, e-mails, skills",
+      "x": 0,
+      "y": 0,
+      "width": 340,
+      "height": 110,
+      "color": "1"
+    },
+    {
+      "id": "s1",
+      "type": "file",
+      "file": "OpenClaw-Vault/16 - Ameaças e Riscos/Prompt injection direta e indireta - como se defender.md",
+      "x": -380,
+      "y": 200,
+      "width": 340,
+      "height": 90
+    },
+    {
+      "id": "s2",
+      "type": "file",
+      "file": "OpenClaw-Vault/16 - Ameaças e Riscos/Skills e plugins maliciosos - o caso ClawHavoc.md",
+      "x": 0,
+      "y": 200,
+      "width": 340,
+      "height": 90
+    },
+    {
+      "id": "s3",
+      "type": "file",
+      "file": "OpenClaw-Vault/16 - Ameaças e Riscos/Abuso de ferramentas e bypass de aprovações de exec.md",
+      "x": 380,
+      "y": 200,
+      "width": 340,
+      "height": 90
+    },
+    {
+      "id": "c1",
+      "type": "file",
+      "file": "OpenClaw-Vault/11 - Ferramentas e MCP/Perfis e política de ferramentas.md",
+      "x": -380,
+      "y": 420,
+      "width": 340,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "c2",
+      "type": "file",
+      "file": "OpenClaw-Vault/15 - Segurança e Hardening/Isolamento com sandbox - modos, escopo e backends.md",
+      "x": 0,
+      "y": 420,
+      "width": 340,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "c3",
+      "type": "file",
+      "file": "OpenClaw-Vault/11 - Ferramentas e MCP/Aprovações de exec e allowlists.md",
+      "x": 380,
+      "y": 420,
+      "width": 340,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "r1",
+      "type": "file",
+      "file": "OpenClaw-Vault/15 - Segurança e Hardening/Auditoria com openclaw security audit.md",
+      "x": -190,
+      "y": 640,
+      "width": 340,
+      "height": 90,
+      "color": "6"
+    },
+    {
+      "id": "r2",
+      "type": "file",
+      "file": "OpenClaw-Vault/15 - Segurança e Hardening/Checklist de hardening e resposta a incidentes.md",
+      "x": 190,
+      "y": 640,
+      "width": 340,
+      "height": 90,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "a1",
+      "fromNode": "t1",
+      "toNode": "s1",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "a2",
+      "fromNode": "t1",
+      "toNode": "s2",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "a3",
+      "fromNode": "t1",
+      "toNode": "s3",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "b1",
+      "fromNode": "s1",
+      "toNode": "c1",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "limitar"
+    },
+    {
+      "id": "b2",
+      "fromNode": "s2",
+      "toNode": "c2",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "isolar"
+    },
+    {
+      "id": "b3",
+      "fromNode": "s3",
+      "toNode": "c3",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "label": "aprovar"
+    },
+    {
+      "id": "d1",
+      "fromNode": "c1",
+      "toNode": "r1",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d2",
+      "fromNode": "c2",
+      "toNode": "r1",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d3",
+      "fromNode": "c3",
+      "toNode": "r2",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d4",
+      "fromNode": "c2",
+      "toNode": "r2",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}
